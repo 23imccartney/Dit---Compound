@@ -3442,6 +3442,86 @@
         "name": "Grab box2",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Left_sign.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left_sign",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Right_sign.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right_sign",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Platform_sign.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Platform_sign",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Button_sign.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Button_sign",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Lever_sign.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Lever_sign.png\"}",
+        "name": "Lever_sign",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Lever_sign2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Lever_sign2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Lever_sign3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Lever_sign3.png\"}",
+        "name": "Lever_sign3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Chest.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Chest",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Open.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Open.png\"}",
+        "name": "Open",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Opend.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Opend",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -3474,7 +3554,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.3,
         "snap": true,
-        "zoomFactor": 1.0269425874981613,
+        "zoomFactor": 1.633762677931611,
         "windowMask": true,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -3680,8 +3760,8 @@
           "name": "Player",
           "persistentUuid": "0f80aa30-3214-4bce-899a-b61d9f7345fa",
           "width": 0,
-          "x": 320,
-          "y": 160,
+          "x": 1326,
+          "y": 283,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -4823,14 +4903,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 128,
+          "height": 240,
           "keepRatio": true,
           "layer": "",
           "name": "Wall_left",
           "persistentUuid": "9e52f59b-8458-4fb1-96de-07f987da4593",
           "width": 16,
           "x": 32,
-          "y": 112,
+          "y": 0,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -5513,7 +5593,7 @@
           "name": "Break_box",
           "persistentUuid": "ea8bd804-200b-4ba4-b77a-b674835a3346",
           "width": 0,
-          "x": 672,
+          "x": 688,
           "y": 336,
           "zOrder": 1,
           "numberProperties": [],
@@ -5529,7 +5609,7 @@
           "name": "Break_box",
           "persistentUuid": "b4d06f55-19c3-497f-a16d-61c1729c1e4a",
           "width": 0,
-          "x": 656,
+          "x": 672,
           "y": 336,
           "zOrder": 1,
           "numberProperties": [],
@@ -5545,7 +5625,7 @@
           "name": "Break_box",
           "persistentUuid": "b89ab14d-8b44-42ca-bff0-2b163816350c",
           "width": 0,
-          "x": 640,
+          "x": 656,
           "y": 336,
           "zOrder": 1,
           "numberProperties": [],
@@ -5561,7 +5641,7 @@
           "name": "Break_box",
           "persistentUuid": "8613a36b-79e7-494f-87a9-dd8374db3058",
           "width": 0,
-          "x": 624,
+          "x": 640,
           "y": 336,
           "zOrder": 1,
           "numberProperties": [],
@@ -5577,7 +5657,7 @@
           "name": "Break_box",
           "persistentUuid": "0e8a77d0-b0f2-4532-bf6c-9dc5bc390066",
           "width": 0,
-          "x": 608,
+          "x": 624,
           "y": 336,
           "zOrder": 1,
           "numberProperties": [],
@@ -5593,7 +5673,7 @@
           "name": "Break_box",
           "persistentUuid": "c9d53e08-a8b7-42f9-a9ac-b45f700d7618",
           "width": 0,
-          "x": 624,
+          "x": 640,
           "y": 320,
           "zOrder": 1,
           "numberProperties": [],
@@ -5609,7 +5689,7 @@
           "name": "Break_box",
           "persistentUuid": "6418bc64-e83f-48f2-9fd3-b3673457f263",
           "width": 0,
-          "x": 640,
+          "x": 656,
           "y": 320,
           "zOrder": 1,
           "numberProperties": [],
@@ -5625,7 +5705,7 @@
           "name": "Break_box",
           "persistentUuid": "2392a763-f2ca-430f-b0fe-592aec6c9bf8",
           "width": 0,
-          "x": 656,
+          "x": 672,
           "y": 320,
           "zOrder": 1,
           "numberProperties": [],
@@ -5657,7 +5737,7 @@
           "name": "Break_box",
           "persistentUuid": "ac711f15-9339-4ed8-b97c-561127f62075",
           "width": 0,
-          "x": 624,
+          "x": 656,
           "y": 304,
           "zOrder": 1,
           "numberProperties": [],
@@ -5673,7 +5753,7 @@
           "name": "Break_box",
           "persistentUuid": "d901893d-d6ae-4ab8-aa95-6b3ead67a520",
           "width": 0,
-          "x": 592,
+          "x": 608,
           "y": 336,
           "zOrder": 1,
           "numberProperties": [],
@@ -5689,7 +5769,7 @@
           "name": "Break_box",
           "persistentUuid": "c63d178e-d903-4df1-9a26-98bcaca1c8f9",
           "width": 0,
-          "x": 592,
+          "x": 624,
           "y": 320,
           "zOrder": 1,
           "numberProperties": [],
@@ -5705,7 +5785,7 @@
           "name": "Break_box",
           "persistentUuid": "f0e61994-2f23-4c80-aad0-cc9c61ac958b",
           "width": 0,
-          "x": 576,
+          "x": 592,
           "y": 336,
           "zOrder": 1,
           "numberProperties": [],
@@ -6220,6 +6300,297 @@
               "value": 0
             }
           ]
+        },
+        {
+          "angle": 90,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Right_sign",
+          "persistentUuid": "704bf9a7-9c41-4b4f-828a-e6286315ca50",
+          "width": 0,
+          "x": 736,
+          "y": 112,
+          "zOrder": 1015,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Left_sign",
+          "persistentUuid": "e9233eb0-09ef-4c11-a8df-834cc7accf33",
+          "width": 0,
+          "x": 1296,
+          "y": 144,
+          "zOrder": 1016,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform_sign",
+          "persistentUuid": "2d4677ff-64b8-4bc6-83bb-4ab397c8f309",
+          "width": 0,
+          "x": 1168,
+          "y": 144,
+          "zOrder": 1017,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Right_sign",
+          "persistentUuid": "e709b3a7-b32d-4057-957c-5d67927ddbfb",
+          "width": 0,
+          "x": 800,
+          "y": 464,
+          "zOrder": 1018,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform_sign",
+          "persistentUuid": "d1c85db0-e426-4610-bfb7-2766042b21ba",
+          "width": 0,
+          "x": 560,
+          "y": 336,
+          "zOrder": 1019,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Shadow_Top_Right",
+          "persistentUuid": "4a1c39e1-4d0f-4c58-bbd6-d759a26019fa",
+          "width": 0,
+          "x": 720,
+          "y": -16,
+          "zOrder": 1020,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Shadow_Top_Left",
+          "persistentUuid": "54f756e7-e0ab-4275-aedb-fbad6a3c7c70",
+          "width": 0,
+          "x": 560,
+          "y": -16,
+          "zOrder": 1021,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Roof",
+          "persistentUuid": "cde6e88b-785c-4809-abad-4564068a9022",
+          "width": 704,
+          "x": 736,
+          "y": -16,
+          "zOrder": 1022,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Wall_right",
+          "persistentUuid": "57099163-ae50-4d3c-bc85-906c10be690a",
+          "width": 16,
+          "x": 1440,
+          "y": 0,
+          "zOrder": 1023,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Shadow_Top_Left",
+          "persistentUuid": "dd594617-bb10-41ed-8cce-0db25875ec86",
+          "width": 0,
+          "x": 1440,
+          "y": -16,
+          "zOrder": 1024,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Shadow_Bottem_Right",
+          "persistentUuid": "e695a15f-c61f-4c6f-a603-3c7b953993f5",
+          "width": 0,
+          "x": 1440,
+          "y": 320,
+          "zOrder": 1025,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Roof",
+          "persistentUuid": "7d2f6e90-626d-4c86-bcc5-f28ab2aabfc4",
+          "width": 512,
+          "x": 48,
+          "y": -16,
+          "zOrder": 1026,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Shadow_Top_Right",
+          "persistentUuid": "3aa6edf1-d5b7-4043-b4e0-13c45a8c4a88",
+          "width": 0,
+          "x": 32,
+          "y": -16,
+          "zOrder": 1027,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Button_sign",
+          "persistentUuid": "a5cf365e-087f-4343-a6b4-03446142bce2",
+          "width": 0,
+          "x": 160,
+          "y": 224,
+          "zOrder": 1028,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Lever_sign",
+          "persistentUuid": "d8d07da8-c6b4-4bc8-9b47-1a072a49ba9f",
+          "width": 0,
+          "x": 320,
+          "y": 512,
+          "zOrder": 1029,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Danger_sign",
+          "persistentUuid": "da4d35bb-b8c4-4023-b07d-35da990abc0a",
+          "width": 0,
+          "x": 544,
+          "y": 512,
+          "zOrder": 1030,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Danger_sign",
+          "persistentUuid": "071f41c9-45fa-478d-b9a7-48f5e3accbbd",
+          "width": 0,
+          "x": 1232,
+          "y": 274,
+          "zOrder": 1031,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Chest",
+          "persistentUuid": "20d9970c-d4ef-4d46-a97a-0ab66b9fc9a3",
+          "width": 0,
+          "x": 1392,
+          "y": 304,
+          "zOrder": 1032,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -16257,6 +16628,549 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "Open Chest",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Open",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 43,
+                            "y": 0
+                          },
+                          {
+                            "x": 43,
+                            "y": 15
+                          },
+                          {
+                            "x": 1,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Left_sign",
+          "persistentUuid": "c1bbabb3-36e2-40b1-9a61-484c7ff547f2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Left_sign",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Left_sign",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Right_sign",
+          "persistentUuid": "711766ca-ea1d-43e8-aa79-ad24fb273d71",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Right_sign",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Right_sign",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Platform_sign",
+          "persistentUuid": "311cceae-974e-432e-8c5b-5ea7ac564504",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Platform_sign",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Platform_sign",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Button_sign",
+          "persistentUuid": "9ed8d9a8-ba5e-4eb4-aeb0-a3c33ceb44ef",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Button_sign",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Button_sign",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Lever_sign",
+          "persistentUuid": "81c73ce1-6b2b-4fcb-9190-b384b7f97bef",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Lever_sign",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lever_sign",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Danger_sign",
+          "persistentUuid": "f443267c-0b2f-4134-a060-584882067034",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Danger_sign",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Lever_sign3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 16
+                          },
+                          {
+                            "x": 1,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Chest",
+          "persistentUuid": "381cd0d6-5c68-4813-8ca7-a6731ec90d6e",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "Opend",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ShakeObject_PositionAngle",
+              "type": "ShakeObject::ShakeObject_PositionAngle"
+            }
+          ],
+          "animations": [
+            {
+              "name": "Closed",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Chest",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 3
+                          },
+                          {
+                            "x": 16,
+                            "y": 3
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Opend",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Opend",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 3
+                          },
+                          {
+                            "x": 16,
+                            "y": 3
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -16373,6 +17287,12 @@
             "objectName": "Interact_box"
           },
           {
+            "objectName": "Interact_text"
+          },
+          {
+            "objectName": "Chest"
+          },
+          {
             "objectName": "Death_void"
           },
           {
@@ -16415,7 +17335,22 @@
             "objectName": "Box_spawner"
           },
           {
-            "objectName": "Interact_text"
+            "objectName": "Left_sign"
+          },
+          {
+            "objectName": "Right_sign"
+          },
+          {
+            "objectName": "Platform_sign"
+          },
+          {
+            "objectName": "Button_sign"
+          },
+          {
+            "objectName": "Lever_sign"
+          },
+          {
+            "objectName": "Danger_sign"
           }
         ]
       },
@@ -16778,6 +17713,19 @@
                     "State",
                     "!=",
                     "\"Dead\""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Push_box",
+                    "",
+                    "",
+                    ""
                   ]
                 }
               ],
@@ -20406,7 +21354,6 @@
                   "comment": "Buttons"
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::ForEach",
                   "object": "Button",
                   "conditions": [],
@@ -20460,17 +21407,6 @@
                             "Player.PointX(\"Head\")",
                             "Player.PointY(\"Head\")"
                           ]
-                        },
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "CollisionPoint"
-                          },
-                          "parameters": [
-                            "SideGate",
-                            "Push_box.PointX(\"Top\")",
-                            "Push_box.PointY(\"Top\")-4"
-                          ]
                         }
                       ],
                       "actions": [
@@ -20534,17 +21470,6 @@
                             "Player.PointX(\"Head\")",
                             "Player.PointY(\"Head\")"
                           ]
-                        },
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "CollisionPoint"
-                          },
-                          "parameters": [
-                            "SideGate",
-                            "Push_box.PointX(\"Top\")",
-                            "Push_box.PointY(\"Top\")-4"
-                          ]
                         }
                       ],
                       "actions": [
@@ -20575,7 +21500,6 @@
                   "comment": "Levers"
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::ForEach",
                   "object": "Lever",
                   "conditions": [],
@@ -20628,17 +21552,6 @@
                             "SideGate",
                             "Player.PointX(\"Head\")",
                             "Player.PointY(\"Head\")"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "CollisionPoint"
-                          },
-                          "parameters": [
-                            "SideGate",
-                            "Push_box.PointX(\"Top\")",
-                            "Push_box.PointY(\"Top\")-4"
                           ]
                         }
                       ],
@@ -20702,17 +21615,6 @@
                             "SideGate",
                             "Player.PointX(\"Head\")",
                             "Player.PointY(\"Head\")"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "CollisionPoint"
-                          },
-                          "parameters": [
-                            "SideGate",
-                            "Push_box.PointX(\"Top\")",
-                            "Push_box.PointY(\"Top\")-4"
                           ]
                         }
                       ],
@@ -20779,6 +21681,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Pushbox",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -20880,6 +21783,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Box spawner",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -20910,6 +21814,12 @@
                             "",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -21023,52 +21933,140 @@
                       "actions": [],
                       "events": [
                         {
-                          "type": "BuiltinCommonInstructions::ForEach",
-                          "object": "Push_box",
+                          "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
                             {
                               "type": {
-                                "value": "NumberObjectVariable"
+                                "inverted": true,
+                                "value": "PosX"
                               },
                               "parameters": [
-                                "Push_box",
-                                "Index",
-                                "=",
-                                "Box_spawner.Index"
+                                "Player",
+                                ">",
+                                "Box_spawner.CenterX()"
                               ]
                             }
                           ],
-                          "actions": [
+                          "actions": [],
+                          "events": [
                             {
-                              "type": {
-                                "value": "Delete"
-                              },
-                              "parameters": [
-                                "Push_box",
-                                ""
+                              "type": "BuiltinCommonInstructions::ForEach",
+                              "object": "Push_box",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Push_box",
+                                    "Index",
+                                    "=",
+                                    "Box_spawner.Index"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "Delete"
+                                  },
+                                  "parameters": [
+                                    "Push_box",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Create"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "Push_box",
+                                    "Box_spawner.CenterX()+16",
+                                    "Box_spawner.CenterY()",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "SetNumberObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Push_box",
+                                    "Index",
+                                    "=",
+                                    "Box_spawner.Index"
+                                  ]
+                                }
                               ]
-                            },
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
                             {
                               "type": {
-                                "value": "Create"
+                                "value": "PosX"
                               },
                               "parameters": [
-                                "",
-                                "Push_box",
-                                "Box_spawner.CenterX()+32",
-                                "Box_spawner.CenterY()",
-                                ""
+                                "Player",
+                                ">",
+                                "Box_spawner.CenterX()"
                               ]
-                            },
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
                             {
-                              "type": {
-                                "value": "SetNumberObjectVariable"
-                              },
-                              "parameters": [
-                                "Push_box",
-                                "Index",
-                                "=",
-                                "Box_spawner.Index"
+                              "type": "BuiltinCommonInstructions::ForEach",
+                              "object": "Push_box",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Push_box",
+                                    "Index",
+                                    "=",
+                                    "Box_spawner.Index"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "Delete"
+                                  },
+                                  "parameters": [
+                                    "Push_box",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Create"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "Push_box",
+                                    "Box_spawner.CenterX()-16",
+                                    "Box_spawner.CenterY()",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "SetNumberObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Push_box",
+                                    "Index",
+                                    "=",
+                                    "Box_spawner.Index"
+                                  ]
+                                }
                               ]
                             }
                           ]
@@ -21397,6 +22395,12 @@
                         "",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [
@@ -21483,6 +22487,19 @@
                       "parameters": [
                         "Player",
                         "Box_spawner",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Chest",
                         "",
                         "",
                         ""
@@ -21658,6 +22675,216 @@
                       "parameters": [
                         "Break_box",
                         ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Chest",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Chest",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "KeyFromTextPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "\"e\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "KeyFromTextPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "\"z\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Chest",
+                        "Opend",
+                        "False",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Chest",
+                        "Opend",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
+                      },
+                      "parameters": [
+                        "Chest",
+                        "ShakeObject_PositionAngle",
+                        "0.5",
+                        "RandomFloatInRange(-5, 5)",
+                        "RandomFloatInRange(-1, 1)",
+                        "1",
+                        "0.04",
+                        "no",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.6"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Chest",
+                        "Animation",
+                        "=",
+                        "\"Opend\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Chest",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Interact_box",
+                        "Chest.CenterX()-8",
+                        "Chest.CenterY()-24",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Interact_box",
+                        "Scale",
+                        "=",
+                        "0.4"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Interact_text",
+                        "Chest.CenterX()+4",
+                        "Chest.CenterY()-24",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Interact_text",
+                        "Animation",
+                        "=",
+                        "\"Open Chest\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Interact_text",
+                        "Scale",
+                        "=",
+                        "0.8"
                       ]
                     }
                   ]
