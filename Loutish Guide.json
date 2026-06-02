@@ -3526,7 +3526,7 @@
       {
         "file": "Coin/pixil-frame-0.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Coin/pixil-frame-0.png\",\"extension\":\".png\"}",
         "name": "Coin/pixil-frame-0.png",
         "smoothed": false,
         "userAdded": false
@@ -3534,7 +3534,7 @@
       {
         "file": "Coin/pixil-frame-1.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Coin/pixil-frame-1.png\",\"extension\":\".png\"}",
         "name": "Coin/pixil-frame-1.png",
         "smoothed": false,
         "userAdded": false
@@ -3542,7 +3542,7 @@
       {
         "file": "Coin/pixil-frame-2.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Coin/pixil-frame-2.png\",\"extension\":\".png\"}",
         "name": "Coin/pixil-frame-2.png",
         "smoothed": false,
         "userAdded": false
@@ -3550,7 +3550,7 @@
       {
         "file": "Coin/pixil-frame-3.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Coin/pixil-frame-3.png\",\"extension\":\".png\"}",
         "name": "Coin/pixil-frame-3.png",
         "smoothed": false,
         "userAdded": false
@@ -3738,6 +3738,30 @@
         "name": "Golden skull/pixil-frame-0",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Coin/pixil-frame-0.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Coin/pixil-frame-0",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Coin/pixil-frame1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Coin/pixil-frame1",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Coin/pixil-frame2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Coin/pixil-frame2",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -3746,7 +3770,13 @@
     "folderName": "__ROOT"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "Coins",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "layouts": [
     {
       "b": 37,
@@ -3770,7 +3800,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.3,
         "snap": true,
-        "zoomFactor": 5.761096621237058,
+        "zoomFactor": 0.6455105703311955,
         "windowMask": true,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -3982,8 +4012,8 @@
           "name": "Player",
           "persistentUuid": "0f80aa30-3214-4bce-899a-b61d9f7345fa",
           "width": 0,
-          "x": 1326,
-          "y": 283,
+          "x": 1646,
+          "y": 267,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -6810,6 +6840,120 @@
           "x": 1392,
           "y": 304,
           "zOrder": 1032,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor",
+          "persistentUuid": "0d65d53a-d2ba-4ed7-8561-da5ad8f8ffce",
+          "width": 336,
+          "x": 1488,
+          "y": 336,
+          "zOrder": 1003,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Chest",
+          "persistentUuid": "8606955b-b478-4599-be39-0f7f33fbce4a",
+          "width": 0,
+          "x": 1520,
+          "y": 320,
+          "zOrder": 1032,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Chest",
+          "persistentUuid": "da9c9fd4-30cf-4def-b709-c78c47f4370d",
+          "width": 0,
+          "x": 1584,
+          "y": 320,
+          "zOrder": 1032,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Chest",
+          "persistentUuid": "23d52354-e1e4-4f57-9201-02896c775eb9",
+          "width": 0,
+          "x": 1648,
+          "y": 320,
+          "zOrder": 1032,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Chest",
+          "persistentUuid": "8078de86-8797-4a42-ba29-09f07a4de5a1",
+          "width": 0,
+          "x": 1712,
+          "y": 320,
+          "zOrder": 1032,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Chest",
+          "persistentUuid": "2d5783c3-59ec-4aa8-ac3b-c9c65a6a1f70",
+          "width": 0,
+          "x": 1776,
+          "y": 320,
+          "zOrder": 1032,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 48,
+          "keepRatio": true,
+          "layer": "Ui",
+          "name": "Coins2",
+          "persistentUuid": "2b45980b-f3d1-46c1-80e6-fb6aaa35e7ca",
+          "width": 272,
+          "x": 32,
+          "y": 640,
+          "zOrder": 1033,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -14750,9 +14894,9 @@
               "yGrabOffset": 0
             },
             {
-              "maxSpeed": 150,
               "name": "TopDownMovement",
               "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+              "maxSpeed": 150,
               "acceleration": 9999,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -17286,6 +17430,21 @@
               "name": "Opend",
               "type": "boolean",
               "value": false
+            },
+            {
+              "name": "Loot",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "Loot_generated",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "name": "Coins_to_generate",
+              "type": "number",
+              "value": 0
             }
           ],
           "effects": [],
@@ -17407,18 +17566,40 @@
           "effects": [],
           "behaviors": [
             {
+              "gravity": 350,
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "jumpSpeed": 200,
+              "ignoreDefaultControls": true,
+              "acceleration": 700,
+              "canGoDownFromJumpthru": true,
+              "deceleration": 900,
+              "maxSpeed": 150,
+              "canGrabPlatforms": false,
+              "canGrabWithoutMoving": true,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 500,
+              "slopeMaxAngle": 60,
+              "useLegacyTrajectory": false,
+              "useRepeatedJump": false,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            },
+            {
               "name": "Tween",
               "type": "Tween::TweenBehavior"
             }
           ],
           "animations": [
             {
-              "name": "",
+              "name": "Coin/pixil-frame-0",
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": true,
-                  "timeBetweenFrames": 0.14992503748125938,
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.07,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -17530,79 +17711,115 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
+                      "image": "Coin/pixil-frame-0",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 8
+                          },
+                          {
+                            "x": 0,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Coin/pixil-frame1",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 8
+                          },
+                          {
+                            "x": 0,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Coin/pixil-frame2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 8
+                          },
+                          {
+                            "x": 0,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
                       "image": "Coin/pixil-frame-3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 8,
-                            "y": 0
-                          },
-                          {
-                            "x": 8,
-                            "y": 8
-                          },
-                          {
-                            "x": 0,
-                            "y": 8
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Coin/pixil-frame-4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 8,
-                            "y": 0
-                          },
-                          {
-                            "x": 8,
-                            "y": 8
-                          },
-                          {
-                            "x": 0,
-                            "y": 8
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Coin/pixil-frame-5.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -17651,7 +17868,33 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "gravity": 350,
+              "jumpSpeed": 200,
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "ignoreDefaultControls": true,
+              "acceleration": 700,
+              "canGoDownFromJumpthru": true,
+              "deceleration": 900,
+              "maxSpeed": 150,
+              "canGrabPlatforms": false,
+              "canGrabWithoutMoving": true,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 500,
+              "slopeMaxAngle": 60,
+              "useLegacyTrajectory": false,
+              "useRepeatedJump": false,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
           "animations": [
             {
               "name": "Golden skull/pixil-frame-0",
@@ -18387,6 +18630,50 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Coins2",
+          "persistentUuid": "4ed16169-99e8-4049-a4b9-88e0208bf7e1",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "0",
+          "font": "b6fd0cb2a1206afe3882f0187839aac780734a091c5e6c57ee25c84acdc1a499_Kenney Blocks.ttf",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "0",
+            "font": "b6fd0cb2a1206afe3882f0187839aac780734a091c5e6c57ee25c84acdc1a499_Kenney Blocks.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -18571,6 +18858,9 @@
           },
           {
             "objectName": "Golden_skull"
+          },
+          {
+            "objectName": "Coins2"
           }
         ]
       },
@@ -24080,9 +24370,10 @@
                     },
                     {
                       "type": {
-                        "value": "SetNumberVariable"
+                        "value": "SetNumberObjectVariable"
                       },
                       "parameters": [
+                        "Chest",
                         "Loot",
                         "=",
                         "RandomInRange(1, 10)"
@@ -24184,11 +24475,355 @@
                   ]
                 },
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Chest",
                   "conditions": [],
-                  "actions": []
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Chest",
+                            "Opend",
+                            "True",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Chest",
+                            "Loot_generated",
+                            "False",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Chest",
+                            "Loot",
+                            "=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::Name"
+                          },
+                          "parameters": [
+                            "Chest",
+                            "Animation",
+                            "=",
+                            "\"Opend\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetBooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Chest",
+                            "Loot_generated",
+                            "True",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "Golden_skull",
+                            "Chest.X()",
+                            "Chest.Y()",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::SetCanJump"
+                          },
+                          "parameters": [
+                            "Golden_skull",
+                            "PlatformerObject"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::SimulateJumpKey"
+                          },
+                          "parameters": [
+                            "Golden_skull",
+                            "PlatformerObject"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AddForceAL"
+                          },
+                          "parameters": [
+                            "Golden_skull",
+                            "RandomInRange(0, 180)",
+                            "400",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Chest",
+                            "Opend",
+                            "True",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Chest",
+                            "Loot_generated",
+                            "False",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Chest",
+                            "Loot",
+                            "!=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::Name"
+                          },
+                          "parameters": [
+                            "Chest",
+                            "Animation",
+                            "=",
+                            "\"Opend\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Chest",
+                            "Coins_to_generate",
+                            "=",
+                            "RandomInRange(1, 10)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Chest",
+                            "Loot_generated",
+                            "True",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResetTimer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Coin cool down\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Chest",
+                            "Coins_to_generate",
+                            ">",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Chest",
+                            "Loot",
+                            "!=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Chest",
+                            "Opend",
+                            "True",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CompareTimer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Coin cool down\"",
+                            ">",
+                            "0.2"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ResetTimer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Coin cool down\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "Coin",
+                            "Chest.X()+4",
+                            "Chest.Y()",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::SetCanJump"
+                          },
+                          "parameters": [
+                            "Coin",
+                            "PlatformerObject"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::SimulateJumpKey"
+                          },
+                          "parameters": [
+                            "Coin",
+                            "PlatformerObject"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "0.5"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "Coin",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "Coins",
+                            "+",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Coins2",
+                            "Text",
+                            "=",
+                            "Coins"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Chest",
+                            "Coins_to_generate",
+                            "-",
+                            "1"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
                 }
               ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Coin",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [],
               "parameters": []
             }
           ],
@@ -24267,7 +24902,7 @@
           "isLocked": false,
           "name": "Ui",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -24374,6 +25009,10 @@
         {
           "name": "SmoothPlatformerCamera",
           "type": "SmoothCamera::SmoothPlatformerCamera"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         },
         {
           "name": "TopDownMovement",
