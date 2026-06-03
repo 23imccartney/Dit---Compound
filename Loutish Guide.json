@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 269,
+    "build": 270,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -3762,6 +3762,109 @@
         "name": "Coin/pixil-frame2",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "Coin/Coin_pop/pixil-frame-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Coin/Coin_pop/pixil-frame-0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Coin/Coin_pop/pixil-frame-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Coin/Coin_pop/pixil-frame-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Coin/Coin_pop/pixil-frame-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Coin/Coin_pop/pixil-frame-2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Coin/Coin_pop/pixil-frame-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Coin/Coin_pop/pixil-frame-3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Coin/Coin_pop/pixil-frame-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Coin/Coin_pop/pixil-frame-4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Coin/Coin_pop/pixil-frame-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Coin/Coin_pop/pixil-frame-5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Coin/Coin_pop/pixil-frame-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Coin/Coin_pop/pixil-frame-6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Kenney Blocks.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets/Kenney Blocks.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "assets/Camera triger.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Camera triger",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Camera triger2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Camera triger2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Camera_focus.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Camera_focus",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Camera_focus2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Camera_focus2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Camera_focus3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Camera_focus3",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -3800,7 +3903,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.3,
         "snap": true,
-        "zoomFactor": 0.6455105703311955,
+        "zoomFactor": 2.2762478393839243,
         "windowMask": true,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -3843,6 +3946,12 @@
             },
             {
               "name": "MP_stop_right"
+            },
+            {
+              "name": "Camera_triger"
+            },
+            {
+              "name": "Camera_focus"
             }
           ]
         },
@@ -4012,8 +4121,8 @@
           "name": "Player",
           "persistentUuid": "0f80aa30-3214-4bce-899a-b61d9f7345fa",
           "width": 0,
-          "x": 1646,
-          "y": 267,
+          "x": 1248,
+          "y": 112,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -5032,7 +5141,7 @@
           "name": "Moveing_platform",
           "persistentUuid": "a78cb3fd-6ea1-4a2d-862c-aa391b5561f2",
           "width": 0,
-          "x": 784,
+          "x": 1088,
           "y": 139,
           "zOrder": 1,
           "numberProperties": [],
@@ -6532,28 +6641,6 @@
           ]
         },
         {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Push_box",
-          "persistentUuid": "b9bfd8e7-cf78-45a8-a67c-f40738757735",
-          "width": 0,
-          "x": 80,
-          "y": 224,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "Index",
-              "type": "number",
-              "value": 0
-            }
-          ]
-        },
-        {
           "angle": 90,
           "customSize": false,
           "height": 0,
@@ -6805,8 +6892,8 @@
           "name": "Danger_sign",
           "persistentUuid": "da4d35bb-b8c4-4023-b07d-35da990abc0a",
           "width": 0,
-          "x": 543,
-          "y": 514,
+          "x": 411,
+          "y": 512,
           "zOrder": 1030,
           "numberProperties": [],
           "stringProperties": [],
@@ -6837,29 +6924,18 @@
           "name": "Chest",
           "persistentUuid": "20d9970c-d4ef-4d46-a97a-0ab66b9fc9a3",
           "width": 0,
-          "x": 1392,
-          "y": 304,
+          "x": 72,
+          "y": 224,
           "zOrder": 1032,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Floor",
-          "persistentUuid": "0d65d53a-d2ba-4ed7-8561-da5ad8f8ffce",
-          "width": 336,
-          "x": 1488,
-          "y": 336,
-          "zOrder": 1003,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Loot",
+              "type": "string",
+              "value": "Skull"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -6870,76 +6946,18 @@
           "name": "Chest",
           "persistentUuid": "8606955b-b478-4599-be39-0f7f33fbce4a",
           "width": 0,
-          "x": 1520,
-          "y": 320,
+          "x": 1408,
+          "y": 304,
           "zOrder": 1032,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Chest",
-          "persistentUuid": "da9c9fd4-30cf-4def-b709-c78c47f4370d",
-          "width": 0,
-          "x": 1584,
-          "y": 320,
-          "zOrder": 1032,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Chest",
-          "persistentUuid": "23d52354-e1e4-4f57-9201-02896c775eb9",
-          "width": 0,
-          "x": 1648,
-          "y": 320,
-          "zOrder": 1032,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Chest",
-          "persistentUuid": "8078de86-8797-4a42-ba29-09f07a4de5a1",
-          "width": 0,
-          "x": 1712,
-          "y": 320,
-          "zOrder": 1032,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Chest",
-          "persistentUuid": "2d5783c3-59ec-4aa8-ac3b-c9c65a6a1f70",
-          "width": 0,
-          "x": 1776,
-          "y": 320,
-          "zOrder": 1032,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Loot",
+              "type": "string",
+              "value": "Coins"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -6948,12 +6966,850 @@
           "height": 48,
           "keepRatio": true,
           "layer": "Ui",
-          "name": "Coins2",
+          "name": "Coins_count",
           "persistentUuid": "2b45980b-f3d1-46c1-80e6-fb6aaa35e7ca",
           "width": 272,
-          "x": 32,
-          "y": 640,
+          "x": 96,
+          "y": 171,
           "zOrder": 1033,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 4,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "Ui",
+          "name": "UI_coin",
+          "persistentUuid": "0840d58f-526e-4bc0-b0ca-620ad199c8e6",
+          "width": 32,
+          "x": 48,
+          "y": 176,
+          "zOrder": 1034,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "58ac0302-8a2e-4922-a62c-b10dca8a4be9",
+          "width": 0,
+          "x": 752,
+          "y": 208,
+          "zOrder": 1035,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "70e32a5d-8eeb-4dba-9020-0cdfffafd7fd",
+          "width": 0,
+          "x": 752,
+          "y": 240,
+          "zOrder": 1035,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "a6dc6b2f-cc2b-4e6a-b535-6e8140ff7c43",
+          "width": 0,
+          "x": 752,
+          "y": 224,
+          "zOrder": 1035,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "c289960a-adc2-4a8e-aaa7-4159de7ba491",
+          "width": 0,
+          "x": 752,
+          "y": 192,
+          "zOrder": 1035,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "5d8fe7e3-ff80-4005-83a5-aa7a4c17fa47",
+          "width": 0,
+          "x": 752,
+          "y": 176,
+          "zOrder": 1035,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "c195e9bb-459a-4813-ab4f-c188c3ebf046",
+          "width": 0,
+          "x": 480,
+          "y": 500,
+          "zOrder": 1035,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "7ac2a38a-8686-4374-88ac-886b60935d87",
+          "width": 0,
+          "x": 500,
+          "y": 486,
+          "zOrder": 1035,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "dc76b8ca-1b53-4eb2-bc43-7347e812fb44",
+          "width": 0,
+          "x": 521,
+          "y": 478,
+          "zOrder": 1035,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 8,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "7fca19a8-bb75-4239-82f3-94ede300afd1",
+          "width": 8,
+          "x": 544,
+          "y": 479,
+          "zOrder": 1035,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 8,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "325f4d7b-cf71-4098-a7c1-4aee280b4bb6",
+          "width": 8,
+          "x": 564,
+          "y": 488,
+          "zOrder": 1035,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 8,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "5b37efbc-4435-4b6d-9802-8652cf3ac739",
+          "width": 8,
+          "x": 582,
+          "y": 500,
+          "zOrder": 1035,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 8,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "a813fab7-3fc1-4351-841b-587fc77dc67c",
+          "width": 8,
+          "x": 592,
+          "y": 516,
+          "zOrder": 1035,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "398c9e0c-fb46-4a7d-bf44-e397ff66e705",
+          "width": 0,
+          "x": 501,
+          "y": 318,
+          "zOrder": 1035,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "f01bd8c0-9c96-405b-be21-edfba735baa9",
+          "width": 0,
+          "x": 501,
+          "y": 350,
+          "zOrder": 1035,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "10484d95-a408-47ca-88bc-c502917e4d0a",
+          "width": 0,
+          "x": 501,
+          "y": 334,
+          "zOrder": 1035,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "b65ac248-e22f-4323-a9c2-6096c3ba47b9",
+          "width": 0,
+          "x": 501,
+          "y": 302,
+          "zOrder": 1035,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "c27b3f19-bc7b-48b2-956f-f8e41d4b57ec",
+          "width": 0,
+          "x": 501,
+          "y": 286,
+          "zOrder": 1035,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "4f18deb2-b19b-4312-9283-d93ef5c8e249",
+          "width": 0,
+          "x": 992,
+          "y": 112,
+          "zOrder": 1035,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "874832a3-a589-41d4-9516-00eadc8640e0",
+          "width": 0,
+          "x": 896,
+          "y": 112,
+          "zOrder": 1035,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "63448a65-f865-4c17-abe6-2cf3cc5a1939",
+          "width": 0,
+          "x": 944,
+          "y": 112,
+          "zOrder": 1035,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "ff2085c9-7319-4543-b2a5-880919ad45df",
+          "width": 0,
+          "x": 1040,
+          "y": 112,
+          "zOrder": 1035,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "5b145ff8-d659-4cb9-85f0-55dc06b8d3e6",
+          "width": 0,
+          "x": 1088,
+          "y": 112,
+          "zOrder": 1035,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "ad62df6d-858e-46d7-999f-70724c1d76c7",
+          "width": 0,
+          "x": 848,
+          "y": 112,
+          "zOrder": 1035,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "4e056181-f472-4097-b234-a183c1e39191",
+          "width": 0,
+          "x": 800,
+          "y": 112,
+          "zOrder": 1035,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "a5cef1d1-6330-4527-a718-78a0aff7a56a",
+          "width": 0,
+          "x": 88,
+          "y": 232,
+          "zOrder": 1035,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "f146346d-c5ab-4fed-8a01-b655e9bd7b11",
+          "width": 0,
+          "x": 100,
+          "y": 225,
+          "zOrder": 1035,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "0524031b-ad4a-45e8-87b8-f7d38ae7026b",
+          "width": 0,
+          "x": 92,
+          "y": 225,
+          "zOrder": 1035,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "d5e3c415-21ec-4d97-aad6-8020d43c8197",
+          "width": 0,
+          "x": 104,
+          "y": 232,
+          "zOrder": 1035,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "3f844e47-5ecf-4ac0-8c9a-9b32db109ddc",
+          "width": 0,
+          "x": 96,
+          "y": 232,
+          "zOrder": 1035,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "0db8572e-99d5-4d18-b63a-12b859ce9959",
+          "width": 0,
+          "x": 108,
+          "y": 225,
+          "zOrder": 1035,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "e7692f61-a37d-4e53-8e2b-0a306810c0f1",
+          "width": 0,
+          "x": 112,
+          "y": 232,
+          "zOrder": 1035,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "8c57e4a4-6204-4348-a2a7-03c4cd5f098b",
+          "width": 0,
+          "x": 56,
+          "y": 232,
+          "zOrder": 1035,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "5f69f29f-207c-425f-9303-47ea08028fcf",
+          "width": 0,
+          "x": 64,
+          "y": 232,
+          "zOrder": 1035,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "8a5b2611-fb66-4f33-99e4-d163032b137f",
+          "width": 0,
+          "x": 48,
+          "y": 232,
+          "zOrder": 1035,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "2feb98b1-c3cb-445e-82d8-bd5cf82f8201",
+          "width": 0,
+          "x": 53,
+          "y": 225,
+          "zOrder": 1035,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "bc49156b-ec17-456a-928f-e094422005be",
+          "width": 0,
+          "x": 60,
+          "y": 225,
+          "zOrder": 1035,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "2bd169fe-bc8a-4c42-a527-558e89381651",
+          "width": 0,
+          "x": 128,
+          "y": 507,
+          "zOrder": 1036,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "d2d0bc79-9b37-40de-941a-2a3634b7d0ae",
+          "width": 0,
+          "x": 144,
+          "y": 491,
+          "zOrder": 1036,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "d6908f82-b541-4ce8-89c9-4dbae9d2ff7e",
+          "width": 0,
+          "x": 216,
+          "y": 507,
+          "zOrder": 1036,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "d404fffc-2268-4221-80ac-759ca27e0d32",
+          "width": 0,
+          "x": 200,
+          "y": 491,
+          "zOrder": 1036,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "4cf75fb0-32cc-435f-b5b1-26e52679c1df",
+          "width": 0,
+          "x": 161,
+          "y": 480,
+          "zOrder": 1036,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "dd9023cb-5218-4963-9b8c-6f09f886e273",
+          "width": 0,
+          "x": 183,
+          "y": 480,
+          "zOrder": 1036,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "96c030dc-777b-4f7c-a8c7-b47816e2dece",
+          "width": 0,
+          "x": 968,
+          "y": 456,
+          "zOrder": 1035,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "e12cb768-b16f-4bc0-a036-b8de50a10bee",
+          "width": 0,
+          "x": 872,
+          "y": 456,
+          "zOrder": 1035,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "d6d40745-31ab-413c-9807-50720d6c870f",
+          "width": 0,
+          "x": 920,
+          "y": 456,
+          "zOrder": 1035,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "d947dd14-e31b-4ac8-a850-1db2fea6e291",
+          "width": 0,
+          "x": 1272,
+          "y": 272,
+          "zOrder": 1037,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "a2bd319f-8728-4f83-93da-4a0a225a523f",
+          "width": 0,
+          "x": 1364,
+          "y": 244,
+          "zOrder": 1037,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "e0211639-ccdb-4324-8ce1-46b7be90fce0",
+          "width": 0,
+          "x": 1364,
+          "y": 196,
+          "zOrder": 1037,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "faf5eb8b-fc83-4f6f-878a-a35d8f6ab21c",
+          "width": 0,
+          "x": 1232,
+          "y": 144,
+          "zOrder": 1037,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Camera_triger",
+          "persistentUuid": "ebe738a9-4c43-4f9f-a105-0efdd69c696c",
+          "width": 32,
+          "x": 1216,
+          "y": 112,
+          "zOrder": 1038,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Camera_focus",
+          "persistentUuid": "3d8c8142-217f-4e93-8a32-7dc27e679359",
+          "width": 0,
+          "x": 928,
+          "y": 96,
+          "zOrder": 1039,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -17433,8 +18289,8 @@
             },
             {
               "name": "Loot",
-              "type": "number",
-              "value": 0
+              "type": "string",
+              "value": "Coins"
             },
             {
               "name": "Loot_generated",
@@ -17558,7 +18414,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "Coin",
+          "name": "Chest_coin",
           "persistentUuid": "5fdc157a-7444-4633-8dc8-bd6750d3dde5",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -17566,9 +18422,9 @@
           "effects": [],
           "behaviors": [
             {
-              "gravity": 350,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "gravity": 350,
               "jumpSpeed": 200,
               "ignoreDefaultControls": true,
               "acceleration": 700,
@@ -17816,42 +18672,6 @@
                           }
                         ]
                       ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Coin/pixil-frame-3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 8,
-                            "y": 0
-                          },
-                          {
-                            "x": 8,
-                            "y": 8
-                          },
-                          {
-                            "x": 0,
-                            "y": 8
-                          }
-                        ]
-                      ]
                     }
                   ]
                 }
@@ -17870,10 +18690,10 @@
           "effects": [],
           "behaviors": [
             {
-              "gravity": 350,
-              "jumpSpeed": 200,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "gravity": 350,
+              "jumpSpeed": 200,
               "ignoreDefaultControls": true,
               "acceleration": 700,
               "canGoDownFromJumpthru": true,
@@ -18635,7 +19455,7 @@
           "assetStoreId": "",
           "bold": true,
           "italic": false,
-          "name": "Coins2",
+          "name": "Coins_count",
           "persistentUuid": "4ed16169-99e8-4049-a4b9-88e0208bf7e1",
           "smoothed": true,
           "type": "TextObject::Text",
@@ -18644,9 +19464,9 @@
           "effects": [],
           "behaviors": [],
           "string": "0",
-          "font": "b6fd0cb2a1206afe3882f0187839aac780734a091c5e6c57ee25c84acdc1a499_Kenney Blocks.ttf",
+          "font": "assets/Kenney Blocks.ttf",
           "textAlignment": "left",
-          "characterSize": 40,
+          "characterSize": 30,
           "color": {
             "b": 255,
             "g": 255,
@@ -18667,13 +19487,906 @@
             "smoothed": true,
             "underlined": false,
             "text": "0",
-            "font": "b6fd0cb2a1206afe3882f0187839aac780734a091c5e6c57ee25c84acdc1a499_Kenney Blocks.ttf",
+            "font": "assets/Kenney Blocks.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
-            "characterSize": 40,
+            "characterSize": 30,
             "lineHeight": 0,
             "color": "255;255;255"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "UI_coin",
+          "persistentUuid": "cf071470-e6f1-4484-8365-502fe91c622d",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.16,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Coin/pixil-frame-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 8
+                          },
+                          {
+                            "x": 0,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Coin/pixil-frame-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 8
+                          },
+                          {
+                            "x": 0,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Coin/pixil-frame-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 8
+                          },
+                          {
+                            "x": 0,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Coin/pixil-frame-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 8
+                          },
+                          {
+                            "x": 0,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Coin/pixil-frame-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 8
+                          },
+                          {
+                            "x": 0,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Coin/pixil-frame-5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 8
+                          },
+                          {
+                            "x": 0,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "coin",
+          "persistentUuid": "c929e0fd-5315-4142-a252-d0eb51310a01",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "Idel",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.16,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Coin/pixil-frame-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 8
+                          },
+                          {
+                            "x": 0,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Coin/pixil-frame-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 8
+                          },
+                          {
+                            "x": 0,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Coin/pixil-frame-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 8
+                          },
+                          {
+                            "x": 0,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Coin/pixil-frame-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 8
+                          },
+                          {
+                            "x": 0,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Coin/pixil-frame-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 8
+                          },
+                          {
+                            "x": 0,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Coin/pixil-frame-5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 8
+                          },
+                          {
+                            "x": 0,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Coin/pixil-frame-0",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.05,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Coin/pixil-frame-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 8
+                          },
+                          {
+                            "x": 0,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Coin/pixil-frame-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 8
+                          },
+                          {
+                            "x": 0,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Coin/pixil-frame-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 8
+                          },
+                          {
+                            "x": 0,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Coin/pixil-frame-0",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 8
+                          },
+                          {
+                            "x": 0,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Coin/pixil-frame1",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 8
+                          },
+                          {
+                            "x": 0,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Coin/pixil-frame2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 8
+                          },
+                          {
+                            "x": 0,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Camera_triger",
+          "persistentUuid": "b7fe6b62-12db-4f4a-875c-31ceee24803d",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Camera triger",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Camera triger2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11
+                          },
+                          {
+                            "x": 64,
+                            "y": 11
+                          },
+                          {
+                            "x": 64,
+                            "y": 55
+                          },
+                          {
+                            "x": 0,
+                            "y": 55
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Camera_focus",
+          "persistentUuid": "e17c6664-e19d-4384-8364-754df836c84f",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "SmoothCamera",
+              "type": "SmoothCamera::SmoothCamera",
+              "LeftwardSpeed": 0.9,
+              "RightwardSpeed": 0.9,
+              "UpwardSpeed": 0.9,
+              "DownwardSpeed": 0.9,
+              "FollowOnX": true,
+              "FollowOnY": true,
+              "FollowFreeAreaLeft": 0,
+              "FollowFreeAreaRight": 0,
+              "FollowFreeAreaTop": 0,
+              "FollowFreeAreaBottom": 0,
+              "CameraOffsetX": 0,
+              "CameraOffsetY": 0,
+              "CameraDelay": 0,
+              "ForecastTime": 0,
+              "ForecastHistoryDuration": 0,
+              "LogLeftwardSpeed": 2.0247e-320,
+              "LogRightwardSpeed": 2.0247e-320,
+              "LogDownwardSpeed": 2.0247e-320,
+              "LogUpwardSpeed": 2.0247e-320,
+              "DelayedCenterX": 2.0247e-320,
+              "DelayedCenterY": 2.0247e-320,
+              "ForecastHistoryMeanX": 2.0247e-320,
+              "ForecastHistoryMeanY": 2.0247e-320,
+              "ForecastHistoryVarianceX": 2.0247e-320,
+              "ForecastHistoryCovariance": 2.0247e-320,
+              "ForecastHistoryLinearA": 2.0247e-320,
+              "ForecastHistoryLinearB": 2.0247e-320,
+              "ForecastedX": 2.0247e-320,
+              "ForecastedY": 2.0247e-320,
+              "ProjectedNewestX": 2.0247e-320,
+              "ProjectedNewestY": 2.0247e-320,
+              "ProjectedOldestX": 2.0247e-320,
+              "ProjectedOldestY": 2.0247e-320,
+              "ForecastHistoryVarianceY": 2.0247e-320,
+              "Index": 2.0247e-320,
+              "CameraDelayCatchUpSpeed": 0,
+              "CameraExtraDelay": 2.0247e-320,
+              "WaitingSpeedXMax": 2.0247e-320,
+              "WaitingSpeedYMax": 2.0247e-320,
+              "WaitingEnd": 2.0247e-320,
+              "CameraDelayCatchUpDuration": 2.0247e-320,
+              "LeftwardSpeedMax": 9000,
+              "RightwardSpeedMax": 9000,
+              "UpwardSpeedMax": 9000,
+              "DownwardSpeedMax": 9000,
+              "OldX": 9000.000000007454,
+              "OldY": 9000.000000007454,
+              "IsCalledManually": false
+            }
+          ],
+          "animations": [
+            {
+              "name": "Camera_focus",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Camera_focus3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -18794,6 +20507,12 @@
             "objectName": "Chest"
           },
           {
+            "objectName": "Chest_coin"
+          },
+          {
+            "objectName": "Golden_skull"
+          },
+          {
             "objectName": "Death_void"
           },
           {
@@ -18804,6 +20523,12 @@
           },
           {
             "objectName": "Hp_mask"
+          },
+          {
+            "objectName": "UI_coin"
+          },
+          {
+            "objectName": "Coins_count"
           },
           {
             "objectName": "PTP_hitbox"
@@ -18833,6 +20558,12 @@
             "objectName": "MP_stop_left"
           },
           {
+            "objectName": "Camera_triger"
+          },
+          {
+            "objectName": "Camera_focus"
+          },
+          {
             "objectName": "Box_spawner"
           },
           {
@@ -18854,90 +20585,106 @@
             "objectName": "Danger_sign"
           },
           {
-            "objectName": "Coin"
-          },
-          {
-            "objectName": "Golden_skull"
-          },
-          {
-            "objectName": "Coins2"
+            "objectName": "coin"
           }
         ]
       },
       "events": [
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "On start",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ZoomCamera"
+                  },
+                  "parameters": [
+                    "",
+                    "4",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ZoomCamera"
+                  },
+                  "parameters": [
+                    "",
+                    "4",
+                    "\"Background\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Ui\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Spikes",
+                    "Blood",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Player",
+                    "\"cool down\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Hide_on_start"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Camera_focus",
+                    "SmoothCamera",
+                    "no"
+                  ]
+                }
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "ZoomCamera"
-              },
-              "parameters": [
-                "",
-                "4",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ZoomCamera"
-              },
-              "parameters": [
-                "",
-                "4",
-                "\"Background\"",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ShowLayer"
-              },
-              "parameters": [
-                "",
-                "\"Ui\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "Spikes",
-                "Blood",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetObjectTimer"
-              },
-              "parameters": [
-                "Player",
-                "\"cool down\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "Hide_on_start"
-              ]
-            }
-          ]
+          "parameters": []
         },
         {
           "colorB": 228,
@@ -19552,6 +21299,100 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "name": "Camera",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Camera_triger",
+                    "Player",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Camera_triger",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlatformerObject",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Player",
+                        "SmoothCamera",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Player",
+                        "SmoothPlatformerCamera",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Camera_focus",
+                        "SmoothCamera",
+                        "yes"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
           "folded": true,
           "name": "Animations",
           "source": "",
@@ -19905,6 +21746,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Hazards - combat",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -21107,7 +22949,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Saw",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -21687,30 +23528,6 @@
                   "comment": "If player to the right and within 256 pixels move right"
                 },
                 {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "If slime within attack range start attack"
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "If toutching wall attempt to get over once by jumping"
-                },
-                {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -21841,6 +23658,18 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "If toutching wall attempt to get over once by jumping"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -22012,15 +23841,6 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "Delete"
-                          },
-                          "parameters": [
-                            "Damage_zone",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
                             "value": "SetStringObjectVariable"
                           },
                           "parameters": [
@@ -22106,15 +23926,6 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "Delete"
-                          },
-                          "parameters": [
-                            "Damage_zone",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
                             "value": "SetStringObjectVariable"
                           },
                           "parameters": [
@@ -22160,6 +23971,18 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Slime death is under combat \"Player attacks slime\""
                 },
                 {
                   "colorB": 228,
@@ -22365,7 +24188,6 @@
                   ],
                   "events": [
                     {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -22453,6 +24275,18 @@
                                 "Animation",
                                 "=",
                                 "\"Death\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "coin",
+                                "Slime.CenterX()",
+                                "Slime.CenterY()-8",
+                                ""
                               ]
                             },
                             {
@@ -22590,6 +24424,7 @@
                   "comment": "Slime attacks player"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -22887,6 +24722,7 @@
                   "comment": "Buttons"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::ForEach",
                   "object": "Button",
                   "conditions": [],
@@ -23833,6 +25669,18 @@
                   "conditions": [
                     {
                       "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Lever",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "BooleanObjectVariable"
                       },
                       "parameters": [
@@ -24223,6 +26071,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Loot",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -24232,10 +26081,128 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Chest",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Visual"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Chest",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Chest",
+                        "Opend",
+                        "False",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Interact_box",
+                        "Chest.CenterX()-8",
+                        "Chest.CenterY()-24",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Interact_box",
+                        "Scale",
+                        "=",
+                        "0.4"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Interact_text",
+                        "Chest.CenterX()+4",
+                        "Chest.CenterY()-24",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Interact_text",
+                        "Animation",
+                        "=",
+                        "\"Open Chest\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Interact_text",
+                        "Scale",
+                        "=",
+                        "0.8"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "opening the ches"
+                },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
@@ -24367,112 +26334,20 @@
                         "=",
                         "\"Opend\""
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Chest",
-                        "Loot",
-                        "=",
-                        "RandomInRange(1, 10)"
-                      ]
                     }
                   ]
                 },
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "Player",
-                        "Chest",
-                        "",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BooleanObjectVariable"
-                      },
-                      "parameters": [
-                        "Chest",
-                        "Opend",
-                        "False",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "Interact_box",
-                        "Chest.CenterX()-8",
-                        "Chest.CenterY()-24",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ScalableCapability::ScalableBehavior::SetValue"
-                      },
-                      "parameters": [
-                        "Interact_box",
-                        "Scale",
-                        "=",
-                        "0.4"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "Interact_text",
-                        "Chest.CenterX()+4",
-                        "Chest.CenterY()-24",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "Interact_text",
-                        "Animation",
-                        "=",
-                        "\"Open Chest\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ScalableCapability::ScalableBehavior::SetValue"
-                      },
-                      "parameters": [
-                        "Interact_text",
-                        "Scale",
-                        "=",
-                        "0.8"
-                      ]
-                    }
-                  ]
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Loot - coins"
                 },
                 {
                   "type": "BuiltinCommonInstructions::ForEach",
@@ -24507,116 +26382,13 @@
                         },
                         {
                           "type": {
-                            "value": "NumberObjectVariable"
+                            "value": "StringObjectVariable"
                           },
                           "parameters": [
                             "Chest",
                             "Loot",
                             "=",
-                            "1"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::Name"
-                          },
-                          "parameters": [
-                            "Chest",
-                            "Animation",
-                            "=",
-                            "\"Opend\""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "SetBooleanObjectVariable"
-                          },
-                          "parameters": [
-                            "Chest",
-                            "Loot_generated",
-                            "True",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Create"
-                          },
-                          "parameters": [
-                            "",
-                            "Golden_skull",
-                            "Chest.X()",
-                            "Chest.Y()",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::SetCanJump"
-                          },
-                          "parameters": [
-                            "Golden_skull",
-                            "PlatformerObject"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::SimulateJumpKey"
-                          },
-                          "parameters": [
-                            "Golden_skull",
-                            "PlatformerObject"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "AddForceAL"
-                          },
-                          "parameters": [
-                            "Golden_skull",
-                            "RandomInRange(0, 180)",
-                            "400",
-                            ""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "BooleanObjectVariable"
-                          },
-                          "parameters": [
-                            "Chest",
-                            "Opend",
-                            "True",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BooleanObjectVariable"
-                          },
-                          "parameters": [
-                            "Chest",
-                            "Loot_generated",
-                            "False",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "NumberObjectVariable"
-                          },
-                          "parameters": [
-                            "Chest",
-                            "Loot",
-                            "!=",
-                            "1"
+                            "\"Coins\""
                           ]
                         },
                         {
@@ -24687,17 +26459,6 @@
                         },
                         {
                           "type": {
-                            "value": "NumberObjectVariable"
-                          },
-                          "parameters": [
-                            "Chest",
-                            "Loot",
-                            "!=",
-                            "1"
-                          ]
-                        },
-                        {
-                          "type": {
                             "value": "BooleanObjectVariable"
                           },
                           "parameters": [
@@ -24717,6 +26478,17 @@
                             ">",
                             "0.2"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "StringObjectVariable"
+                          },
+                          "parameters": [
+                            "Chest",
+                            "Loot",
+                            "=",
+                            "\"Coins\""
+                          ]
                         }
                       ],
                       "actions": [
@@ -24735,7 +26507,7 @@
                           },
                           "parameters": [
                             "",
-                            "Coin",
+                            "Chest_coin",
                             "Chest.X()+4",
                             "Chest.Y()",
                             ""
@@ -24746,7 +26518,7 @@
                             "value": "PlatformBehavior::SetCanJump"
                           },
                           "parameters": [
-                            "Coin",
+                            "Chest_coin",
                             "PlatformerObject"
                           ]
                         },
@@ -24755,7 +26527,7 @@
                             "value": "PlatformBehavior::SimulateJumpKey"
                           },
                           "parameters": [
-                            "Coin",
+                            "Chest_coin",
                             "PlatformerObject"
                           ]
                         },
@@ -24772,7 +26544,7 @@
                             "value": "Delete"
                           },
                           "parameters": [
-                            "Coin",
+                            "Chest_coin",
                             ""
                           ]
                         },
@@ -24791,7 +26563,7 @@
                             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
                           },
                           "parameters": [
-                            "Coins2",
+                            "Coins_count",
                             "Text",
                             "=",
                             "Coins"
@@ -24811,6 +26583,121 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Loot - Golden skull"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Chest",
+                        "Opend",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Chest",
+                        "Loot_generated",
+                        "False",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "Chest",
+                        "Loot",
+                        "=",
+                        "\"Skull\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "Chest",
+                        "Animation",
+                        "=",
+                        "\"Opend\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Chest",
+                        "Loot_generated",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Golden_skull",
+                        "Chest.X()",
+                        "Chest.Y()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SetCanJump"
+                      },
+                      "parameters": [
+                        "Golden_skull",
+                        "PlatformerObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateJumpKey"
+                      },
+                      "parameters": [
+                        "Golden_skull",
+                        "PlatformerObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AddForceAL"
+                      },
+                      "parameters": [
+                        "Golden_skull",
+                        "RandomInRange(0, 180)",
+                        "400",
+                        ""
+                      ]
+                    }
+                  ]
                 }
               ],
               "parameters": []
@@ -24820,10 +26707,201 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "name": "Coin",
+              "folded": true,
+              "name": "Coins",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
-              "events": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Colect"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "coin",
+                        "Player",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "coin",
+                        "Animation",
+                        "!=",
+                        "\"Coin/pixil-frame-0\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "coin",
+                        "Animation",
+                        "=",
+                        "\"Coin/pixil-frame-0\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                      },
+                      "parameters": [
+                        "coin",
+                        "Animation"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "coin",
+                        "Animation",
+                        "=",
+                        "\"Coin/pixil-frame-0\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "coin",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Coins",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Coins_count",
+                        "Text",
+                        "=",
+                        "Coins"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "folded": true,
+              "name": "Skull",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Visual spin when in the air"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "PlatformBehavior::IsOnFloor"
+                      },
+                      "parameters": [
+                        "Golden_skull",
+                        "PlatformerObject"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Rotate"
+                      },
+                      "parameters": [
+                        "Golden_skull",
+                        "450",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::IsOnFloor"
+                      },
+                      "parameters": [
+                        "Golden_skull",
+                        "PlatformerObject"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "RotateTowardAngle"
+                      },
+                      "parameters": [
+                        "Golden_skull",
+                        "0",
+                        "999",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
               "parameters": []
             }
           ],
@@ -24902,7 +26980,7 @@
           "isLocked": false,
           "name": "Ui",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -81234,6 +83312,82 @@
           }
         }
       ],
+      "eventsBasedObjects": []
+    },
+    {
+      "author": "",
+      "category": "User interface",
+      "dimension": "",
+      "extensionNamespace": "",
+      "fullName": "Pause when losing focus",
+      "gdevelopVersion": ">=5.5.222",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXBsYXktcGF1c2UiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMyw1VjE5TDExLDEyTTEzLDE5SDE2VjVIMTNNMTgsNVYxOUgyMVY1IiAvPjwvc3ZnPg==",
+      "name": "PauseFocusLost",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/play-pause.svg",
+      "shortDescription": "Pauses when focus is lost, restarts when focus is regained.",
+      "version": "0.0.2",
+      "description": [
+        "When the game loses focus, either because you switch windows, open another tab in the browser or for any other reason, the game is paused and muted.",
+        "",
+        "When focus is regained, the game continues."
+      ],
+      "origin": {
+        "identifier": "PauseFocusLost",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "pause",
+        "focus"
+      ],
+      "authorIds": [
+        "6gSSmzTTyVOHCx0jw8I9OFeI0aR2"
+      ],
+      "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
+      "eventsFunctions": [
+        {
+          "description": "Pause when game lost focus.",
+          "fullName": "Active pause on blur",
+          "functionType": "Action",
+          "name": "Active",
+          "sentence": "Pause when game lost focus",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "var sound_manager = runtimeScene.getGame().getSoundManager();\r",
+                "var volumen = sound_manager.getGlobalVolume();\r",
+                "\r",
+                "window.addEventListener('focus', function (event) {\r",
+                "sound_manager.setGlobalVolume(volumen);\r",
+                "runtimeScene.getGame().pause(false);\r",
+                "});\r",
+                "\r",
+                "window.addEventListener('blur', function (event) {\r",
+                "sound_manager.setGlobalVolume(0);\r",
+                "runtimeScene.getGame().pause(true);\r",
+                "});"
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        }
+      ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "Active"
+          }
+        ]
+      },
+      "eventsBasedBehaviors": [],
       "eventsBasedObjects": []
     }
   ],
