@@ -3414,7 +3414,7 @@
       {
         "file": "assets/Toggel switch2.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Toggel switch2.png\"}",
         "name": "Toggel switch2",
         "smoothed": false,
         "userAdded": false
@@ -3903,7 +3903,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.3,
         "snap": true,
-        "zoomFactor": 2.2762478393839243,
+        "zoomFactor": 0.6455105703312114,
         "windowMask": true,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -4121,8 +4121,8 @@
           "name": "Player",
           "persistentUuid": "0f80aa30-3214-4bce-899a-b61d9f7345fa",
           "width": 0,
-          "x": 1248,
-          "y": 112,
+          "x": 48,
+          "y": 480,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -6971,7 +6971,7 @@
           "width": 272,
           "x": 96,
           "y": 171,
-          "zOrder": 1033,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6988,7 +6988,7 @@
           "width": 32,
           "x": 48,
           "y": 176,
-          "zOrder": 1034,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7843,6 +7843,19 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "AdvancedJump",
+              "type": "AdvancedJump::AdvancedJump",
+              "PlatformerBehavior": "PlatformerObject",
+              "CoyoteTimeFrameDuration": 0.25,
+              "CanCoyoteJump": false,
+              "WasInTheAir": false,
+              "AirJumpCountMaximum": 2,
+              "AreFloorJumpCountedAsAirJump": true,
+              "AirJumpCount": 0,
+              "WasJumpKeyReleased": false
+            },
+            {
+              "isFolded": true,
               "name": "FireBullet",
               "type": "FireBullet::FireBullet",
               "FireCooldown": 0,
@@ -17754,7 +17767,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "Toggel switch",
+              "name": "Toggle switch",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -21299,11 +21312,25 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Camera",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Delets the trigger when player activates it, then dose action"
+            },
+            {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -21338,6 +21365,18 @@
               ],
               "events": [
                 {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Deactivates all moast of the playes behaveours, enabels the smooth camera of camera focus, zooms out waits and the reverts the actions"
+                },
+                {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -21348,6 +21387,16 @@
                       "parameters": [
                         "Player",
                         "PlatformerObject",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Health",
                         ""
                       ]
                     },
@@ -21379,6 +21428,108 @@
                         "Camera_focus",
                         "SmoothCamera",
                         "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ZoomCamera"
+                      },
+                      "parameters": [
+                        "",
+                        "3",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ZoomCamera"
+                      },
+                      "parameters": [
+                        "",
+                        "3",
+                        "\"Background\"",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlatformerObject",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Camera_focus",
+                        "SmoothCamera",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Player",
+                        "SmoothPlatformerCamera",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Player",
+                        "SmoothCamera",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Health",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ZoomCamera"
+                      },
+                      "parameters": [
+                        "",
+                        "4",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ZoomCamera"
+                      },
+                      "parameters": [
+                        "",
+                        "4",
+                        "\"Background\"",
+                        ""
                       ]
                     }
                   ]
@@ -21746,7 +21897,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Hazards - combat",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -22949,6 +23099,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Saw",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -23224,7 +23375,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Spikes",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -23320,7 +23470,7 @@
                       "parameters": [
                         "Player",
                         "Player.AngleToObject(Spikes)",
-                        "-300",
+                        "-150",
                         "1"
                       ]
                     },
@@ -25828,7 +25978,7 @@
                         "Interact_text",
                         "Animation",
                         "=",
-                        "\"Toggel switch\""
+                        "\"Toggle switch\""
                       ]
                     },
                     {
@@ -27016,6 +27166,10 @@
         }
       ],
       "behaviorsSharedData": [
+        {
+          "name": "AdvancedJump",
+          "type": "AdvancedJump::AdvancedJump"
+        },
         {
           "name": "Animation",
           "type": "AnimatableCapability::AnimatableBehavior"
