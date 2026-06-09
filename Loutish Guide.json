@@ -3742,7 +3742,7 @@
       {
         "file": "assets/Coin/pixil-frame-0.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Coin/pixil-frame-0.png\"}",
         "name": "Coin/pixil-frame-0",
         "smoothed": false,
         "userAdded": false
@@ -3750,7 +3750,7 @@
       {
         "file": "assets/Coin/pixil-frame1.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Coin/pixil-frame1.png\"}",
         "name": "Coin/pixil-frame1",
         "smoothed": false,
         "userAdded": false
@@ -3758,7 +3758,7 @@
       {
         "file": "assets/Coin/pixil-frame2.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Coin/pixil-frame2.png\"}",
         "name": "Coin/pixil-frame2",
         "smoothed": false,
         "userAdded": false
@@ -4935,6 +4935,182 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"Backroundwall4.png2\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":80,\\\"width\\\":80,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAAAXNSR0IArs4c6QAAAQhJREFUeF7t1LENwDAMBDF7BxdZIPuPmAAeQddS/TXEQ/s577fcWGADHNvdEGDzAxj9AAKsArH3AwFGgZhbIMAoEHMLBBgFYm6BAKNAzC0QYBSIuQUCjAIxt0CAUSDmFggwCsTcAgFGgZhbIMAoEHMLBBgFYm6BAKNAzC0QYBSIuQUCjAIxt0CAUSDmFggwCsTcAgFGgZhbIMAoEHMLBBgFYm6BAKNAzC0QYBSIuQUCjAIxt0CAUSDmFggwCsTcAgFGgZhbIMAoEHMLBBgFYm6BAKNAzC0QYBSIuQUCjAIxt0CAUSDmFggwCsTcAgFGgZhbIMAoEHMLBBgFYm6BAKNAzC0QYBSI+Q9DZGlRmuVPEQAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAAAXNSR0IArs4c6QAAA7BJREFUeF7tnD2uVDEMhe+USEgsAUoKanbAqtkBNQXlYwlISJSgjF5GIZObE9sncTKTad5INz/2Z8dxPLnvchzH8fHTl7/h79nnx/evl9rzZ352BRMA/vn968rhzdt3R/ge/oZP+P7z5dsGeOIlVzDvP3yueiATIPL2KOcqXj/cs4KxUu+OHh+9fzWvdwHYEjOZXt8yn7bNcIBaQTX9ULhghImHBxg3x9wAIXRsgMAtS5tjGnMZYeKhPVCz7KV9NkApsaz9BrgBGgkYu6s8sJQeMHY0oy4u3dUA0/SAlRK4EMgmleaOKoCl9ICREswCUFJYUQG0Kiq1snU+SX9pYeUGECnFrJKk5bOScit5838AYx0wd+GoJCvWRSunp4IUpAQgMnzvze0GMHXdM8WCkhLlJEtH2xaVx4YB1Crg3U8as9jyumwibCU8x9sAjfSnBog2CGZmoOU4PcD8xFNKcntvFDW4ECDygp7Cn20QeZbgmRlAgN5pgnZpjerXBLAmjKf1R0EyLeEZhJxZBuiBMwvPlE0b6zfAVytoCxwb4CtAbYFjAzTGga71QBRXGCcJNEfPPDXIf1cPTGt/1qy/FFfyJNhaY6xVY6xjtzhnsR6YdrRk/ajUFOex5JIjrm/sPLDFlZRtlthEvOPc8h448x3uJTwQxVJLDFWu3Fu3JQBalezZfwM00t0AN0AjAWP35qNc7yORUQ+37sWj3H7dq90e8CjHOG6FMWZOhttx3bcctonM+uOU1bBDAdYsXUuGkZKWspj1lDMMoGWZRCXzFxMZ14ytpxwIEFl/xO4889U7CFAauxBwy3KzeDHqq5W7CaAkduVV6PTd4LTaPcJzEbT0uTZMQIASIUJbFFNYaZFULtReGyboAJGgzOdo2Y3w8qUBev+gFJzh4QCy3wdGK2ZpgEi5Ec8vKI7MmnaMgNMyxxXg7NdoWxTxanOxXqN99ldfzTEwAkz/XdSI9IHtcbVQVtPHDJD16iuKxb2Nkh9ZUwPVKkVmgCxPkJ65WfPGcWo55TIAJWduNkDteNN4oFYBaT8UKqRp21MCZL4X/XQAtVWXM0+nAWxdGqkgvXdW6fLWtKcCzP91aBRolaKqK8DWQmprfqVRxqMPzQM9hJ9hzjuArbHsEeIXwwBFgLNWZ5BxPYx6B9BanWFY9WyMtHCRblDR4B5XfZeKgd7vhJQMuxTAnt6tHZsOcMY4pYGD9Ihj0gF6l6U0sEp9Wm9YdAG4Ylkql7n1YEAHyPKAVcb5B3q1hBOwbg0rAAAAAElFTkSuQmCC\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[null],\"name\":\"Backroundwall4.png4\"}}",
         "name": "Backroundwall4.png5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idel.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idel",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idel2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idel2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idel3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idel3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idel4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idel4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idel5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idel5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idel6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idel6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idel7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idel7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Coin/pixil-frame3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Coin/pixil-frame3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Coin/pixil-frame4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Coin/pixil-frame4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Coin/pixil-frame5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Coin/pixil-frame5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Coin/pixil-frame6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Coin/pixil-frame6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Coin/pixil-frame7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Coin/pixil-frame7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Coin/pixil-frame8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Coin/pixil-frame8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Coin/pixil-frame9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Coin/pixil-frame9.png\"}",
+        "name": "Coin/pixil-frame9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Coin/pixil-frame10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Coin/pixil-frame10.png\"}",
+        "name": "Coin/pixil-frame10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Coin/pixil-frame11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Coin/pixil-frame11.png\"}",
+        "name": "Coin/pixil-frame11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Coin/pixil-frame12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Coin/pixil-frame12.png\"}",
+        "name": "Coin/pixil-frame12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Coin/pixil-frame13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Coin/pixil-frame13.png\"}",
+        "name": "Coin/pixil-frame13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Coin/pixil-frame14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Coin/pixil-frame14.png\"}",
+        "name": "Coin/pixil-frame14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Exit.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Exit",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Open22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Open22.png",
         "smoothed": false,
         "userAdded": false
       }
@@ -11779,6 +11955,55 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Exit",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Exit",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 43,
+                        "y": 0
+                      },
+                      {
+                        "x": 43,
+                        "y": 15
+                      },
+                      {
+                        "x": 1,
+                        "y": 15
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -11967,7 +12192,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Coin/pixil-frame-0.png",
+                  "image": "Coin/pixil-frame9",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12003,7 +12228,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Coin/pixil-frame-1.png",
+                  "image": "Coin/pixil-frame10",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12039,7 +12264,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Coin/pixil-frame-2.png",
+                  "image": "Coin/pixil-frame11",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12075,7 +12300,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Coin/pixil-frame-0",
+                  "image": "Coin/pixil-frame12",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12111,7 +12336,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Coin/pixil-frame1",
+                  "image": "Coin/pixil-frame13",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12147,7 +12372,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Coin/pixil-frame2",
+                  "image": "Coin/pixil-frame14",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12194,10 +12419,17 @@
       "persistentUuid": "a1941846-a395-4c8e-98b2-6215b62638ca",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "Colected",
+          "type": "boolean",
+          "value": false
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
+          "isFolded": true,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
           "gravity": 350,
@@ -12219,6 +12451,13 @@
           "yGrabOffset": 0
         },
         {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": false
+        },
+        {
+          "isFolded": true,
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -12239,8 +12478,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 8,
+                    "y": 4
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -12275,8 +12514,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 8,
+                    "y": 4
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -12311,8 +12550,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 8,
+                    "y": 4
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -12347,8 +12586,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 8,
+                    "y": 4
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -12383,8 +12622,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 8,
+                    "y": 4
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -12419,8 +12658,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 8,
+                    "y": 4
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -12455,8 +12694,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 8,
+                    "y": 4
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -12491,8 +12730,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 8,
+                    "y": 4
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -12527,8 +12766,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 8,
+                    "y": 4
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -12563,8 +12802,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 8,
+                    "y": 4
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -12599,8 +12838,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 8,
+                    "y": 4
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -12635,8 +12874,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 8,
+                    "y": 4
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -12671,8 +12910,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 8,
+                    "y": 4
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -12707,8 +12946,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 8,
+                    "y": 4
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -12743,8 +12982,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 8,
+                    "y": 4
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -12779,8 +13018,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 8,
+                    "y": 4
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -12815,8 +13054,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 8,
+                    "y": 4
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -12851,8 +13090,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 8,
+                    "y": 4
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -12887,8 +13126,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 8,
+                    "y": 4
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -12923,8 +13162,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 8,
+                    "y": 4
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -17122,11 +17361,12 @@
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.16,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Coin/pixil-frame-0.png",
+                  "image": "Idel",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -17162,7 +17402,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Coin/pixil-frame-1.png",
+                  "image": "Idel2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -17198,7 +17438,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Coin/pixil-frame-2.png",
+                  "image": "Idel3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -17234,7 +17474,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Coin/pixil-frame-3.png",
+                  "image": "Idel4",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -17270,7 +17510,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Coin/pixil-frame-4.png",
+                  "image": "Idel5",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -17306,7 +17546,43 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Coin/pixil-frame-5.png",
+                  "image": "Idel6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 8,
+                        "y": 0
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      },
+                      {
+                        "x": 0,
+                        "y": 8
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Idel7",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -17355,7 +17631,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Coin/pixil-frame-0.png",
+                  "image": "Coin/pixil-frame3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -17391,7 +17667,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Coin/pixil-frame-1.png",
+                  "image": "Coin/pixil-frame4",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -17427,7 +17703,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Coin/pixil-frame-2.png",
+                  "image": "Coin/pixil-frame5",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -17463,7 +17739,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Coin/pixil-frame-0",
+                  "image": "Coin/pixil-frame6",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -17499,7 +17775,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Coin/pixil-frame1",
+                  "image": "Coin/pixil-frame7",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -17535,7 +17811,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Coin/pixil-frame2",
+                  "image": "Coin/pixil-frame8",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -19269,6 +19545,54 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Closed",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Open22.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 10
+                      },
+                      {
+                        "x": 66,
+                        "y": 10
+                      },
+                      {
+                        "x": 66,
+                        "y": 68
+                      },
+                      {
+                        "x": 13,
+                        "y": 68
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -19361,6 +19685,68 @@
         "tileSize": 16,
         "tilesWithHitBox": ""
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Slot",
+      "persistentUuid": "114c7c58-487a-4a50-91ab-e2e46c0fc814",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Slot",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -19512,6 +19898,9 @@
       },
       {
         "objectName": "Coins_count"
+      },
+      {
+        "objectName": "Slot"
       },
       {
         "objectName": "PTP_hitbox"
@@ -19671,9 +20060,6 @@
           "name": "Corner_top_left"
         },
         {
-          "name": "Brick_inside"
-        },
-        {
           "name": "Corner_top_right"
         },
         {
@@ -19681,12 +20067,6 @@
         },
         {
           "name": "Corner_bottem_left"
-        },
-        {
-          "name": "Break_box"
-        },
-        {
-          "name": "Push_box"
         }
       ]
     },
@@ -19738,6 +20118,11 @@
       "name": "Coins",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "Target_item_colected",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [
@@ -20336,6 +20721,10 @@
           "type": "SmoothCamera::SmoothPlatformerCamera"
         },
         {
+          "name": "Sticker",
+          "type": "Sticker::Sticker"
+        },
+        {
           "name": "Text",
           "type": "TextContainerCapability::TextContainerBehavior"
         },
@@ -20375,7 +20764,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.3,
         "snap": true,
-        "zoomFactor": 0.7619362677198512,
+        "zoomFactor": 0.6672773998330789,
         "windowMask": true,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -20466,8 +20855,8 @@
           "name": "Player",
           "persistentUuid": "0f80aa30-3214-4bce-899a-b61d9f7345fa",
           "width": 0,
-          "x": 736,
-          "y": 315,
+          "x": -16,
+          "y": 480,
           "zOrder": 1000,
           "numberProperties": [],
           "stringProperties": [],
@@ -24086,25 +24475,9 @@
           "name": "Gate",
           "persistentUuid": "e642995d-003d-498c-820c-155d05330a66",
           "width": 0,
-          "x": -32,
+          "x": -37,
           "y": 460,
           "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Gate_void",
-          "persistentUuid": "f2f027bb-ed02-46a3-8750-b5a505cd0030",
-          "width": 0,
-          "x": -32,
-          "y": 456,
-          "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -24244,6 +24617,39 @@
             }
           ],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Gate_void",
+          "persistentUuid": "ca427b9d-c68b-423d-9f93-743c1d3f7903",
+          "width": 0,
+          "x": -36,
+          "y": 456,
+          "zOrder": -10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 112,
+          "keepRatio": true,
+          "layer": "Ui",
+          "name": "Slot",
+          "persistentUuid": "ed1936b7-131d-4643-8875-8299be699ba9",
+          "width": 112,
+          "x": 1136,
+          "y": 48,
+          "zOrder": 1040,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [],
@@ -24347,6 +24753,16 @@
                         "Camera_focus",
                         "SmoothCamera",
                         "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "Target_item_colected",
+                        "False",
+                        ""
                       ]
                     }
                   ]
@@ -25075,7 +25491,6 @@
                   "comment": "Delets the trigger when player activates it, then dose action"
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -25173,6 +25588,17 @@
                             "Camera_focus",
                             "SmoothCamera",
                             "yes"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Animation",
+                            "=",
+                            "\"Idle\""
                           ]
                         },
                         {
@@ -28587,11 +29013,22 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Main gate",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
                   "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Visual prompt"
+                    },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
@@ -28683,6 +29120,18 @@
                           ]
                         }
                       ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Makes player enter dungen"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -28781,6 +29230,18 @@
                       ]
                     },
                     {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Closes gate behind player"
+                    },
+                    {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -28824,6 +29285,178 @@
                             "Animation",
                             "=",
                             "\"Close\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Opens once target item is aquired"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareStrings"
+                          },
+                          "parameters": [
+                            "CurrentSceneName()",
+                            "=",
+                            "\"Level screen\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
+                            "Target_item_colected",
+                            "True",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "CameraShake::ShakeCamera"
+                          },
+                          "parameters": [
+                            "",
+                            "1.6",
+                            "0.6",
+                            "1",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Gate",
+                            "Animation",
+                            "=",
+                            "\"Closed\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Visual for exit"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Gate",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareStrings"
+                          },
+                          "parameters": [
+                            "CurrentSceneName()",
+                            "=",
+                            "\"Level screen\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "Interact_box",
+                            "Gate.CenterX()-22",
+                            "Gate.CenterY()-48",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ScalableCapability::ScalableBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Interact_box",
+                            "Scale",
+                            "=",
+                            "0.4"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "Interact_text",
+                            "Gate.CenterX()-8",
+                            "Gate.CenterY()-48",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Interact_text",
+                            "Animation",
+                            "=",
+                            "\"Exit\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ScalableCapability::ScalableBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Interact_text",
+                            "Scale",
+                            "=",
+                            "0.8"
                           ]
                         }
                       ]
@@ -30430,6 +31063,7 @@
                       "comment": "Loot - coins"
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::ForEach",
                       "object": "Chest",
                       "conditions": [],
@@ -30738,6 +31372,17 @@
                         },
                         {
                           "type": {
+                            "value": "SetBooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Golden_skull",
+                            "Colected",
+                            "False",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "Create"
                           },
                           "parameters": [
@@ -30910,7 +31555,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Skull",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -30938,6 +31582,17 @@
                           "parameters": [
                             "Golden_skull",
                             "PlatformerObject"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Golden_skull",
+                            "Colected",
+                            "False",
+                            ""
                           ]
                         }
                       ],
@@ -30980,6 +31635,121 @@
                           ]
                         }
                       ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Colection"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Golden_skull",
+                            "Player",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Golden_skull",
+                            "Colected",
+                            "False",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetBooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Golden_skull",
+                            "Colected",
+                            "True",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ActivateBehavior"
+                          },
+                          "parameters": [
+                            "Golden_skull",
+                            "PlatformerObject",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeLayer"
+                          },
+                          "parameters": [
+                            "Golden_skull",
+                            "\"Ui\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetXY"
+                          },
+                          "parameters": [
+                            "Golden_skull",
+                            "=",
+                            "Slot.CenterX()",
+                            "=",
+                            "Slot.CenterY()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetZOrder"
+                          },
+                          "parameters": [
+                            "Golden_skull",
+                            "=",
+                            "Slot.ZOrder()+1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ScalableCapability::ScalableBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Golden_skull",
+                            "Scale",
+                            "=",
+                            "5"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "Target_item_colected",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ]
                     }
                   ],
                   "parameters": []
@@ -30992,10 +31762,23 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Backround",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Makes sure backround is at the back of the scene"
+                },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
@@ -31275,6 +32058,10 @@
         {
           "name": "SmoothPlatformerCamera",
           "type": "SmoothCamera::SmoothPlatformerCamera"
+        },
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker"
         },
         {
           "name": "Text",
@@ -88782,6 +89569,702 @@
         ]
       },
       "eventsBasedBehaviors": [],
+      "eventsBasedObjects": []
+    },
+    {
+      "author": "D8H",
+      "category": "Movement",
+      "dimension": "2D",
+      "extensionNamespace": "",
+      "fullName": "Stick objects to others",
+      "gdevelopVersion": ">=5.5.222",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXN0aWNrZXItb3V0bGluZSIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik01LjUgMkMzLjYgMiAyIDMuNiAyIDUuNVYxOC41QzIgMjAuNCAzLjYgMjIgNS41IDIySDE2TDIyIDE2VjUuNUMyMiAzLjYgMjAuNCAyIDE4LjUgMkg1LjVNNS44IDRIMTguM0MxOS4zIDQgMjAuMSA0LjggMjAuMSA1LjhWMTVIMTguNkMxNi43IDE1IDE1LjEgMTYuNiAxNS4xIDE4LjVWMjBINS44QzQuOCAyMCA0IDE5LjIgNCAxOC4yVjUuOEM0IDQuOCA0LjggNCA1LjggNCIgLz48L3N2Zz4=",
+      "name": "Sticker",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/sticker-outline.svg",
+      "shortDescription": "Stick objects to others, following position and rotation. For accessories/skeletons.",
+      "version": "0.5.4",
+      "description": [
+        "This extension can be useful to:",
+        "- Stick accessories to moving objects",
+        "- Animate a skeleton",
+        "- Delete an object with another one",
+        "",
+        "An example allows to check it out ([open the project online](https://editor.gdevelop.io/?project=example://stick-objects))."
+      ],
+      "origin": {
+        "identifier": "Sticker",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "sticker",
+        "stick",
+        "follow",
+        "skeleton",
+        "joint",
+        "pin",
+        "bind",
+        "glue",
+        "tie",
+        "attach",
+        "hold",
+        "paste",
+        "wear"
+      ],
+      "authorIds": [
+        "IWykYNRvhCZBN3vEgKEbBPOR3Oc2"
+      ],
+      "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
+      "eventsFunctions": [
+        {
+          "description": "Define helper classes JavaScript code.",
+          "fullName": "Define helper classes",
+          "functionType": "Action",
+          "name": "DefineHelperClasses",
+          "private": true,
+          "sentence": "Define helper classes JavaScript code",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "if (gdjs._stickerExtension) {",
+                "    return;",
+                "}",
+                "",
+                "// Unstick from deleted objects.",
+                "gdjs.registerObjectDeletedFromSceneCallback(function (runtimeScene, deletedObject) {",
+                "    const extension = runtimeScene._stickerExtension;",
+                "    if (!extension) {",
+                "        return;",
+                "    }",
+                "    /** @type {Set<gdjs.RuntimeBehavior>} */",
+                "    const allStickers = runtimeScene._stickerExtension.allStickers;",
+                "    for (const behavior of allStickers) {",
+                "        /** @type {Sticker} */",
+                "        const sticker = behavior._sticker;",
+                "        if (sticker.isStuckTo(deletedObject)) {",
+                "            if (behavior._getIsDestroyedWithParent()) {",
+                "                behavior.owner.deleteFromScene(runtimeScene);",
+                "            }",
+                "            sticker.unstick();",
+                "        }",
+                "    }",
+                "});",
+                "",
+                "class Sticker {",
+                "    /** @type {gdjs.RuntimeBehavior} */",
+                "    behavior;",
+                "    /** @type {gdjs.RuntimeObject | null} */",
+                "    basisObject;",
+                "    followingDoneThisFrame = false;",
+                "    relativeX = 0;",
+                "    relativeY = 0;",
+                "    relativeAngle = 0;",
+                "    relativeRotatedX = 0;",
+                "    relativeRotatedY = 0;",
+                "    basisOldX = 0;",
+                "    basisOldY = 0;",
+                "    basisOldAngle = 0;",
+                "    basisOldWidth = 0;",
+                "    basisOldHeight = 0;",
+                "    basisOldCenterXInScene = 0;",
+                "    basisOldCenterYInScene = 0;",
+                "",
+                "    /**",
+                "     * @param {gdjs.RuntimeBehavior} behavior",
+                "     */",
+                "    constructor(behavior) {",
+                "        this.behavior = behavior;",
+                "    }",
+                "",
+                "    /**",
+                "     * @param {gdjs.RuntimeObject} basisObject",
+                "     */",
+                "    isStuckTo(basisObject) {",
+                "        return this.basisObject === basisObject;",
+                "    }",
+                "",
+                "    /**",
+                "     * @param {gdjs.RuntimeObject} basisObject",
+                "     */",
+                "    stickTo(basisObject) {",
+                "        this.basisObject = basisObject;",
+                "        this.updateOldCoordinates();",
+                "        this.updateRelativeCoordinates();",
+                "    }",
+                "",
+                "    unstick() {",
+                "        this.basisObject = null;",
+                "    }",
+                "",
+                "    onStepPreEvents() {",
+                "        this.followingDoneThisFrame = false;",
+                "    }",
+                "",
+                "    /**",
+                "     * Update the coordinates in the basisObject basis.",
+                "     * ",
+                "     * It uses the basisObject coordinates from the previous frame.",
+                "     * This way, the sticker can move relatively to it and still",
+                "     * follow basisObject.",
+                "     * ",
+                "     * @param {gdjs.RuntimeObject} basisObject",
+                "     */",
+                "    updateRelativeCoordinates() {",
+                "        const object = this.behavior.owner;",
+                "",
+                "        // Update relative coordinates",
+                "        this.relativeX = object.getX() - this.basisOldX;",
+                "        this.relativeY = object.getY() - this.basisOldY;",
+                "        if (!this.behavior._getOnlyFollowPosition()) {",
+                "            this.relativeAngle = object.getAngle() - this.basisOldAngle;",
+                "            this.relativeWidth = object.getWidth() / this.basisOldWidth;",
+                "            this.relativeHeight = object.getHeight() / this.basisOldHeight;",
+                "            const deltaX = object.getCenterXInScene() - this.basisOldCenterXInScene;",
+                "            const deltaY = object.getCenterYInScene() - this.basisOldCenterYInScene;",
+                "            const angle = this.basisOldAngle * Math.PI / 180;",
+                "            const cosA = Math.cos(angle);",
+                "            const sinA = Math.sin(angle);",
+                "            this.relativeRotatedX = (deltaX * cosA + deltaY * sinA) / this.basisOldWidth;",
+                "            this.relativeRotatedY = (-deltaX * sinA + deltaY * cosA) / this.basisOldHeight;",
+                "",
+                "            // Save initial values to avoid calculus and rounding errors",
+                "            this.basisOriginalWidth = this.basisObject.getWidth();",
+                "            this.basisOriginalHeight = this.basisObject.getHeight();",
+                "            this.basisOriginalAngle = this.basisObject.getAngle();",
+                "        }",
+                "    }",
+                "",
+                "    /**",
+                "     * Copy the coordinates to use it the next frame.",
+                "     */",
+                "    updateOldCoordinates() {",
+                "        const object = this.behavior.owner;",
+                "",
+                "        this.ownerOldX = object.getX();",
+                "        this.ownerOldY = object.getY();",
+                "",
+                "        this.basisOldX = this.basisObject.getX();",
+                "        this.basisOldY = this.basisObject.getY();",
+                "",
+                "        if (!this.behavior._getOnlyFollowPosition()) {",
+                "            this.ownerOldAngle = object.getAngle();",
+                "            this.ownerOldWidth = object.getWidth();",
+                "            this.ownerOldHeight = object.getHeight();",
+                "",
+                "            this.basisOldAngle = this.basisObject.getAngle();",
+                "            this.basisOldWidth = this.basisObject.getWidth();",
+                "            this.basisOldHeight = this.basisObject.getHeight();",
+                "            this.basisOldCenterXInScene = this.basisObject.getCenterXInScene();",
+                "            this.basisOldCenterYInScene = this.basisObject.getCenterYInScene();",
+                "        }",
+                "    }",
+                "",
+                "    /**",
+                "     * Follow the basisObject (called in doStepPostEvents).",
+                "     * ",
+                "     * This method is also called by children to ensure",
+                "     * parents are updated first.",
+                "     */",
+                "    followBasisObject() {",
+                "        if (this.followingDoneThisFrame) {",
+                "            return;",
+                "        }",
+                "        this.followingDoneThisFrame = true;",
+                "        const basisObject = this.basisObject;",
+                "        if (!basisObject) {",
+                "            return;",
+                "        }",
+                "        // If the behavior on the basis object has a different name,",
+                "        // the objects will still follow their basis objects",
+                "        // but frame delays could happen.",
+                "        const behaviorName = this.behavior.getName();",
+                "        if (basisObject.hasBehavior(behaviorName)) {",
+                "            const basisBehavior = basisObject.getBehavior(behaviorName);",
+                "            if (basisBehavior.type === this.behavior.type) {",
+                "                // Follow parents 1st to avoid frame delays",
+                "                basisBehavior._sticker.followBasisObject();",
+                "            }",
+                "        }",
+                "        if (this.behavior._getOnlyFollowPosition()) {",
+                "            this.followPosition();",
+                "        } else {",
+                "            this.followTransformation();",
+                "        }",
+                "        this.updateOldCoordinates();",
+                "    }",
+                "",
+                "    followPosition() {",
+                "        const object = this.behavior.owner;",
+                "        const basisObject = this.basisObject;",
+                "        if (!basisObject) {",
+                "            return;",
+                "        }",
+                "        if (object.getX() !== this.ownerOldX",
+                "            || object.getY() !== this.ownerOldY) {",
+                "            this.updateRelativeCoordinates();",
+                "        }",
+                "        if (this.basisOldX !== basisObject.getX()",
+                "            || this.basisOldY !== basisObject.getY()) {",
+                "            object.setPosition(",
+                "                basisObject.getX() + this.relativeX,",
+                "                basisObject.getY() + this.relativeY);",
+                "        }",
+                "    }",
+                "",
+                "    followTransformation() {",
+                "        const object = this.behavior.owner;",
+                "        const basisObject = this.basisObject;",
+                "        if (!basisObject) {",
+                "            return;",
+                "        }",
+                "        if (object.getX() !== this.ownerOldX",
+                "            || object.getY() !== this.ownerOldY",
+                "            || object.getAngle() !== this.ownerOldAngle",
+                "            || object.getWidth() !== this.ownerOldWidth",
+                "            || object.getHeight() !== this.ownerOldHeight) {",
+                "            this.updateRelativeCoordinates();",
+                "        }",
+                "        if (this.basisOldAngle !== this.basisObject.getAngle()",
+                "            || this.basisOldWidth !== this.basisObject.getWidth()",
+                "            || this.basisOldHeight !== this.basisObject.getHeight()",
+                "            || this.basisOldCenterXInScene !== this.basisObject.getCenterXInScene()",
+                "            || this.basisOldCenterYInScene !== this.basisObject.getCenterYInScene()) {",
+                "            // Unproportional dimensions changes won't work as expected",
+                "            // if the object angle is not null but nothing more can be done",
+                "            // because there is no full affine transformation on objects.",
+                "            if (basisObject.getWidth() !== this.basisOriginalWidth) {",
+                "                object.setWidth(this.relativeWidth * basisObject.getWidth());",
+                "            }",
+                "            if (basisObject.getHeight() !== this.basisOriginalHeight) {",
+                "                object.setHeight(this.relativeHeight * basisObject.getHeight());",
+                "            }",
+                "            // Follow basisObject",
+                "            if (basisObject.getAngle() === this.basisOriginalAngle",
+                "                && this.basisOriginalAngle === 0) {",
+                "                if (basisObject.getWidth() === this.basisOriginalWidth",
+                "                    || basisObject.getHeight() === this.basisOriginalHeight) {",
+                "                    if (this.basisOldX !== basisObject.getX() ||",
+                "                        this.basisOldY !== basisObject.getY()) {",
+                "                        object.setPosition(",
+                "                            basisObject.getX() + this.relativeX,",
+                "                            basisObject.getY() + this.relativeY);",
+                "                    }",
+                "                } else {",
+                "                    object.setCenterPositionInScene(",
+                "                        basisObject.getCenterXInScene() + this.relativeRotatedX * basisObject.getWidth(),",
+                "                        basisObject.getCenterYInScene() + this.relativeRotatedY * basisObject.getHeight());",
+                "                }",
+                "            } else {",
+                "                object.setAngle(basisObject.getAngle() + this.relativeAngle);",
+                "",
+                "                const deltaX = this.relativeRotatedX * basisObject.getWidth();",
+                "                const deltaY = this.relativeRotatedY * basisObject.getHeight();",
+                "                const angle = -basisObject.getAngle() * Math.PI / 180;",
+                "                const cosA = Math.cos(angle);",
+                "                const sinA = Math.sin(angle);",
+                "                object.setX(",
+                "                    basisObject.getCenterXInScene() + object.getX() - object.getCenterXInScene()",
+                "                    + deltaX * cosA + deltaY * sinA);",
+                "                object.setY(",
+                "                    basisObject.getCenterYInScene() + object.getY() - object.getCenterYInScene()",
+                "                    - deltaX * sinA + deltaY * cosA);",
+                "            }",
+                "        }",
+                "    }",
+                "}",
+                "",
+                "gdjs._stickerExtension = {",
+                "    Sticker",
+                "}"
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": true
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Check if the object is stuck to another object.",
+          "fullName": "Is stuck to another object",
+          "functionType": "Condition",
+          "name": "IsStuck",
+          "sentence": "_PARAM1_ is stuck to _PARAM3_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const stickerBehaviorName = eventsFunctionContext.getBehaviorName(\"Behavior\");",
+                "/** @type {Hashtable<gdjs.RuntimeObject[]>} */",
+                "const stickerObjectsLists = eventsFunctionContext.getObjectsLists(\"Object\");",
+                "/** @type {Hashtable<gdjs.RuntimeObject[]>} */",
+                "const basisObjectsLists = eventsFunctionContext.getObjectsLists(\"BasisObject\");",
+                "",
+                "eventsFunctionContext.returnValue = gdjs.evtTools.object.twoListsTest(",
+                "  (stickerObject, basisObject) => {",
+                "    const sticker = stickerObject.getBehavior(stickerBehaviorName)._sticker;",
+                "    return sticker.isStuckTo(basisObject);",
+                "  },",
+                "  stickerObjectsLists,",
+                "  basisObjectsLists,",
+                "  false",
+                ");"
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": true
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Sticker",
+              "name": "Object",
+              "type": "objectList"
+            },
+            {
+              "description": "Sticker behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "Sticker::Sticker",
+              "type": "behavior"
+            },
+            {
+              "description": "Basis",
+              "name": "BasisObject",
+              "type": "objectList"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "DefineHelperClasses"
+          },
+          {
+            "functionName": "IsStuck"
+          }
+        ]
+      },
+      "eventsBasedBehaviors": [
+        {
+          "description": "Stick the object to another. Use the action to stick the object, or unstick it later.",
+          "fullName": "Sticker",
+          "helpPath": "",
+          "iconUrl": "",
+          "name": "Sticker",
+          "objectType": "",
+          "previewIconUrl": "",
+          "quickCustomizationVisibility": "hidden",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onCreated",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Sticker::DefineHelperClasses"
+                      },
+                      "parameters": [
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::JsCode",
+                  "inlineCode": [
+                    "const Sticker = gdjs._stickerExtension.Sticker;",
+                    "",
+                    "const behaviorName = eventsFunctionContext.getBehaviorName(\"Behavior\");",
+                    "const object = objects[0];",
+                    "const behavior = object.getBehavior(behaviorName);",
+                    "",
+                    "behavior._sticker = new Sticker(behavior);",
+                    "",
+                    "// Set up the scene sticker objects list - if not done already.",
+                    "runtimeScene._stickerExtension = runtimeScene._stickerExtension || {",
+                    "    allStickers: new Set(),",
+                    "};",
+                    "// Register this object as a sticker.",
+                    "/** @type {Set<gdjs.RuntimeBehavior>} */",
+                    "const allStickers = runtimeScene._stickerExtension.allStickers;",
+                    "allStickers.add(behavior);",
+                    ""
+                  ],
+                  "parameterObjects": "Object",
+                  "useStrict": true,
+                  "eventsSheetExpanded": true
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Sticker::Sticker",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPreEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::JsCode",
+                  "inlineCode": [
+                    "const behaviorName = eventsFunctionContext.getBehaviorName(\"Behavior\");",
+                    "const object = objects[0];",
+                    "const behavior = object.getBehavior(behaviorName);",
+                    "",
+                    "behavior._sticker.onStepPreEvents();"
+                  ],
+                  "parameterObjects": "Object",
+                  "useStrict": true,
+                  "eventsSheetExpanded": false
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Sticker::Sticker",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPostEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::JsCode",
+                  "inlineCode": [
+                    "const behaviorName = eventsFunctionContext.getBehaviorName(\"Behavior\");",
+                    "const object = objects[0];",
+                    "const behavior = object.getBehavior(behaviorName);",
+                    "",
+                    "behavior._sticker.followBasisObject();"
+                  ],
+                  "parameterObjects": "Object",
+                  "useStrict": true,
+                  "eventsSheetExpanded": true
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Sticker::Sticker",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Stick on another object.",
+              "fullName": "Stick",
+              "functionType": "Action",
+              "name": "Stick",
+              "sentence": "Stick _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::JsCode",
+                  "inlineCode": [
+                    "const object = objects[0];",
+                    "const behaviorName = eventsFunctionContext.getBehaviorName(\"Behavior\");",
+                    "const basisObjects = eventsFunctionContext.getObjects(\"BasisObject\");",
+                    "",
+                    "if (basisObjects.length === 0) return;",
+                    "// An object can stick to only one object.",
+                    "const basisObject = basisObjects[0];",
+                    "object.getBehavior(behaviorName)._sticker.stickTo(basisObject);",
+                    ""
+                  ],
+                  "parameterObjects": "Object",
+                  "useStrict": true,
+                  "eventsSheetExpanded": true
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Sticker::Sticker",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Object to stick to",
+                  "name": "BasisObject",
+                  "type": "objectList"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Unstick from the object it was stuck to.",
+              "fullName": "Unstick",
+              "functionType": "Action",
+              "name": "Unstick",
+              "sentence": "Unstick _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::JsCode",
+                  "inlineCode": [
+                    "const object = objects[0];",
+                    "const behaviorName = eventsFunctionContext.getBehaviorName(\"Behavior\");",
+                    "const behavior = object.getBehavior(behaviorName);",
+                    "",
+                    "object.getBehavior(behaviorName)._sticker.unstick();",
+                    ""
+                  ],
+                  "parameterObjects": "Object",
+                  "useStrict": true,
+                  "eventsSheetExpanded": true
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Sticker::Sticker",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onDestroy",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::JsCode",
+                  "inlineCode": [
+                    "const behaviorName = eventsFunctionContext.getBehaviorName(\"Behavior\");",
+                    "const object = objects[0];",
+                    "const behavior = object.getBehavior(behaviorName);",
+                    "",
+                    "/** @type {Set<gdjs.RuntimeBehavior>} */",
+                    "const allStickers = runtimeScene._stickerExtension.allStickers;",
+                    "allStickers.delete(behavior);",
+                    ""
+                  ],
+                  "parameterObjects": "Object",
+                  "useStrict": true,
+                  "eventsSheetExpanded": true
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Sticker::Sticker",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "onCreated"
+              },
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "functionName": "doStepPostEvents"
+              },
+              {
+                "functionName": "Stick"
+              },
+              {
+                "functionName": "Unstick"
+              },
+              {
+                "functionName": "onDestroy"
+              }
+            ]
+          },
+          "propertyDescriptors": [
+            {
+              "value": "",
+              "type": "Boolean",
+              "label": "Only follow the position",
+              "name": "OnlyFollowPosition"
+            },
+            {
+              "value": "",
+              "type": "Boolean",
+              "label": "Destroy when the object it's stuck on is destroyed",
+              "name": "IsDestroyedWithParent"
+            }
+          ],
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "OnlyFollowPosition"
+              },
+              {
+                "propertyName": "IsDestroyedWithParent"
+              }
+            ]
+          }
+        }
+      ],
       "eventsBasedObjects": []
     }
   ],
