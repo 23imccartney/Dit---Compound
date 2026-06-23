@@ -5244,6 +5244,22 @@
         "name": "Tile",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Light.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Light",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Drain.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Drain",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -19794,7 +19810,7 @@
       "height": 16,
       "name": "Backround",
       "persistentUuid": "d1c2989c-c6e0-426d-977d-d8a8ae7b5757",
-      "texture": "assets/Backroundwall4.png6.png",
+      "texture": "assets/Backroundwall4.png5.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
       "variables": [],
@@ -20046,6 +20062,130 @@
         "lineHeight": 0,
         "color": "255;255;255"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Light",
+      "persistentUuid": "4a95e3fb-b597-4d62-b6da-124001d2f448",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Light",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Light",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 1
+                      },
+                      {
+                        "x": 29,
+                        "y": 1
+                      },
+                      {
+                        "x": 29,
+                        "y": 28
+                      },
+                      {
+                        "x": 1,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Drain",
+      "persistentUuid": "ffff43f5-52e2-499c-adfa-1e2e9c0e24e5",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Drain",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Drain",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 17,
+                        "y": 16
+                      },
+                      {
+                        "x": 47,
+                        "y": 16
+                      },
+                      {
+                        "x": 47,
+                        "y": 47
+                      },
+                      {
+                        "x": 17,
+                        "y": 47
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -20272,6 +20412,12 @@
       },
       {
         "objectName": "Test"
+      },
+      {
+        "objectName": "Light"
+      },
+      {
+        "objectName": "Drain"
       }
     ]
   },
@@ -21335,7 +21481,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.3,
         "snap": true,
-        "zoomFactor": 0.5653158055127057,
+        "zoomFactor": 1.1726229638179186,
         "windowMask": true,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -21344,7 +21490,6 @@
       "variables": [
         {
           "name": "Loot",
-          "persistentUuid": "b9932286-e99c-489e-a769-54e8cd0e4a28",
           "type": "number",
           "value": 0
         }
@@ -25234,6 +25379,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "All",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -25243,7 +25389,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "On start",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -25394,6 +25539,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Player",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -31185,7 +31331,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Pushbox",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -31287,7 +31432,6 @@
                       "colorG": 176,
                       "colorR": 74,
                       "creationTime": 0,
-                      "folded": true,
                       "name": "Box spawner",
                       "source": "",
                       "type": "BuiltinCommonInstructions::Group",
@@ -31492,6 +31636,16 @@
                                         "=",
                                         "Box_spawner.Index"
                                       ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "SetZOrder"
+                                      },
+                                      "parameters": [
+                                        "Push_box",
+                                        "=",
+                                        "Box_spawner.ZOrder()+1"
+                                      ]
                                     }
                                   ]
                                 }
@@ -31560,6 +31714,16 @@
                                         "Index",
                                         "=",
                                         "Box_spawner.Index"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "SetZOrder"
+                                      },
+                                      "parameters": [
+                                        "Push_box",
+                                        "=",
+                                        "Box_spawner.ZOrder()+1"
                                       ]
                                     }
                                   ]
@@ -32236,7 +32400,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Chest",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -32734,7 +32897,7 @@
                               "parameters": [
                                 "Player",
                                 "Health",
-                                "1",
+                                "0.2",
                                 ""
                               ]
                             }
@@ -32835,6 +32998,16 @@
                             "Chest.X()",
                             "Chest.Y()",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetZOrder"
+                          },
+                          "parameters": [
+                            "Golden_skull",
+                            "=",
+                            "1000"
                           ]
                         },
                         {
@@ -33007,7 +33180,7 @@
                           "parameters": [
                             "Player",
                             "Health",
-                            "1",
+                            "0.2",
                             ""
                           ]
                         }
@@ -33610,7 +33783,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.8046714318873973,
+        "zoomFactor": 1.134371579716097,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -33619,19 +33792,25 @@
       "variables": [
         {
           "name": "Next_room",
-          "persistentUuid": "170f15e1-f12b-4642-9410-ed92f0583db0",
+          "persistentUuid": "37fc80af-388c-49e3-ae2b-0bb8a377bec1",
           "type": "number",
           "value": 0
         },
         {
           "name": "Current_ID",
-          "persistentUuid": "cef72c95-9462-45c5-8c0b-8751f596d4cf",
+          "persistentUuid": "b6c8ef40-c324-44e1-a80b-08853fde8283",
           "type": "number",
           "value": 1
         },
         {
           "name": "Next_trap",
-          "persistentUuid": "067fd603-dc1d-4192-bdbd-091703ecb53a",
+          "persistentUuid": "b2dc9ec9-a5b9-450e-94f1-8dcd1ec64603",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Room_num",
+          "persistentUuid": "4493ddc0-6b66-4f3d-82a5-6257270b7efe",
           "type": "number",
           "value": 0
         }
@@ -34146,6 +34325,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "Test",
+          "persistentUuid": "1f645128-8c47-4237-a4c9-e14ef491025c",
+          "width": 0,
+          "x": 59,
+          "y": 233,
+          "zOrder": 1044,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -34378,6 +34573,23 @@
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Test",
+                "Text",
+                "=",
+                "Room_num"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
@@ -34427,6 +34639,66 @@
                 "textG": 0,
                 "textR": 0
               },
+              "comment": "Generates the corosponding room"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "IsOnScreen::InOnScreen::IsOnScreen"
+                  },
+                  "parameters": [
+                    "Right_exit",
+                    "InOnScreen",
+                    "32",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Room_num",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Next_room",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Room_num",
+                    "+",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
               "comment": "Tells the program to make a new room when the exit is almost on screen - also caps at a number of rooms"
             },
             {
@@ -34442,6 +34714,27 @@
                     "32",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Room_num",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Room_num",
+                    "<",
+                    "11"
+                  ]
                 }
               ],
               "actions": [
@@ -34452,7 +34745,17 @@
                   "parameters": [
                     "Next_room",
                     "=",
-                    "RandomInRange(1, 6)"
+                    "RandomInRange(1, 7)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Room_num",
+                    "+",
+                    "1"
                   ]
                 }
               ]
@@ -34467,7 +34770,135 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Generates the corosponding room"
+              "comment": "After set amount of rooms, rooms get more dificult and the tresure room can spawn"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Room_num",
+                    ">",
+                    "10"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Room_num",
+                    "<",
+                    "16"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Next_room",
+                    "!=",
+                    "8"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Next_room",
+                    "=",
+                    "RandomInRange(4, 8)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Room_num",
+                    "+",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "After another set amount of rooms, tresure room can only spawn"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Room_num",
+                    ">",
+                    "15"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Next_room",
+                    "!=",
+                    "8"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Next_room",
+                    "=",
+                    "8"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Room_num",
+                    "+",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Always generates stairs first to a voind generation bug that made the first door not open"
             },
             {
               "colorB": 228,
@@ -34594,7 +35025,18 @@
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
-                  "folded": true,
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "This one generates random traps in the room"
+                },
+                {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -34638,18 +35080,6 @@
                     }
                   ],
                   "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Comment",
-                      "color": {
-                        "b": 109,
-                        "g": 230,
-                        "r": 255,
-                        "textB": 0,
-                        "textG": 0,
-                        "textR": 0
-                      },
-                      "comment": "This one generates random traps in the room"
-                    },
                     {
                       "folded": true,
                       "type": "BuiltinCommonInstructions::ForEach",
@@ -34821,7 +35251,6 @@
                   "comment": "This one tells the lever and the door to get a new index so other doors dont get confused"
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -35363,7 +35792,8 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "name": "Tresure room - 7",
+              "folded": true,
+              "name": "Pit - 7",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
@@ -35387,37 +35817,65 @@
                       "parameters": []
                     }
                   ],
-                  "actions": [],
-                  "events": [
+                  "actions": [
                     {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Delete"
-                          },
-                          "parameters": [
-                            "Right_exit",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                          },
-                          "parameters": [
-                            "",
-                            "\"Treasure room\"",
-                            "Right_exit.CenterX()",
-                            "Right_exit.CenterY()",
-                            "0"
-                          ]
-                        }
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Right_exit",
+                        ""
                       ]
                     },
                     {
-                      "type": "BuiltinCommonInstructions::Standard",
+                      "type": {
+                        "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Randomtrap\"",
+                        "Right_exit.CenterX()",
+                        "Right_exit.CenterY()",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Current_ID",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "SideGate",
+                        "Index",
+                        "=",
+                        "Current_ID"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Lever",
+                        "Index",
+                        "=",
+                        "Current_ID"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "Trap_position",
                       "conditions": [],
                       "actions": [
                         {
@@ -35425,22 +35883,207 @@
                             "value": "Delete"
                           },
                           "parameters": [
-                            "Right_exit",
+                            "Trap_position",
                             ""
                           ]
                         },
                         {
                           "type": {
-                            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                            "value": "SetNumberVariable"
                           },
                           "parameters": [
-                            "",
-                            "\"Pit_fall\"",
-                            "Right_exit.CenterX()",
-                            "Right_exit.CenterY()",
-                            "0"
+                            "Next_trap",
+                            "=",
+                            "RandomInRange(1, 3)"
                           ]
                         }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "Next_trap",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                              },
+                              "parameters": [
+                                "",
+                                "\"Saws\"",
+                                "Trap_position.CenterX()",
+                                "Trap_position.CenterY()",
+                                "0"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "Next_trap",
+                                "=",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                              },
+                              "parameters": [
+                                "",
+                                "\"Spikes\"",
+                                "Trap_position.CenterX()",
+                                "Trap_position.CenterY()",
+                                "0"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "Next_trap",
+                                "=",
+                                "3"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                              },
+                              "parameters": [
+                                "",
+                                "\"Slime\"",
+                                "Trap_position.CenterX()",
+                                "Trap_position.CenterY()",
+                                "0"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "folded": true,
+              "name": "Tresure room - 8",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "Next_room",
+                        "=",
+                        "8"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Treasure room\"",
+                        "Right_exit.CenterX()",
+                        "Right_exit.CenterY()",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Current_ID",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Lever",
+                        "Index",
+                        "=",
+                        "Current_ID"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "SideGate",
+                        "Index",
+                        "=",
+                        "Current_ID"
                       ]
                     }
                   ]
@@ -102932,7 +103575,7 @@
           "width": 0,
           "x": 656,
           "y": -288,
-          "zOrder": 108,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -103794,7 +104437,7 @@
           "width": 0,
           "x": 0,
           "y": -496,
-          "zOrder": 74,
+          "zOrder": 76,
           "numberProperties": [],
           "stringProperties": [
             {
@@ -103981,7 +104624,7 @@
           "width": 0,
           "x": 640,
           "y": -272,
-          "zOrder": 138,
+          "zOrder": 200,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -104015,7 +104658,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.7876290101673891,
+        "zoomFactor": 0.9296875000000163,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -104212,7 +104855,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 3.5031545299581883,
+        "zoomFactor": 0.8416428125373115,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -104674,6 +105317,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Left_entrance",
+          "opacity": 0,
           "persistentUuid": "1bbc0757-cb35-4e00-8273-c774dc570c54",
           "width": 32,
           "x": 0,
@@ -105037,10 +105681,16 @@
           "width": 0,
           "x": 256,
           "y": -32,
-          "zOrder": 20,
+          "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Loot",
+              "type": "string",
+              "value": "Skull"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -105053,7 +105703,7 @@
           "width": 0,
           "x": 192,
           "y": -16,
-          "zOrder": 21,
+          "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
@@ -105075,7 +105725,7 @@
           "width": 0,
           "x": 208,
           "y": -8,
-          "zOrder": 22,
+          "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -105091,7 +105741,7 @@
           "width": 0,
           "x": 212,
           "y": -14,
-          "zOrder": 22,
+          "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -105107,7 +105757,7 @@
           "width": 0,
           "x": 216,
           "y": -8,
-          "zOrder": 22,
+          "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -105123,7 +105773,7 @@
           "width": 0,
           "x": 224,
           "y": -8,
-          "zOrder": 22,
+          "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -105139,7 +105789,7 @@
           "width": 0,
           "x": 220,
           "y": -13,
-          "zOrder": 22,
+          "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -105155,7 +105805,7 @@
           "width": 0,
           "x": 184,
           "y": -8,
-          "zOrder": 22,
+          "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -105171,7 +105821,7 @@
           "width": 0,
           "x": 168,
           "y": -8,
-          "zOrder": 22,
+          "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -105187,7 +105837,7 @@
           "width": 0,
           "x": 160,
           "y": -8,
-          "zOrder": 22,
+          "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -105203,7 +105853,7 @@
           "width": 0,
           "x": 152,
           "y": -8,
-          "zOrder": 22,
+          "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -105219,7 +105869,7 @@
           "width": 0,
           "x": 164,
           "y": -15,
-          "zOrder": 22,
+          "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -105235,7 +105885,7 @@
           "width": 0,
           "x": 156,
           "y": -14,
-          "zOrder": 22,
+          "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -105251,7 +105901,7 @@
           "width": 0,
           "x": 177,
           "y": -8,
-          "zOrder": 22,
+          "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -105267,7 +105917,7 @@
           "width": 0,
           "x": 182,
           "y": -14,
-          "zOrder": 22,
+          "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -105283,7 +105933,7 @@
           "width": 0,
           "x": 288,
           "y": -8,
-          "zOrder": 22,
+          "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -105299,7 +105949,7 @@
           "width": 0,
           "x": 296,
           "y": -8,
-          "zOrder": 22,
+          "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -105315,7 +105965,7 @@
           "width": 0,
           "x": 291,
           "y": -14,
-          "zOrder": 22,
+          "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -105331,7 +105981,7 @@
           "width": 0,
           "x": 64,
           "y": 40,
-          "zOrder": 22,
+          "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -105347,7 +105997,7 @@
           "width": 0,
           "x": 48,
           "y": 40,
-          "zOrder": 22,
+          "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -105363,7 +106013,7 @@
           "width": 0,
           "x": 72,
           "y": 40,
-          "zOrder": 22,
+          "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -105379,7 +106029,7 @@
           "width": 0,
           "x": 88,
           "y": 40,
-          "zOrder": 22,
+          "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -105395,7 +106045,7 @@
           "width": 0,
           "x": 95,
           "y": 33,
-          "zOrder": 22,
+          "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -105411,7 +106061,7 @@
           "width": 0,
           "x": 70,
           "y": 34,
-          "zOrder": 22,
+          "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -105612,7 +106262,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 2.130165915900274,
+        "zoomFactor": 0.5290357402156848,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -105630,6 +106280,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "Left_entrance",
+          "opacity": 0,
           "persistentUuid": "1bbc0757-cb35-4e00-8273-c774dc570c54",
           "width": 32,
           "x": 0,
@@ -105648,7 +106299,7 @@
           "layer": "",
           "name": "Roof",
           "persistentUuid": "2d1541f4-19cb-49bc-b1cb-8f0c1e4f18af",
-          "width": 80,
+          "width": 336,
           "x": 0,
           "y": -64,
           "zOrder": 2,
@@ -105665,8 +106316,8 @@
           "layer": "",
           "name": "Floor",
           "persistentUuid": "ca0e6b67-57a0-4458-85a7-fd33a9a53602",
-          "width": 160,
-          "x": 0,
+          "width": 176,
+          "x": 240,
           "y": 48,
           "zOrder": 3,
           "numberProperties": [],
@@ -105683,7 +106334,7 @@
           "name": "Wall_left",
           "persistentUuid": "6c599871-5843-4e84-b382-602effb3cd58",
           "width": 16,
-          "x": 112,
+          "x": 368,
           "y": -80,
           "zOrder": 5,
           "numberProperties": [],
@@ -105699,7 +106350,7 @@
           "name": "Shadow_Top_Right",
           "persistentUuid": "e9831cfe-b074-49b4-b0aa-24a51cd6be98",
           "width": 0,
-          "x": 112,
+          "x": 368,
           "y": -256,
           "zOrder": 6,
           "numberProperties": [],
@@ -105715,7 +106366,7 @@
           "name": "Corner_bottem_right",
           "persistentUuid": "f8b95b15-1b85-45ad-bae9-e6a9434b506c",
           "width": 0,
-          "x": 112,
+          "x": 368,
           "y": -32,
           "zOrder": 24,
           "numberProperties": [],
@@ -105731,7 +106382,7 @@
           "name": "Corner_bottem_left",
           "persistentUuid": "8a6261b5-086c-44cb-b07d-2f138e3b2fce",
           "width": 0,
-          "x": 80,
+          "x": 336,
           "y": -32,
           "zOrder": 25,
           "numberProperties": [],
@@ -105748,7 +106399,7 @@
           "name": "Roof",
           "persistentUuid": "62d0c5e1-e981-4af5-a431-74c8799e5190",
           "width": 16,
-          "x": 96,
+          "x": 352,
           "y": -32,
           "zOrder": 26,
           "numberProperties": [],
@@ -105765,7 +106416,7 @@
           "name": "Wall_right",
           "persistentUuid": "84112e8c-0f71-46b2-b8bc-8a967ced71b8",
           "width": 16,
-          "x": 80,
+          "x": 336,
           "y": -48,
           "zOrder": 27,
           "numberProperties": [],
@@ -105781,7 +106432,7 @@
           "name": "Shadow_Top_Left",
           "persistentUuid": "8bf09d8b-8c31-4956-8101-9d7a731f3e90",
           "width": 0,
-          "x": 80,
+          "x": 336,
           "y": -64,
           "zOrder": 28,
           "numberProperties": [],
@@ -105797,7 +106448,7 @@
           "name": "Staris_Right",
           "persistentUuid": "ffc1a8ed-1c5d-4c22-80c0-88ad460d67ad",
           "width": 0,
-          "x": 160,
+          "x": 416,
           "y": 48,
           "zOrder": 32,
           "numberProperties": [],
@@ -105813,7 +106464,7 @@
           "name": "Staris_Top_Right",
           "persistentUuid": "5fdd3037-640c-4143-a5a3-0d05d8469a4b",
           "width": 0,
-          "x": 160,
+          "x": 416,
           "y": 80,
           "zOrder": 33,
           "numberProperties": [],
@@ -105829,7 +106480,7 @@
           "name": "Wall_left",
           "persistentUuid": "a25e783b-9cc4-4139-a123-fbe6f280b09b",
           "width": 0,
-          "x": 160,
+          "x": 416,
           "y": 64,
           "zOrder": 34,
           "numberProperties": [],
@@ -105846,7 +106497,7 @@
           "name": "Wall_left",
           "persistentUuid": "286276ef-2045-46e0-b560-52b3b2c5f204",
           "width": 16,
-          "x": 144,
+          "x": 400,
           "y": 96,
           "zOrder": 35,
           "numberProperties": [],
@@ -105862,7 +106513,7 @@
           "name": "Shadow_Top_Right",
           "persistentUuid": "6568a4a5-70bf-44b8-b11f-68a877c9ca29",
           "width": 0,
-          "x": 144,
+          "x": 400,
           "y": 80,
           "zOrder": 36,
           "numberProperties": [],
@@ -105878,7 +106529,7 @@
           "name": "Corner_top_right",
           "persistentUuid": "04f6ae18-1534-487d-8fb7-973241602d08",
           "width": 0,
-          "x": 128,
+          "x": 384,
           "y": 272,
           "zOrder": 37,
           "numberProperties": [],
@@ -105894,7 +106545,7 @@
           "name": "Staris_Top_Right",
           "persistentUuid": "04276ab3-c18c-4455-b6bb-b18a9d1e5345",
           "width": 0,
-          "x": 144,
+          "x": 400,
           "y": 176,
           "zOrder": 38,
           "numberProperties": [],
@@ -105911,7 +106562,7 @@
           "name": "Floor",
           "persistentUuid": "394ae576-7119-45fe-910a-5190bf4c17ff",
           "width": 336,
-          "x": -208,
+          "x": 48,
           "y": 272,
           "zOrder": 39,
           "numberProperties": [],
@@ -105928,7 +106579,7 @@
           "name": "Wall_left",
           "persistentUuid": "cc5cbbc3-0674-4a2a-9075-089cf3bf2da4",
           "width": 16,
-          "x": -224,
+          "x": 32,
           "y": 192,
           "zOrder": 35,
           "numberProperties": [],
@@ -105945,7 +106596,7 @@
           "name": "Roof",
           "persistentUuid": "5a63536e-7366-4bb0-b476-e01deeeb340d",
           "width": 352,
-          "x": -208,
+          "x": 48,
           "y": 176,
           "zOrder": 40,
           "numberProperties": [],
@@ -105961,7 +106612,7 @@
           "name": "Shadow_Top_Right",
           "persistentUuid": "d8df9243-65b8-4968-b621-90f1d9ae069c",
           "width": 0,
-          "x": -224,
+          "x": 32,
           "y": 176,
           "zOrder": 41,
           "numberProperties": [],
@@ -105977,7 +106628,7 @@
           "name": "Shadow_Bottem_Left",
           "persistentUuid": "eb93bcaf-4e95-4d63-b1af-83074e0b4bc1",
           "width": 0,
-          "x": -224,
+          "x": 32,
           "y": 272,
           "zOrder": 42,
           "numberProperties": [],
@@ -105994,7 +106645,7 @@
           "name": "Wall_left",
           "persistentUuid": "409fe2e0-5f57-477f-a60c-788adde42110",
           "width": 16,
-          "x": 128,
+          "x": 384,
           "y": 272,
           "zOrder": 35,
           "numberProperties": [],
@@ -106010,7 +106661,7 @@
           "name": "Shadow_Bottem_Left",
           "persistentUuid": "a3c203ad-9ec5-45b1-9d84-b6a084d29d68",
           "width": 0,
-          "x": 160,
+          "x": 416,
           "y": 528,
           "zOrder": 43,
           "numberProperties": [],
@@ -106027,7 +106678,7 @@
           "name": "Floor",
           "persistentUuid": "88c5f59d-31f2-40ac-b71c-0600b481162b",
           "width": 352,
-          "x": 176,
+          "x": 432,
           "y": 528,
           "zOrder": 44,
           "numberProperties": [],
@@ -106043,8 +106694,8 @@
           "name": "Corner_top_left",
           "persistentUuid": "75afd839-fe70-43d8-b6a7-0bfa80887585",
           "width": 0,
-          "x": 480,
-          "y": 320,
+          "x": 736,
+          "y": 304,
           "zOrder": 45,
           "numberProperties": [],
           "stringProperties": [],
@@ -106059,7 +106710,7 @@
           "name": "Corner_top_left",
           "persistentUuid": "3d5c29dc-9d31-46b2-8490-cb1c2465d5ed",
           "width": 0,
-          "x": 384,
+          "x": 640,
           "y": 400,
           "zOrder": 46,
           "numberProperties": [],
@@ -106075,7 +106726,7 @@
           "name": "Corner_bottem_left",
           "persistentUuid": "6287370d-cf39-4a2e-bac3-ad4ccdbe1432",
           "width": 0,
-          "x": 384,
+          "x": 640,
           "y": 432,
           "zOrder": 47,
           "numberProperties": [],
@@ -106091,7 +106742,7 @@
           "name": "Wall_right",
           "persistentUuid": "95c2cb1d-acdc-461b-9809-76f69544c4f0",
           "width": 0,
-          "x": 384,
+          "x": 640,
           "y": 416,
           "zOrder": 48,
           "numberProperties": [],
@@ -106108,7 +106759,7 @@
           "name": "Floor",
           "persistentUuid": "0db4c4c2-15e0-48d2-8746-dec2c2505593",
           "width": 80,
-          "x": 400,
+          "x": 656,
           "y": 400,
           "zOrder": 49,
           "numberProperties": [],
@@ -106124,7 +106775,7 @@
           "name": "Shadow_Bottem_Right",
           "persistentUuid": "f6950ba6-9a51-4dfe-8007-1582e1bd4f97",
           "width": 0,
-          "x": 480,
+          "x": 736,
           "y": 400,
           "zOrder": 50,
           "numberProperties": [],
@@ -106135,14 +106786,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 64,
+          "height": 80,
           "keepRatio": true,
           "layer": "",
           "name": "Wall_right",
           "persistentUuid": "b59cb266-9925-4d57-80f3-90342c091231",
           "width": 16,
-          "x": 480,
-          "y": 336,
+          "x": 736,
+          "y": 320,
           "zOrder": 51,
           "numberProperties": [],
           "stringProperties": [],
@@ -106158,7 +106809,7 @@
           "name": "Roof",
           "persistentUuid": "d822b1b0-d5d8-4313-8327-8206b73de8bf",
           "width": 112,
-          "x": 400,
+          "x": 656,
           "y": 432,
           "zOrder": 52,
           "numberProperties": [],
@@ -106175,7 +106826,7 @@
           "name": "Wall_right",
           "persistentUuid": "d39c8dcd-9f11-4be6-9fd1-7a3929d33310",
           "width": 16,
-          "x": 816,
+          "x": 1072,
           "y": 416,
           "zOrder": 55,
           "numberProperties": [],
@@ -106192,7 +106843,7 @@
           "name": "Floor",
           "persistentUuid": "96c7dd92-c888-4920-b106-73ea7f2903e7",
           "width": 112,
-          "x": 240,
+          "x": 496,
           "y": 256,
           "zOrder": 57,
           "numberProperties": [],
@@ -106208,7 +106859,7 @@
           "name": "Corner_bottem_left",
           "persistentUuid": "41d9a509-7daa-4ed7-83bd-f55c67328834",
           "width": 0,
-          "x": 224,
+          "x": 480,
           "y": 288,
           "zOrder": 58,
           "numberProperties": [],
@@ -106224,7 +106875,7 @@
           "name": "Corner_bottem_right",
           "persistentUuid": "0a0deb53-64e0-47da-b68f-add64b1646a2",
           "width": 0,
-          "x": 352,
+          "x": 608,
           "y": 288,
           "zOrder": 59,
           "numberProperties": [],
@@ -106241,7 +106892,7 @@
           "name": "Roof",
           "persistentUuid": "75becfd4-89fd-4da0-aba4-837df66da33f",
           "width": 112,
-          "x": 240,
+          "x": 496,
           "y": 288,
           "zOrder": 60,
           "numberProperties": [],
@@ -106257,7 +106908,7 @@
           "name": "Corner_top_left",
           "persistentUuid": "162e8da1-7cca-444c-89da-d5b90ee8de08",
           "width": 0,
-          "x": 224,
+          "x": 480,
           "y": 256,
           "zOrder": 61,
           "numberProperties": [],
@@ -106273,7 +106924,7 @@
           "name": "Corner_top_right",
           "persistentUuid": "2c836eea-cb24-4cf2-bc2a-2787e82382ef",
           "width": 0,
-          "x": 352,
+          "x": 608,
           "y": 256,
           "zOrder": 62,
           "numberProperties": [],
@@ -106289,7 +106940,7 @@
           "name": "Wall_right",
           "persistentUuid": "75304d02-2741-4ffb-8ec6-f26902a21b81",
           "width": 0,
-          "x": 224,
+          "x": 480,
           "y": 272,
           "zOrder": 63,
           "numberProperties": [],
@@ -106305,7 +106956,7 @@
           "name": "Wall_left",
           "persistentUuid": "f2045262-5f89-45e0-9b7b-dc4db7d22c22",
           "width": 0,
-          "x": 352,
+          "x": 608,
           "y": 272,
           "zOrder": 64,
           "numberProperties": [],
@@ -106322,7 +106973,7 @@
           "name": "Floor",
           "persistentUuid": "6ba6536d-5de6-4138-b3ad-3ce72929e663",
           "width": 96,
-          "x": 464,
+          "x": 720,
           "y": 160,
           "zOrder": 57,
           "numberProperties": [],
@@ -106338,7 +106989,7 @@
           "name": "Corner_bottem_left",
           "persistentUuid": "1b5ca085-d308-4a47-adaf-afc5a9daba1c",
           "width": 0,
-          "x": 448,
+          "x": 704,
           "y": 192,
           "zOrder": 58,
           "numberProperties": [],
@@ -106354,7 +107005,7 @@
           "name": "Corner_bottem_right",
           "persistentUuid": "524ff58d-7c3d-4a75-8907-d581d3360a4c",
           "width": 0,
-          "x": 560,
+          "x": 816,
           "y": 192,
           "zOrder": 59,
           "numberProperties": [],
@@ -106371,7 +107022,7 @@
           "name": "Roof",
           "persistentUuid": "28d324ea-11e7-45b8-b623-c1c9d8375d3e",
           "width": 96,
-          "x": 464,
+          "x": 720,
           "y": 192,
           "zOrder": 60,
           "numberProperties": [],
@@ -106387,7 +107038,7 @@
           "name": "Corner_top_left",
           "persistentUuid": "7deffc54-7990-49f3-b8c2-7f2229e3c86f",
           "width": 0,
-          "x": 448,
+          "x": 704,
           "y": 160,
           "zOrder": 61,
           "numberProperties": [],
@@ -106403,7 +107054,7 @@
           "name": "Corner_top_right",
           "persistentUuid": "88b533f0-707c-4388-9b36-5d313eec813b",
           "width": 0,
-          "x": 560,
+          "x": 816,
           "y": 160,
           "zOrder": 62,
           "numberProperties": [],
@@ -106419,7 +107070,7 @@
           "name": "Wall_right",
           "persistentUuid": "50fe2362-55fd-40fb-91f3-ea5ba6c57bd9",
           "width": 0,
-          "x": 448,
+          "x": 704,
           "y": 176,
           "zOrder": 63,
           "numberProperties": [],
@@ -106435,7 +107086,7 @@
           "name": "Wall_left",
           "persistentUuid": "1c473e7f-f263-4a7b-9005-77de93f2855f",
           "width": 0,
-          "x": 560,
+          "x": 816,
           "y": 176,
           "zOrder": 64,
           "numberProperties": [],
@@ -106451,7 +107102,7 @@
           "name": "Lever",
           "persistentUuid": "54aa25ff-7caf-474c-8c56-87c07777ca15",
           "width": 0,
-          "x": -176,
+          "x": 64,
           "y": 256,
           "zOrder": 65,
           "numberProperties": [],
@@ -106467,7 +107118,7 @@
           "name": "Lever",
           "persistentUuid": "e4c59b60-a2a6-4937-98b4-a4b0f4d7afe0",
           "width": 0,
-          "x": 784,
+          "x": 1040,
           "y": 464,
           "zOrder": 66,
           "numberProperties": [],
@@ -106484,7 +107135,7 @@
           "name": "Floor",
           "persistentUuid": "b9d5134a-860c-4249-a482-f0d41e1131ba",
           "width": 112,
-          "x": 256,
+          "x": 512,
           "y": 64,
           "zOrder": 57,
           "numberProperties": [],
@@ -106500,7 +107151,7 @@
           "name": "Corner_bottem_left",
           "persistentUuid": "7845abbb-96f7-4534-b05e-614a4f9f4b6f",
           "width": 0,
-          "x": 240,
+          "x": 496,
           "y": 96,
           "zOrder": 58,
           "numberProperties": [],
@@ -106516,7 +107167,7 @@
           "name": "Corner_bottem_right",
           "persistentUuid": "0a279dcc-39b8-4dd2-9f73-5e4fba4ea693",
           "width": 0,
-          "x": 368,
+          "x": 624,
           "y": 96,
           "zOrder": 59,
           "numberProperties": [],
@@ -106533,7 +107184,7 @@
           "name": "Roof",
           "persistentUuid": "ee6647e2-4588-4f9b-827e-007c87d59e72",
           "width": 112,
-          "x": 256,
+          "x": 512,
           "y": 96,
           "zOrder": 60,
           "numberProperties": [],
@@ -106549,7 +107200,7 @@
           "name": "Corner_top_left",
           "persistentUuid": "0e2978c0-8768-4b75-9fab-3f369b1e8450",
           "width": 0,
-          "x": 240,
+          "x": 496,
           "y": 64,
           "zOrder": 61,
           "numberProperties": [],
@@ -106565,7 +107216,7 @@
           "name": "Corner_top_right",
           "persistentUuid": "cf8528f4-dd6c-40e3-82f5-991340a128f6",
           "width": 0,
-          "x": 368,
+          "x": 624,
           "y": 64,
           "zOrder": 62,
           "numberProperties": [],
@@ -106581,7 +107232,7 @@
           "name": "Wall_right",
           "persistentUuid": "b068171d-da01-46de-a5b9-94dc3a253c60",
           "width": 0,
-          "x": 240,
+          "x": 496,
           "y": 80,
           "zOrder": 63,
           "numberProperties": [],
@@ -106597,7 +107248,7 @@
           "name": "Wall_left",
           "persistentUuid": "243a6f43-f586-419e-ab21-ff4c25ef88e9",
           "width": 0,
-          "x": 368,
+          "x": 624,
           "y": 80,
           "zOrder": 64,
           "numberProperties": [],
@@ -106613,7 +107264,7 @@
           "name": "Lever",
           "persistentUuid": "23ccbd61-b7b7-4226-a753-cc2a2a7ba84b",
           "width": 0,
-          "x": 304,
+          "x": 560,
           "y": 48,
           "zOrder": 67,
           "numberProperties": [],
@@ -106630,7 +107281,7 @@
           "name": "Floor",
           "persistentUuid": "2cb5ddf1-4bc7-487a-9a87-4093286706c9",
           "width": 48,
-          "x": 576,
+          "x": 832,
           "y": 480,
           "zOrder": 68,
           "numberProperties": [],
@@ -106646,7 +107297,7 @@
           "name": "Staris_Left",
           "persistentUuid": "fff9fb21-74e5-46f4-b968-c866ccb51855",
           "width": 0,
-          "x": 560,
+          "x": 816,
           "y": 480,
           "zOrder": 69,
           "numberProperties": [],
@@ -106662,7 +107313,7 @@
           "name": "Shadow_Bottem_Right",
           "persistentUuid": "a2b98697-e0a6-4ec4-8dc3-82624a2793ac",
           "width": 0,
-          "x": 560,
+          "x": 816,
           "y": 496,
           "zOrder": 70,
           "numberProperties": [],
@@ -106678,7 +107329,7 @@
           "name": "Staris_Left",
           "persistentUuid": "3cd9177f-9825-4edf-8937-9d05194fab1f",
           "width": 0,
-          "x": 544,
+          "x": 800,
           "y": 496,
           "zOrder": 69,
           "numberProperties": [],
@@ -106694,7 +107345,7 @@
           "name": "Shadow_Bottem_Right",
           "persistentUuid": "e0b0ca3d-a0bd-4dd7-a093-1be5394de18d",
           "width": 0,
-          "x": 544,
+          "x": 800,
           "y": 512,
           "zOrder": 70,
           "numberProperties": [],
@@ -106710,7 +107361,7 @@
           "name": "Staris_Left",
           "persistentUuid": "d7d11067-e735-460f-b11b-861a74fe004b",
           "width": 0,
-          "x": 528,
+          "x": 784,
           "y": 512,
           "zOrder": 69,
           "numberProperties": [],
@@ -106726,7 +107377,7 @@
           "name": "Shadow_Bottem_Right",
           "persistentUuid": "61284b37-edc9-4df6-bed5-a1849ac9423d",
           "width": 0,
-          "x": 528,
+          "x": 784,
           "y": 528,
           "zOrder": 70,
           "numberProperties": [],
@@ -106742,7 +107393,7 @@
           "name": "Staris_Top_Right",
           "persistentUuid": "e8d5048f-3bc9-465b-b672-2c1b2210a0e1",
           "width": 0,
-          "x": 512,
+          "x": 768,
           "y": 432,
           "zOrder": 71,
           "numberProperties": [],
@@ -106758,7 +107409,7 @@
           "name": "Shadow_Top_Right",
           "persistentUuid": "557a168b-3d34-4546-ad88-34045751b37f",
           "width": 0,
-          "x": 512,
+          "x": 768,
           "y": 416,
           "zOrder": 72,
           "numberProperties": [],
@@ -106774,7 +107425,7 @@
           "name": "Staris_Top_Right",
           "persistentUuid": "b1951e91-e30d-4075-93c6-994e16369a99",
           "width": 0,
-          "x": 528,
+          "x": 784,
           "y": 416,
           "zOrder": 71,
           "numberProperties": [],
@@ -106790,7 +107441,7 @@
           "name": "Shadow_Top_Right",
           "persistentUuid": "7029b1c7-4185-4b14-a16f-d48a246fd6e5",
           "width": 0,
-          "x": 528,
+          "x": 784,
           "y": 400,
           "zOrder": 72,
           "numberProperties": [],
@@ -106807,7 +107458,7 @@
           "name": "Roof",
           "persistentUuid": "f16f89e3-6ad7-4778-a98f-d363bc903780",
           "width": 272,
-          "x": 544,
+          "x": 800,
           "y": 400,
           "zOrder": 73,
           "numberProperties": [],
@@ -106823,7 +107474,7 @@
           "name": "Shadow_Top_Left",
           "persistentUuid": "edcb8028-ff2b-4aec-9fce-b45d2dd8d5a2",
           "width": 0,
-          "x": 816,
+          "x": 1072,
           "y": 400,
           "zOrder": 74,
           "numberProperties": [],
@@ -106839,7 +107490,7 @@
           "name": "Spikes",
           "persistentUuid": "08970e55-734a-4135-8707-b4c6dbe909c0",
           "width": 0,
-          "x": 208,
+          "x": 464,
           "y": 512,
           "zOrder": 76,
           "numberProperties": [],
@@ -106855,7 +107506,7 @@
           "name": "Spikes",
           "persistentUuid": "7247538f-b12d-40e6-9b5c-f3b3de351f22",
           "width": 0,
-          "x": 288,
+          "x": 544,
           "y": 512,
           "zOrder": 77,
           "numberProperties": [],
@@ -106871,7 +107522,7 @@
           "name": "Spikes",
           "persistentUuid": "76625461-b789-47fa-b3f4-322e990c274a",
           "width": 0,
-          "x": 384,
+          "x": 640,
           "y": 448,
           "zOrder": 78,
           "numberProperties": [],
@@ -106887,7 +107538,7 @@
           "name": "Spikes",
           "persistentUuid": "5b2951d6-305e-4bce-a579-e3e44fea69a8",
           "width": 0,
-          "x": 448,
+          "x": 704,
           "y": 448,
           "zOrder": 78,
           "numberProperties": [],
@@ -106903,7 +107554,7 @@
           "name": "Spikes",
           "persistentUuid": "a8c8a0ae-3606-4713-a780-491bc184c934",
           "width": 0,
-          "x": 416,
+          "x": 672,
           "y": 512,
           "zOrder": 77,
           "numberProperties": [],
@@ -106919,7 +107570,7 @@
           "name": "Spikes",
           "persistentUuid": "b1765618-2894-4489-84f5-e3e3b36f430c",
           "width": 0,
-          "x": 320,
+          "x": 560,
           "y": 512,
           "zOrder": 77,
           "numberProperties": [],
@@ -106936,7 +107587,7 @@
           "name": "Floor",
           "persistentUuid": "c91e51e2-b279-4ef6-b5a2-184a805708b5",
           "width": 128,
-          "x": 672,
+          "x": 928,
           "y": 288,
           "zOrder": 57,
           "numberProperties": [],
@@ -106953,7 +107604,7 @@
           "name": "Wall_right",
           "persistentUuid": "98ecc108-3e8f-4e4d-a69b-976feba1575a",
           "width": 16,
-          "x": 800,
+          "x": 1056,
           "y": 256,
           "zOrder": 51,
           "numberProperties": [],
@@ -106969,7 +107620,7 @@
           "name": "Corner_top_left",
           "persistentUuid": "12f416ae-365e-474c-98e9-d7bc03d082b8",
           "width": 0,
-          "x": 800,
+          "x": 1056,
           "y": 240,
           "zOrder": 61,
           "numberProperties": [],
@@ -106985,7 +107636,7 @@
           "name": "Shadow_Bottem_Right",
           "persistentUuid": "eca8dfe1-f210-4cc3-bac5-08bd157e2dfb",
           "width": 0,
-          "x": 800,
+          "x": 1056,
           "y": 288,
           "zOrder": 53,
           "numberProperties": [],
@@ -107001,41 +107652,9 @@
           "name": "Spikes",
           "persistentUuid": "d9ff6018-8563-49bf-82b0-abd8b66a893a",
           "width": 0,
-          "x": 768,
+          "x": 1024,
           "y": 272,
           "zOrder": 80,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Staris_Left",
-          "persistentUuid": "c07b442d-b274-4543-acf1-15e8ecca8943",
-          "width": 0,
-          "x": 496,
-          "y": 304,
-          "zOrder": 82,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Shadow_Bottem_Right",
-          "persistentUuid": "62412b2a-ab67-4599-99b4-102525f03a53",
-          "width": 0,
-          "x": 496,
-          "y": 320,
-          "zOrder": 83,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -107049,7 +107668,7 @@
           "name": "PTP_left",
           "persistentUuid": "f6ea0985-d6de-4ccb-ba16-929423f0bb71",
           "width": 0,
-          "x": 192,
+          "x": 448,
           "y": 440,
           "zOrder": 84,
           "numberProperties": [],
@@ -107065,7 +107684,7 @@
           "name": "PTP_right",
           "persistentUuid": "302ac167-6c95-4a6d-94ce-8f8cd9423490",
           "width": 0,
-          "x": 256,
+          "x": 512,
           "y": 440,
           "zOrder": 85,
           "numberProperties": [],
@@ -107081,7 +107700,7 @@
           "name": "Pass_through_platform",
           "persistentUuid": "833fb042-b1a0-4463-8061-36f67b13efad",
           "width": 0,
-          "x": 208,
+          "x": 464,
           "y": 440,
           "zOrder": 86,
           "numberProperties": [],
@@ -107099,7 +107718,7 @@
           "opacity": 0,
           "persistentUuid": "02a50a6a-151a-4053-88b7-495e051aff27",
           "width": 80,
-          "x": 192,
+          "x": 448,
           "y": 442,
           "zOrder": 87,
           "numberProperties": [],
@@ -107115,7 +107734,7 @@
           "name": "Shadow_Bottem_Left",
           "persistentUuid": "7e353a5f-ca79-46d1-a7ca-46aaf80234a9",
           "width": 0,
-          "x": 128,
+          "x": 384,
           "y": 480,
           "zOrder": 88,
           "numberProperties": [],
@@ -107131,7 +107750,7 @@
           "name": "Floor",
           "persistentUuid": "a30292bb-c15e-48c5-ae8e-c23d9ee2713b",
           "width": 0,
-          "x": 144,
+          "x": 400,
           "y": 480,
           "zOrder": 89,
           "numberProperties": [],
@@ -107147,7 +107766,7 @@
           "name": "Corner_top_right",
           "persistentUuid": "9d93c7c0-2292-44c9-a279-cd4b24aeaf57",
           "width": 0,
-          "x": 160,
+          "x": 416,
           "y": 480,
           "zOrder": 90,
           "numberProperties": [],
@@ -107164,7 +107783,7 @@
           "name": "Wall_left",
           "persistentUuid": "3994ef01-cedb-44ca-ab1d-ce584b9e1dec",
           "width": 16,
-          "x": 160,
+          "x": 416,
           "y": 496,
           "zOrder": 91,
           "numberProperties": [],
@@ -107181,7 +107800,7 @@
           "name": "Floor",
           "persistentUuid": "77d22a96-1d6d-4630-9000-7bcfb0015b25",
           "width": 112,
-          "x": 816,
+          "x": 1072,
           "y": 240,
           "zOrder": 92,
           "numberProperties": [],
@@ -107197,7 +107816,7 @@
           "name": "Moveing_platform",
           "persistentUuid": "d77acf69-775c-4f6b-abc8-f906e9e7f95e",
           "width": 0,
-          "x": 384,
+          "x": 640,
           "y": 96,
           "zOrder": 93,
           "numberProperties": [],
@@ -107211,9 +107830,10 @@
           "keepRatio": true,
           "layer": "",
           "name": "MP_stop_lower",
+          "opacity": 0,
           "persistentUuid": "19f28811-59d8-4964-b12f-78110a6c2419",
           "width": 0,
-          "x": 400,
+          "x": 656,
           "y": 384,
           "zOrder": 94,
           "numberProperties": [],
@@ -107227,9 +107847,10 @@
           "keepRatio": true,
           "layer": "",
           "name": "MP_stop_upper",
+          "opacity": 0,
           "persistentUuid": "85abcf1d-126e-4df4-a6dd-0ad8180a8e94",
           "width": 0,
-          "x": 400,
+          "x": 656,
           "y": 80,
           "zOrder": 95,
           "numberProperties": [],
@@ -107245,7 +107866,7 @@
           "name": "Moveing_platform",
           "persistentUuid": "638b09e3-b931-417c-9a7f-238baad4eeca",
           "width": 0,
-          "x": 432,
+          "x": 688,
           "y": 96,
           "zOrder": 93,
           "numberProperties": [],
@@ -107259,9 +107880,10 @@
           "keepRatio": true,
           "layer": "",
           "name": "MP_stop_lower",
+          "opacity": 0,
           "persistentUuid": "7ddefa0c-d2c1-4ee3-82f7-446155de3ec8",
           "width": 0,
-          "x": 448,
+          "x": 704,
           "y": 101,
           "zOrder": 94,
           "numberProperties": [],
@@ -107275,9 +107897,10 @@
           "keepRatio": true,
           "layer": "",
           "name": "MP_stop_upper",
+          "opacity": 0,
           "persistentUuid": "0b67254e-21c3-4c62-adb4-ca1861954726",
           "width": 0,
-          "x": 448,
+          "x": 704,
           "y": -203,
           "zOrder": 95,
           "numberProperties": [],
@@ -107294,9 +107917,9 @@
           "name": "Floor",
           "persistentUuid": "386ffd53-cac6-41fa-a3ed-b81b00e41124",
           "width": 48,
-          "x": 496,
-          "y": -187,
-          "zOrder": 57,
+          "x": 767,
+          "y": -172,
+          "zOrder": 1001,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -107310,9 +107933,9 @@
           "name": "Corner_bottem_left",
           "persistentUuid": "3fe24c17-bb10-41b1-afe3-f0450ce42261",
           "width": 0,
-          "x": 480,
-          "y": -155,
-          "zOrder": 58,
+          "x": 751,
+          "y": -140,
+          "zOrder": 1001,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -107326,9 +107949,9 @@
           "name": "Corner_bottem_right",
           "persistentUuid": "6b86b73d-49f0-4eae-8926-388d81fef525",
           "width": 0,
-          "x": 544,
-          "y": -155,
-          "zOrder": 59,
+          "x": 815,
+          "y": -140,
+          "zOrder": 1001,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -107343,9 +107966,9 @@
           "name": "Roof",
           "persistentUuid": "7a642e5f-9bca-4e0b-bf3d-c3919efab5ba",
           "width": 48,
-          "x": 496,
-          "y": -155,
-          "zOrder": 60,
+          "x": 767,
+          "y": -140,
+          "zOrder": 1001,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -107359,9 +107982,9 @@
           "name": "Corner_top_left",
           "persistentUuid": "32eb132c-33f0-4746-8c7a-2e58a3c45f03",
           "width": 0,
-          "x": 480,
-          "y": -187,
-          "zOrder": 61,
+          "x": 751,
+          "y": -172,
+          "zOrder": 1001,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -107375,9 +107998,9 @@
           "name": "Corner_top_right",
           "persistentUuid": "070c82c0-cd41-4e47-8bfc-4af8b1aa0e98",
           "width": 0,
-          "x": 544,
-          "y": -187,
-          "zOrder": 62,
+          "x": 815,
+          "y": -172,
+          "zOrder": 1001,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -107391,9 +108014,9 @@
           "name": "Wall_right",
           "persistentUuid": "eb0e9eba-3546-4dcb-b403-677d98e7d260",
           "width": 0,
-          "x": 480,
-          "y": -171,
-          "zOrder": 63,
+          "x": 751,
+          "y": -156,
+          "zOrder": 1001,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -107407,9 +108030,9 @@
           "name": "Wall_left",
           "persistentUuid": "c75a6d73-ce7b-4e02-b4d9-4e41a74f289e",
           "width": 0,
-          "x": 544,
-          "y": -171,
-          "zOrder": 64,
+          "x": 815,
+          "y": -156,
+          "zOrder": 1001,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -107424,7 +108047,7 @@
           "name": "Floor",
           "persistentUuid": "e872e805-54c9-444f-b52c-427982cc34c5",
           "width": 176,
-          "x": 640,
+          "x": 896,
           "y": -160,
           "zOrder": 57,
           "numberProperties": [],
@@ -107440,7 +108063,7 @@
           "name": "Corner_bottem_left",
           "persistentUuid": "899f8058-bf0c-4b13-be02-60fcb66c8fcc",
           "width": 0,
-          "x": 624,
+          "x": 880,
           "y": -128,
           "zOrder": 58,
           "numberProperties": [],
@@ -107457,7 +108080,7 @@
           "name": "Roof",
           "persistentUuid": "3e9ab087-7277-40a9-89d2-c8a27b95fc56",
           "width": 80,
-          "x": 640,
+          "x": 896,
           "y": -128,
           "zOrder": 60,
           "numberProperties": [],
@@ -107473,7 +108096,7 @@
           "name": "Corner_top_left",
           "persistentUuid": "36419c2c-52be-41b2-8022-847fe88107e6",
           "width": 0,
-          "x": 624,
+          "x": 880,
           "y": -160,
           "zOrder": 61,
           "numberProperties": [],
@@ -107489,7 +108112,7 @@
           "name": "Wall_right",
           "persistentUuid": "b729263d-c808-46d7-822b-c4cdd7f00e74",
           "width": 0,
-          "x": 624,
+          "x": 880,
           "y": -144,
           "zOrder": 63,
           "numberProperties": [],
@@ -107505,7 +108128,7 @@
           "name": "Staris_Top_Left",
           "persistentUuid": "5602c0ed-8eb8-46b0-9ed2-d1b62a92e42d",
           "width": 0,
-          "x": 720,
+          "x": 976,
           "y": -112,
           "zOrder": 96,
           "numberProperties": [],
@@ -107521,7 +108144,7 @@
           "name": "Staris_Right",
           "persistentUuid": "0d001c91-3a07-45a3-a108-2730639e874e",
           "width": 0,
-          "x": 768,
+          "x": 1024,
           "y": -112,
           "zOrder": 97,
           "numberProperties": [],
@@ -107537,7 +108160,7 @@
           "name": "Shadow_Top_Left",
           "persistentUuid": "835f648c-c118-4a7e-b700-3e06aacf7dc8",
           "width": 0,
-          "x": 720,
+          "x": 976,
           "y": -128,
           "zOrder": 98,
           "numberProperties": [],
@@ -107553,7 +108176,7 @@
           "name": "Shadow_Top_Left",
           "persistentUuid": "fe573d53-e33a-4f88-9531-96bc18e07d59",
           "width": 0,
-          "x": 736,
+          "x": 992,
           "y": -112,
           "zOrder": 99,
           "numberProperties": [],
@@ -107569,7 +108192,7 @@
           "name": "Staris_Right",
           "persistentUuid": "929a3851-9809-41d8-8bac-a8d3c2e1e70c",
           "width": 0,
-          "x": 784,
+          "x": 1040,
           "y": -96,
           "zOrder": 97,
           "numberProperties": [],
@@ -107585,7 +108208,7 @@
           "name": "Staris_Top_Left",
           "persistentUuid": "770bf44b-5391-4eca-afad-44ae396a2d08",
           "width": 0,
-          "x": 736,
+          "x": 992,
           "y": -96,
           "zOrder": 96,
           "numberProperties": [],
@@ -107601,7 +108224,7 @@
           "name": "Shadow_Top_Left",
           "persistentUuid": "f887a478-1d8b-49e5-a9ac-216a7ab43530",
           "width": 0,
-          "x": 752,
+          "x": 1008,
           "y": -96,
           "zOrder": 99,
           "numberProperties": [],
@@ -107617,7 +108240,7 @@
           "name": "Shadow_Bottem_Left",
           "persistentUuid": "6cba7157-65f6-4df3-9923-2fac025612a3",
           "width": 0,
-          "x": 768,
+          "x": 1024,
           "y": -96,
           "zOrder": 100,
           "numberProperties": [],
@@ -107633,7 +108256,7 @@
           "name": "Shadow_Bottem_Left",
           "persistentUuid": "f1494a24-1ef5-471f-8593-27b19b7c678a",
           "width": 0,
-          "x": 752,
+          "x": 1008,
           "y": -112,
           "zOrder": 100,
           "numberProperties": [],
@@ -107649,7 +108272,7 @@
           "name": "Shadow_Top_Right",
           "persistentUuid": "028a2443-4afb-4c1f-a8fa-ba8c739a4c4b",
           "width": 0,
-          "x": 752,
+          "x": 1008,
           "y": -128,
           "zOrder": 101,
           "numberProperties": [],
@@ -107666,7 +108289,7 @@
           "name": "Roof",
           "persistentUuid": "dd076a8e-f9d6-4e71-b141-19523a6a0237",
           "width": 96,
-          "x": 768,
+          "x": 1024,
           "y": -128,
           "zOrder": 102,
           "numberProperties": [],
@@ -107682,7 +108305,7 @@
           "name": "Staris_Top_Left",
           "persistentUuid": "d0407188-f241-4cf0-a9f3-2c5890d66b8a",
           "width": 0,
-          "x": 752,
+          "x": 1008,
           "y": -80,
           "zOrder": 96,
           "numberProperties": [],
@@ -107698,7 +108321,7 @@
           "name": "Staris_Right",
           "persistentUuid": "be68c84a-3a5f-425c-898a-82d00b9c1a54",
           "width": 0,
-          "x": 800,
+          "x": 1056,
           "y": -80,
           "zOrder": 97,
           "numberProperties": [],
@@ -107714,7 +108337,7 @@
           "name": "Shadow_Top_Left",
           "persistentUuid": "f6f7cafc-e31c-4378-a11f-409c6ed5f4c0",
           "width": 0,
-          "x": 768,
+          "x": 1024,
           "y": -80,
           "zOrder": 99,
           "numberProperties": [],
@@ -107730,7 +108353,7 @@
           "name": "Staris_Right",
           "persistentUuid": "c10d7f7f-510b-469d-9c95-a7b63b9a3279",
           "width": 0,
-          "x": 816,
+          "x": 1072,
           "y": -64,
           "zOrder": 97,
           "numberProperties": [],
@@ -107746,7 +108369,7 @@
           "name": "Staris_Top_Left",
           "persistentUuid": "74ae5f40-7d66-41ba-be07-2c33b0d0658a",
           "width": 0,
-          "x": 768,
+          "x": 1024,
           "y": -64,
           "zOrder": 96,
           "numberProperties": [],
@@ -107762,7 +108385,7 @@
           "name": "Shadow_Top_Left",
           "persistentUuid": "1e657e7e-0781-4b4c-9505-5ff8e36c098c",
           "width": 0,
-          "x": 784,
+          "x": 1040,
           "y": -64,
           "zOrder": 99,
           "numberProperties": [],
@@ -107778,7 +108401,7 @@
           "name": "Shadow_Bottem_Left",
           "persistentUuid": "04ffda4f-cb29-4c53-a2d5-1431865054ff",
           "width": 0,
-          "x": 800,
+          "x": 1056,
           "y": -64,
           "zOrder": 100,
           "numberProperties": [],
@@ -107794,7 +108417,7 @@
           "name": "Shadow_Bottem_Left",
           "persistentUuid": "4a87c7a6-9de0-4b28-8206-8fb3b68a3926",
           "width": 0,
-          "x": 784,
+          "x": 1040,
           "y": -80,
           "zOrder": 100,
           "numberProperties": [],
@@ -107810,7 +108433,7 @@
           "name": "Staris_Top_Left",
           "persistentUuid": "03d3db31-5479-477e-9377-29edcfb2319b",
           "width": 0,
-          "x": 784,
+          "x": 1040,
           "y": -48,
           "zOrder": 96,
           "numberProperties": [],
@@ -107826,7 +108449,7 @@
           "name": "Staris_Right",
           "persistentUuid": "e969b14e-8209-48ed-9360-46ea4e39f76e",
           "width": 0,
-          "x": 832,
+          "x": 1088,
           "y": -48,
           "zOrder": 97,
           "numberProperties": [],
@@ -107842,7 +108465,7 @@
           "name": "Shadow_Top_Left",
           "persistentUuid": "5cd8c75c-a195-4760-ae18-b9b66224095d",
           "width": 0,
-          "x": 800,
+          "x": 1056,
           "y": -48,
           "zOrder": 99,
           "numberProperties": [],
@@ -107858,7 +108481,7 @@
           "name": "Staris_Right",
           "persistentUuid": "726242fd-58f0-416f-9adc-dfc104d5f90e",
           "width": 0,
-          "x": 848,
+          "x": 1104,
           "y": -32,
           "zOrder": 97,
           "numberProperties": [],
@@ -107874,7 +108497,7 @@
           "name": "Staris_Top_Left",
           "persistentUuid": "969bc690-6777-42dd-b8f7-46ab4caf9806",
           "width": 0,
-          "x": 800,
+          "x": 1056,
           "y": -32,
           "zOrder": 96,
           "numberProperties": [],
@@ -107890,7 +108513,7 @@
           "name": "Shadow_Top_Left",
           "persistentUuid": "54223352-0dc1-4d1e-a118-be151e15e95b",
           "width": 0,
-          "x": 816,
+          "x": 1072,
           "y": -32,
           "zOrder": 99,
           "numberProperties": [],
@@ -107906,7 +108529,7 @@
           "name": "Shadow_Bottem_Left",
           "persistentUuid": "4fba5332-1fb9-4097-9e28-e93b2f44e171",
           "width": 0,
-          "x": 832,
+          "x": 1088,
           "y": -32,
           "zOrder": 100,
           "numberProperties": [],
@@ -107922,7 +108545,7 @@
           "name": "Shadow_Bottem_Left",
           "persistentUuid": "0fa94257-b493-4906-b8d8-dbb0f06edb6b",
           "width": 0,
-          "x": 816,
+          "x": 1072,
           "y": -48,
           "zOrder": 100,
           "numberProperties": [],
@@ -107938,7 +108561,7 @@
           "name": "Staris_Top_Left",
           "persistentUuid": "15222b24-433d-42f1-8bfc-8cb48739f326",
           "width": 0,
-          "x": 816,
+          "x": 1072,
           "y": -16,
           "zOrder": 96,
           "numberProperties": [],
@@ -107954,7 +108577,7 @@
           "name": "Shadow_Top_Left",
           "persistentUuid": "b1ac6325-fe06-43ae-b6d6-8b25717cadf1",
           "width": 0,
-          "x": 832,
+          "x": 1088,
           "y": -16,
           "zOrder": 99,
           "numberProperties": [],
@@ -107970,7 +108593,7 @@
           "name": "Staris_Top_Left",
           "persistentUuid": "6ab24915-d4d4-4d34-9165-65f7add8780f",
           "width": 0,
-          "x": 832,
+          "x": 1088,
           "y": 0,
           "zOrder": 96,
           "numberProperties": [],
@@ -107986,7 +108609,7 @@
           "name": "Shadow_Top_Left",
           "persistentUuid": "ace0a31f-2a98-425e-8916-60b9ce5d5cf7",
           "width": 0,
-          "x": 848,
+          "x": 1104,
           "y": 0,
           "zOrder": 99,
           "numberProperties": [],
@@ -108002,7 +108625,7 @@
           "name": "Staris_Top_Left",
           "persistentUuid": "f9c54759-3301-47c2-a977-961ac46ca225",
           "width": 0,
-          "x": 848,
+          "x": 1104,
           "y": 16,
           "zOrder": 103,
           "numberProperties": [],
@@ -108018,7 +108641,7 @@
           "name": "Shadow_Bottem_Left",
           "persistentUuid": "10f58eb8-832e-4bdf-a348-505870ca18f7",
           "width": 0,
-          "x": 848,
+          "x": 1104,
           "y": -16,
           "zOrder": 100,
           "numberProperties": [],
@@ -108035,7 +108658,7 @@
           "name": "Wall_right",
           "persistentUuid": "a1266400-979a-438a-a076-8097189e72dc",
           "width": 16,
-          "x": 864,
+          "x": 1120,
           "y": -112,
           "zOrder": 104,
           "numberProperties": [],
@@ -108051,7 +108674,7 @@
           "name": "Shadow_Bottem_Right",
           "persistentUuid": "def1f098-f562-4362-902e-6e0303c61b6c",
           "width": 0,
-          "x": 864,
+          "x": 1120,
           "y": -16,
           "zOrder": 105,
           "numberProperties": [],
@@ -108067,7 +108690,7 @@
           "name": "Shadow_Top_Left",
           "persistentUuid": "3d4b3f49-42c0-4ed4-a7fe-63aeafd86441",
           "width": 0,
-          "x": 864,
+          "x": 1120,
           "y": 16,
           "zOrder": 106,
           "numberProperties": [],
@@ -108084,7 +108707,7 @@
           "name": "Wall_right",
           "persistentUuid": "15c5f22d-beaf-46aa-b09f-0586d28e7812",
           "width": 16,
-          "x": 864,
+          "x": 1120,
           "y": 112,
           "zOrder": 104,
           "numberProperties": [],
@@ -108100,7 +108723,7 @@
           "name": "Shadow_Top_Left",
           "persistentUuid": "f2321e6d-7e6f-4955-a9dd-00783f161945",
           "width": 0,
-          "x": 864,
+          "x": 1120,
           "y": -128,
           "zOrder": 98,
           "numberProperties": [],
@@ -108116,7 +108739,7 @@
           "name": "Shadow_Bottem_Right",
           "persistentUuid": "5870bef2-fc56-47b7-98aa-4da5b3450a37",
           "width": 0,
-          "x": 816,
+          "x": 1072,
           "y": -160,
           "zOrder": 107,
           "numberProperties": [],
@@ -108132,7 +108755,7 @@
           "name": "Staris_Left",
           "persistentUuid": "d9ca89d9-6daa-48f7-9bfe-9d9cf70cda58",
           "width": 0,
-          "x": 816,
+          "x": 1072,
           "y": -176,
           "zOrder": 108,
           "numberProperties": [],
@@ -108148,7 +108771,7 @@
           "name": "Shadow_Bottem_Right",
           "persistentUuid": "30333e02-9239-484e-ad31-9d77a2a42a16",
           "width": 0,
-          "x": 832,
+          "x": 1088,
           "y": -176,
           "zOrder": 107,
           "numberProperties": [],
@@ -108164,7 +108787,7 @@
           "name": "Staris_Left",
           "persistentUuid": "cf477afe-9950-4a10-ba60-3e851224bc3e",
           "width": 0,
-          "x": 832,
+          "x": 1088,
           "y": -192,
           "zOrder": 108,
           "numberProperties": [],
@@ -108180,7 +108803,7 @@
           "name": "Shadow_Bottem_Right",
           "persistentUuid": "f86bbbe2-33ce-4332-8e2b-4b803f2800b7",
           "width": 0,
-          "x": 848,
+          "x": 1104,
           "y": -192,
           "zOrder": 107,
           "numberProperties": [],
@@ -108196,7 +108819,7 @@
           "name": "Staris_Left",
           "persistentUuid": "b603f069-59d8-438a-97f4-cc551c675862",
           "width": 0,
-          "x": 848,
+          "x": 1104,
           "y": -208,
           "zOrder": 108,
           "numberProperties": [],
@@ -108212,7 +108835,7 @@
           "name": "Shadow_Bottem_Right",
           "persistentUuid": "f5577645-bfe1-414f-8ca6-ef9d112e38e9",
           "width": 0,
-          "x": 864,
+          "x": 1120,
           "y": -208,
           "zOrder": 107,
           "numberProperties": [],
@@ -108228,7 +108851,7 @@
           "name": "Staris_Left",
           "persistentUuid": "88adbabf-6dac-473b-b33e-5640fcd2a809",
           "width": 0,
-          "x": 864,
+          "x": 1120,
           "y": -224,
           "zOrder": 108,
           "numberProperties": [],
@@ -108245,7 +108868,7 @@
           "name": "Floor",
           "persistentUuid": "6e4f516d-ef18-4b84-bdae-bc94bad32578",
           "width": 80,
-          "x": 880,
+          "x": 1136,
           "y": -224,
           "zOrder": 109,
           "numberProperties": [],
@@ -108262,7 +108885,7 @@
           "name": "Roof",
           "persistentUuid": "5188f4e6-4929-497d-b624-4e26628951d9",
           "width": 320,
-          "x": 240,
+          "x": 496,
           "y": -368,
           "zOrder": 112,
           "numberProperties": [],
@@ -108278,7 +108901,7 @@
           "name": "Shadow_Top_Left",
           "persistentUuid": "7016993c-2976-4d5e-9268-93eb381f8dfe",
           "width": 0,
-          "x": 1024,
+          "x": 1280,
           "y": -336,
           "zOrder": 113,
           "numberProperties": [],
@@ -108294,7 +108917,7 @@
           "name": "Corner_bottem_right",
           "persistentUuid": "a17b42df-fa9d-43c1-9743-55f8ffdd60a2",
           "width": 0,
-          "x": 224,
+          "x": 480,
           "y": -256,
           "zOrder": 114,
           "numberProperties": [],
@@ -108310,7 +108933,7 @@
           "name": "Shadow_Top_Right",
           "persistentUuid": "2f3ca867-6b4c-4206-8ef5-45a9d5f26776",
           "width": 0,
-          "x": 224,
+          "x": 480,
           "y": -368,
           "zOrder": 6,
           "numberProperties": [],
@@ -108327,7 +108950,7 @@
           "name": "Roof",
           "persistentUuid": "eb505414-a0f0-47fd-9c95-a1e1c417ab2a",
           "width": 96,
-          "x": 128,
+          "x": 384,
           "y": -256,
           "zOrder": 115,
           "numberProperties": [],
@@ -108344,7 +108967,7 @@
           "name": "Wall_left",
           "persistentUuid": "8c2f80f0-451b-4dc7-bae4-68476d9ed477",
           "width": 16,
-          "x": 224,
+          "x": 480,
           "y": -352,
           "zOrder": 116,
           "numberProperties": [],
@@ -108361,7 +108984,7 @@
           "name": "Floor",
           "persistentUuid": "3500eea5-9c7a-4b9c-8073-18f10e93b1a4",
           "width": 96,
-          "x": 128,
+          "x": 384,
           "y": -128,
           "zOrder": 57,
           "numberProperties": [],
@@ -108377,7 +109000,7 @@
           "name": "Corner_bottem_right",
           "persistentUuid": "7d4b5ee1-1bae-477b-b5e9-a885b308e3b9",
           "width": 0,
-          "x": 224,
+          "x": 480,
           "y": -96,
           "zOrder": 59,
           "numberProperties": [],
@@ -108394,7 +109017,7 @@
           "name": "Roof",
           "persistentUuid": "cff0c555-2e23-4ae8-b91c-d76a6a10c047",
           "width": 96,
-          "x": 128,
+          "x": 384,
           "y": -96,
           "zOrder": 60,
           "numberProperties": [],
@@ -108410,7 +109033,7 @@
           "name": "Corner_top_right",
           "persistentUuid": "7fee7fdd-7107-4367-b008-79402f085635",
           "width": 0,
-          "x": 224,
+          "x": 480,
           "y": -128,
           "zOrder": 62,
           "numberProperties": [],
@@ -108426,7 +109049,7 @@
           "name": "Wall_left",
           "persistentUuid": "4a8ac138-693b-4e3e-826d-051de2c3f512",
           "width": 0,
-          "x": 224,
+          "x": 480,
           "y": -112,
           "zOrder": 64,
           "numberProperties": [],
@@ -108443,7 +109066,7 @@
           "name": "Wall_left",
           "persistentUuid": "f7f38776-84d7-42ba-9fed-d8c781b0193a",
           "width": 16,
-          "x": 112,
+          "x": 368,
           "y": -240,
           "zOrder": 5,
           "numberProperties": [],
@@ -108459,7 +109082,7 @@
           "name": "Shadow_Top_Right",
           "persistentUuid": "988344ab-539e-4467-aa91-e715115bbb2d",
           "width": 0,
-          "x": 112,
+          "x": 368,
           "y": -96,
           "zOrder": 117,
           "numberProperties": [],
@@ -108475,7 +109098,7 @@
           "name": "Shadow_Bottem_Left",
           "persistentUuid": "1b464160-e4d1-4ddf-b39b-2de50e093294",
           "width": 0,
-          "x": 112,
+          "x": 368,
           "y": -128,
           "zOrder": 118,
           "numberProperties": [],
@@ -108491,7 +109114,7 @@
           "name": "Chest",
           "persistentUuid": "20ebe191-7f81-48e0-8305-4e59365fd7a1",
           "width": 0,
-          "x": 176,
+          "x": 432,
           "y": -144,
           "zOrder": 119,
           "numberProperties": [],
@@ -108513,7 +109136,7 @@
           "name": "PTP_left",
           "persistentUuid": "8ff67f29-d133-4a04-85f5-1fe946c5f073",
           "width": 0,
-          "x": 304,
+          "x": 560,
           "y": 400,
           "zOrder": 84,
           "numberProperties": [],
@@ -108529,7 +109152,7 @@
           "name": "PTP_right",
           "persistentUuid": "d72e31c0-0d8a-4c81-9ce2-cd1ee30fa601",
           "width": 0,
-          "x": 368,
+          "x": 624,
           "y": 400,
           "zOrder": 85,
           "numberProperties": [],
@@ -108545,7 +109168,7 @@
           "name": "Pass_through_platform",
           "persistentUuid": "74a68dfe-0275-4acb-a42e-7ec3654e4ae3",
           "width": 0,
-          "x": 320,
+          "x": 576,
           "y": 400,
           "zOrder": 86,
           "numberProperties": [],
@@ -108563,7 +109186,7 @@
           "opacity": 0,
           "persistentUuid": "2aa50722-ef4a-4aa2-b30c-37c75ed9b2ac",
           "width": 80,
-          "x": 304,
+          "x": 560,
           "y": 402,
           "zOrder": 87,
           "numberProperties": [],
@@ -108579,7 +109202,7 @@
           "name": "PTP_left",
           "persistentUuid": "7b28ba5f-b3ce-4676-b57a-eb33116b44ba",
           "width": 0,
-          "x": 304,
+          "x": 560,
           "y": -160,
           "zOrder": 84,
           "numberProperties": [],
@@ -108595,7 +109218,7 @@
           "name": "PTP_right",
           "persistentUuid": "54bb0ea2-c0b5-411d-a63a-cec6b8d6f192",
           "width": 0,
-          "x": 368,
+          "x": 624,
           "y": -160,
           "zOrder": 85,
           "numberProperties": [],
@@ -108611,7 +109234,7 @@
           "name": "Pass_through_platform",
           "persistentUuid": "8a0987b2-eb9d-4f4e-a3f2-fad81ca8bf62",
           "width": 0,
-          "x": 320,
+          "x": 576,
           "y": -160,
           "zOrder": 86,
           "numberProperties": [],
@@ -108629,7 +109252,7 @@
           "opacity": 0,
           "persistentUuid": "bc3e6851-7441-434d-94ad-48f78cc2770d",
           "width": 80,
-          "x": 304,
+          "x": 560,
           "y": -158,
           "zOrder": 87,
           "numberProperties": [],
@@ -108645,7 +109268,7 @@
           "name": "coin",
           "persistentUuid": "8e3f6fba-0a64-45ed-9401-a10ebd7aa2f8",
           "width": 0,
-          "x": 200,
+          "x": 456,
           "y": -136,
           "zOrder": 120,
           "numberProperties": [],
@@ -108661,7 +109284,7 @@
           "name": "coin",
           "persistentUuid": "19bdde82-17e9-4e74-a778-fdd9b4935d4c",
           "width": 0,
-          "x": 208,
+          "x": 464,
           "y": -136,
           "zOrder": 120,
           "numberProperties": [],
@@ -108677,7 +109300,7 @@
           "name": "coin",
           "persistentUuid": "b6ee07dc-4296-40f9-a9b0-e0a5401653cb",
           "width": 0,
-          "x": 152,
+          "x": 408,
           "y": -136,
           "zOrder": 120,
           "numberProperties": [],
@@ -108693,7 +109316,7 @@
           "name": "coin",
           "persistentUuid": "be6f17b7-ca5a-4185-9aa1-745aadfe7e50",
           "width": 0,
-          "x": 160,
+          "x": 416,
           "y": -136,
           "zOrder": 120,
           "numberProperties": [],
@@ -108709,7 +109332,7 @@
           "name": "coin",
           "persistentUuid": "e722e22a-1cbd-4ccd-95d1-0b152b4411e8",
           "width": 0,
-          "x": 155,
+          "x": 411,
           "y": -143,
           "zOrder": 120,
           "numberProperties": [],
@@ -108725,7 +109348,7 @@
           "name": "coin",
           "persistentUuid": "cfb4dc2c-6008-4a08-9222-143b3f9fd677",
           "width": 0,
-          "x": 136,
+          "x": 392,
           "y": -136,
           "zOrder": 120,
           "numberProperties": [],
@@ -108741,7 +109364,7 @@
           "name": "coin",
           "persistentUuid": "bed7c14c-9538-41ff-8cb6-511a48b13067",
           "width": 0,
-          "x": 144,
+          "x": 400,
           "y": -136,
           "zOrder": 120,
           "numberProperties": [],
@@ -108757,7 +109380,7 @@
           "name": "coin",
           "persistentUuid": "681b44ab-4389-48fa-a4ba-a0ba77060512",
           "width": 0,
-          "x": 139,
+          "x": 395,
           "y": -143,
           "zOrder": 120,
           "numberProperties": [],
@@ -108773,7 +109396,7 @@
           "name": "coin",
           "persistentUuid": "a38fefb1-1084-4ea4-a7a8-5acadf969af6",
           "width": 0,
-          "x": 128,
+          "x": 384,
           "y": -136,
           "zOrder": 120,
           "numberProperties": [],
@@ -108789,7 +109412,7 @@
           "name": "coin",
           "persistentUuid": "5019e018-4a37-4a3b-8485-1e46633ac3e3",
           "width": 0,
-          "x": 147,
+          "x": 403,
           "y": -143,
           "zOrder": 120,
           "numberProperties": [],
@@ -108805,7 +109428,7 @@
           "name": "coin",
           "persistentUuid": "4d7f34fb-b279-4754-b257-3c675bf46942",
           "width": 0,
-          "x": 152,
+          "x": 408,
           "y": -149,
           "zOrder": 120,
           "numberProperties": [],
@@ -108821,7 +109444,7 @@
           "name": "coin",
           "persistentUuid": "f299961d-033f-44e9-bab3-dd237ba4c85a",
           "width": 0,
-          "x": 205,
+          "x": 461,
           "y": -142,
           "zOrder": 120,
           "numberProperties": [],
@@ -108837,7 +109460,7 @@
           "name": "coin",
           "persistentUuid": "9ee6c929-ece6-4562-b2c7-17fb717c1c97",
           "width": 0,
-          "x": 223,
+          "x": 479,
           "y": -136,
           "zOrder": 120,
           "numberProperties": [],
@@ -108853,7 +109476,7 @@
           "name": "Lever",
           "persistentUuid": "74042494-330a-4429-ad80-eb7beaeb3f60",
           "width": 0,
-          "x": 912,
+          "x": 1168,
           "y": -240,
           "zOrder": 121,
           "numberProperties": [],
@@ -108869,7 +109492,7 @@
           "name": "Corner_bottem_left",
           "persistentUuid": "38b51c2c-22eb-472d-a8d0-66e772f4bd39",
           "width": 0,
-          "x": 864,
+          "x": 1120,
           "y": 176,
           "zOrder": 122,
           "numberProperties": [],
@@ -108886,7 +109509,7 @@
           "name": "Roof",
           "persistentUuid": "f5f40a13-7c06-4b4b-9405-8005a5dbb941",
           "width": 144,
-          "x": 912,
+          "x": 1168,
           "y": 128,
           "zOrder": 123,
           "numberProperties": [],
@@ -108901,9 +109524,10 @@
           "keepRatio": true,
           "layer": "",
           "name": "Right_exit",
+          "opacity": 0,
           "persistentUuid": "f4205115-fda0-403b-bf47-7d92eea31dda",
           "width": 32,
-          "x": 1520,
+          "x": 1808,
           "y": 144,
           "zOrder": 124,
           "numberProperties": [],
@@ -108919,7 +109543,7 @@
           "name": "SideGate",
           "persistentUuid": "f3148d51-eca2-4f18-ac62-30b0cda65346",
           "width": 0,
-          "x": 880,
+          "x": 1136,
           "y": 192,
           "zOrder": 125,
           "numberProperties": [],
@@ -108935,7 +109559,7 @@
           "name": "Corner_bottem_right",
           "persistentUuid": "4499fb9f-e4e0-4191-9d18-8ceb190e487a",
           "width": 0,
-          "x": 896,
+          "x": 1152,
           "y": 176,
           "zOrder": 126,
           "numberProperties": [],
@@ -108951,7 +109575,7 @@
           "name": "Roof",
           "persistentUuid": "7ca4c506-095b-4b21-bb7e-200e6f12c95e",
           "width": 0,
-          "x": 880,
+          "x": 1136,
           "y": 176,
           "zOrder": 127,
           "numberProperties": [],
@@ -108968,7 +109592,7 @@
           "name": "Wall_left",
           "persistentUuid": "a03f5720-9819-4a25-b85d-851003598900",
           "width": 16,
-          "x": 896,
+          "x": 1152,
           "y": 144,
           "zOrder": 128,
           "numberProperties": [],
@@ -108984,7 +109608,7 @@
           "name": "Shadow_Top_Right",
           "persistentUuid": "fe17a3e8-8a73-426a-922e-d3e7c2eb5423",
           "width": 0,
-          "x": 896,
+          "x": 1152,
           "y": 128,
           "zOrder": 129,
           "numberProperties": [],
@@ -108998,9 +109622,10 @@
           "keepRatio": true,
           "layer": "",
           "name": "MP_stop_lower",
+          "opacity": 0,
           "persistentUuid": "faf631eb-91be-48bf-893e-d1d92883ba5b",
           "width": 0,
-          "x": 880,
+          "x": 1136,
           "y": 240,
           "zOrder": 130,
           "numberProperties": [],
@@ -109014,9 +109639,10 @@
           "keepRatio": true,
           "layer": "",
           "name": "MP_stop_upper",
+          "opacity": 0,
           "persistentUuid": "f8395b9e-e080-4ca5-99fc-d17a1e5d48a4",
           "width": 0,
-          "x": 880,
+          "x": 1136,
           "y": 144,
           "zOrder": 131,
           "numberProperties": [],
@@ -109030,9 +109656,10 @@
           "keepRatio": true,
           "layer": "",
           "name": "Trap_position",
+          "opacity": 0,
           "persistentUuid": "9cbe6e80-38d7-4633-8610-de6c8f80e5f4",
           "width": 0,
-          "x": 928,
+          "x": 1184,
           "y": 240,
           "zOrder": 132,
           "numberProperties": [],
@@ -109049,7 +109676,7 @@
           "name": "Floor",
           "persistentUuid": "9d159cb2-fe4b-41c1-b666-0d7291ccc5c2",
           "width": 16,
-          "x": 1072,
+          "x": 1328,
           "y": 240,
           "zOrder": 133,
           "numberProperties": [],
@@ -109063,9 +109690,10 @@
           "keepRatio": true,
           "layer": "",
           "name": "Trap_position",
+          "opacity": 0,
           "persistentUuid": "e9d991fd-b6cd-4120-9721-aa9c2a5527e7",
           "width": 0,
-          "x": 624,
+          "x": 880,
           "y": 480,
           "zOrder": 132,
           "numberProperties": [],
@@ -109082,7 +109710,7 @@
           "name": "Floor",
           "persistentUuid": "f198c7c8-fad4-402f-8c9c-9e9d1d8ee5d9",
           "width": 48,
-          "x": 768,
+          "x": 1024,
           "y": 480,
           "zOrder": 133,
           "numberProperties": [],
@@ -109098,7 +109726,7 @@
           "name": "Shadow_Bottem_Right",
           "persistentUuid": "fdfde3d2-2099-499b-82f8-06465865d736",
           "width": 0,
-          "x": 816,
+          "x": 1072,
           "y": 480,
           "zOrder": 134,
           "numberProperties": [],
@@ -109114,7 +109742,7 @@
           "name": "PTP_left",
           "persistentUuid": "3c98b316-bd12-42cb-a4fc-c6dff9c6f447",
           "width": 0,
-          "x": 608,
+          "x": 864,
           "y": 144,
           "zOrder": 84,
           "numberProperties": [],
@@ -109130,7 +109758,7 @@
           "name": "PTP_right",
           "persistentUuid": "2f812b25-f212-4c20-8674-89e1cac4e258",
           "width": 0,
-          "x": 672,
+          "x": 928,
           "y": 144,
           "zOrder": 85,
           "numberProperties": [],
@@ -109146,7 +109774,7 @@
           "name": "Pass_through_platform",
           "persistentUuid": "06460ae1-c241-4589-864c-ed652558ad41",
           "width": 0,
-          "x": 624,
+          "x": 880,
           "y": 144,
           "zOrder": 86,
           "numberProperties": [],
@@ -109164,7 +109792,7 @@
           "opacity": 0,
           "persistentUuid": "54d06a46-ce5f-410f-b66a-83f75c668fbf",
           "width": 80,
-          "x": 608,
+          "x": 864,
           "y": 146,
           "zOrder": 87,
           "numberProperties": [],
@@ -109180,7 +109808,7 @@
           "name": "PTP_left",
           "persistentUuid": "24f4765a-eaf7-4558-a147-071b92bc50d9",
           "width": 0,
-          "x": 752,
+          "x": 1008,
           "y": 120,
           "zOrder": 84,
           "numberProperties": [],
@@ -109196,7 +109824,7 @@
           "name": "PTP_right",
           "persistentUuid": "9f9fe1a3-fede-46f9-a6b5-32f0fc95e3ee",
           "width": 0,
-          "x": 816,
+          "x": 1072,
           "y": 120,
           "zOrder": 85,
           "numberProperties": [],
@@ -109212,7 +109840,7 @@
           "name": "Pass_through_platform",
           "persistentUuid": "ac96e135-007c-44fc-9aa4-f6903967f3d2",
           "width": 0,
-          "x": 768,
+          "x": 1024,
           "y": 120,
           "zOrder": 86,
           "numberProperties": [],
@@ -109230,7 +109858,7 @@
           "opacity": 0,
           "persistentUuid": "9424226d-9445-40e2-80b9-b6fb567999a6",
           "width": 80,
-          "x": 752,
+          "x": 1008,
           "y": 122,
           "zOrder": 87,
           "numberProperties": [],
@@ -109246,7 +109874,7 @@
           "name": "Corner_top_left",
           "persistentUuid": "214a27c0-bed1-4fb5-97b5-865e74f46b49",
           "width": 0,
-          "x": 864,
+          "x": 1120,
           "y": 96,
           "zOrder": 61,
           "numberProperties": [],
@@ -109263,7 +109891,7 @@
           "name": "Floor",
           "persistentUuid": "15d00ad5-ea99-4f01-b88a-c0cb32c79261",
           "width": 144,
-          "x": 880,
+          "x": 1136,
           "y": 96,
           "zOrder": 92,
           "numberProperties": [],
@@ -109279,7 +109907,7 @@
           "name": "Corner_bottem_left",
           "persistentUuid": "affff567-b9f3-4263-a9a5-a0607064dcad",
           "width": 0,
-          "x": 864,
+          "x": 1120,
           "y": 32,
           "zOrder": 135,
           "numberProperties": [],
@@ -109296,7 +109924,7 @@
           "name": "Roof",
           "persistentUuid": "2936a369-560d-4808-bb8b-8164b8485e3b",
           "width": 80,
-          "x": 880,
+          "x": 1136,
           "y": 32,
           "zOrder": 136,
           "numberProperties": [],
@@ -109312,7 +109940,7 @@
           "name": "Lever",
           "persistentUuid": "cf6c441f-f05b-4ec2-8c10-e5433ce20d59",
           "width": 0,
-          "x": 944,
+          "x": 1200,
           "y": 80,
           "zOrder": 137,
           "numberProperties": [],
@@ -109328,7 +109956,7 @@
           "name": "Break_box",
           "persistentUuid": "8ed8943d-306b-4ff0-a7b1-9006ae69969e",
           "width": 0,
-          "x": 912,
+          "x": 1168,
           "y": 80,
           "zOrder": 138,
           "numberProperties": [],
@@ -109344,7 +109972,7 @@
           "name": "Break_box",
           "persistentUuid": "670687be-3d61-459e-a20c-30d1e4614485",
           "width": 0,
-          "x": 896,
+          "x": 1152,
           "y": 80,
           "zOrder": 138,
           "numberProperties": [],
@@ -109360,7 +109988,7 @@
           "name": "Break_box",
           "persistentUuid": "0e337069-79c3-414a-baa3-30c14be2db76",
           "width": 0,
-          "x": 912,
+          "x": 1168,
           "y": 64,
           "zOrder": 138,
           "numberProperties": [],
@@ -109376,7 +110004,7 @@
           "name": "Break_box",
           "persistentUuid": "147c9bd4-0cbf-48b0-b054-4a710460d546",
           "width": 0,
-          "x": 880,
+          "x": 1136,
           "y": 80,
           "zOrder": 138,
           "numberProperties": [],
@@ -109392,7 +110020,7 @@
           "name": "Break_box",
           "persistentUuid": "2f651d0a-dc31-4974-bf2f-16faed09da22",
           "width": 0,
-          "x": 896,
+          "x": 1152,
           "y": 64,
           "zOrder": 138,
           "numberProperties": [],
@@ -109408,7 +110036,7 @@
           "name": "Break_box",
           "persistentUuid": "de8d4f5e-46b8-45db-89ff-c6917c8918b6",
           "width": 0,
-          "x": 928,
+          "x": 1184,
           "y": 80,
           "zOrder": 138,
           "numberProperties": [],
@@ -109424,7 +110052,7 @@
           "name": "Break_box",
           "persistentUuid": "3f49a7f9-a152-4111-bf2c-21d06113750d",
           "width": 0,
-          "x": 912,
+          "x": 1168,
           "y": 48,
           "zOrder": 138,
           "numberProperties": [],
@@ -109440,7 +110068,7 @@
           "name": "Break_box",
           "persistentUuid": "8702ffa5-f1ec-4a9b-9194-ad902d661636",
           "width": 0,
-          "x": 928,
+          "x": 1184,
           "y": 64,
           "zOrder": 138,
           "numberProperties": [],
@@ -109456,7 +110084,7 @@
           "name": "Break_box",
           "persistentUuid": "20112d9d-0135-4676-8990-cd85661d2d2b",
           "width": 0,
-          "x": 944,
+          "x": 1200,
           "y": 80,
           "zOrder": 138,
           "numberProperties": [],
@@ -109472,7 +110100,7 @@
           "name": "Break_box",
           "persistentUuid": "6650a4b8-d149-4854-9c96-efd25c9c1435",
           "width": 0,
-          "x": 944,
+          "x": 1200,
           "y": 64,
           "zOrder": 138,
           "numberProperties": [],
@@ -109488,7 +110116,7 @@
           "name": "Break_box",
           "persistentUuid": "6572680f-bf46-41ed-886a-b2dcc8feafa1",
           "width": 0,
-          "x": 960,
+          "x": 1216,
           "y": 80,
           "zOrder": 138,
           "numberProperties": [],
@@ -109504,7 +110132,7 @@
           "name": "Break_box",
           "persistentUuid": "aa6f1c00-dcd7-4da7-b75a-f401bd1f2a83",
           "width": 0,
-          "x": 960,
+          "x": 1216,
           "y": 48,
           "zOrder": 138,
           "numberProperties": [],
@@ -109520,7 +110148,7 @@
           "name": "Break_box",
           "persistentUuid": "c19dc90e-9c6b-4dec-be3e-5e36a12d1aad",
           "width": 0,
-          "x": 944,
+          "x": 1200,
           "y": 48,
           "zOrder": 138,
           "numberProperties": [],
@@ -109536,7 +110164,7 @@
           "name": "Break_box",
           "persistentUuid": "6c84c374-9a7e-4803-9b4a-2afab8b16b3a",
           "width": 0,
-          "x": 928,
+          "x": 1184,
           "y": 48,
           "zOrder": 138,
           "numberProperties": [],
@@ -109552,7 +110180,7 @@
           "name": "Break_box",
           "persistentUuid": "c6e475df-f889-4541-825c-5bcd83550847",
           "width": 0,
-          "x": 960,
+          "x": 1216,
           "y": 64,
           "zOrder": 138,
           "numberProperties": [],
@@ -109569,7 +110197,7 @@
           "name": "Wall_right",
           "persistentUuid": "48871e48-e9a9-4480-abdf-628202d74a65",
           "width": 16,
-          "x": 1024,
+          "x": 1280,
           "y": -320,
           "zOrder": 139,
           "numberProperties": [],
@@ -109585,7 +110213,7 @@
           "name": "Shadow_Bottem_Right",
           "persistentUuid": "c8df7f3f-6413-49c8-895c-74dbebd51774",
           "width": 0,
-          "x": 1024,
+          "x": 1280,
           "y": 96,
           "zOrder": 140,
           "numberProperties": [],
@@ -109601,7 +110229,7 @@
           "name": "Lever_sign",
           "persistentUuid": "46980323-528a-437a-ae10-82f60bcc4764",
           "width": 0,
-          "x": 864,
+          "x": 1120,
           "y": 80,
           "zOrder": 142,
           "numberProperties": [],
@@ -109617,8 +110245,8 @@
           "name": "Lever_sign",
           "persistentUuid": "a9740dd9-0f57-4d09-9da7-7dcfd96525c8",
           "width": 0,
-          "x": 528,
-          "y": -203,
+          "x": 784,
+          "y": -188,
           "zOrder": 142,
           "numberProperties": [],
           "stringProperties": [],
@@ -109633,7 +110261,7 @@
           "name": "Shadow_Top_Left",
           "persistentUuid": "d6155f4b-5804-4e19-81e0-72e63c366dac",
           "width": 0,
-          "x": 560,
+          "x": 816,
           "y": -368,
           "zOrder": 113,
           "numberProperties": [],
@@ -109650,7 +110278,7 @@
           "name": "Wall_right",
           "persistentUuid": "00ced5e6-677c-404c-8079-23ea6ab848a1",
           "width": 16,
-          "x": 560,
+          "x": 816,
           "y": -352,
           "zOrder": 143,
           "numberProperties": [],
@@ -109666,7 +110294,7 @@
           "name": "Staris_Top_Left",
           "persistentUuid": "0cd34058-c462-4513-9240-ac85724a6b09",
           "width": 0,
-          "x": 560,
+          "x": 816,
           "y": -288,
           "zOrder": 144,
           "numberProperties": [],
@@ -109682,7 +110310,7 @@
           "name": "Staris_Top_Left",
           "persistentUuid": "f0a2e11e-b3df-4ec3-88bd-60ccd2c37c07",
           "width": 0,
-          "x": 576,
+          "x": 832,
           "y": -272,
           "zOrder": 144,
           "numberProperties": [],
@@ -109698,7 +110326,7 @@
           "name": "Shadow_Top_Left",
           "persistentUuid": "5e920bcb-fb38-4738-bf7a-bbfbf1512f94",
           "width": 0,
-          "x": 576,
+          "x": 832,
           "y": -288,
           "zOrder": 145,
           "numberProperties": [],
@@ -109714,7 +110342,7 @@
           "name": "Staris_Top_Left",
           "persistentUuid": "a17a73d9-46c1-44c3-8939-e95e1035ff97",
           "width": 0,
-          "x": 592,
+          "x": 848,
           "y": -256,
           "zOrder": 144,
           "numberProperties": [],
@@ -109730,7 +110358,7 @@
           "name": "Shadow_Top_Left",
           "persistentUuid": "b739d6d8-fe77-4343-8203-80c2769647f6",
           "width": 0,
-          "x": 592,
+          "x": 848,
           "y": -272,
           "zOrder": 145,
           "numberProperties": [],
@@ -109747,7 +110375,7 @@
           "name": "Roof",
           "persistentUuid": "510986c6-ac3d-488e-bfc1-8f7a8a425785",
           "width": 160,
-          "x": 608,
+          "x": 864,
           "y": -256,
           "zOrder": 146,
           "numberProperties": [],
@@ -109763,7 +110391,7 @@
           "name": "Staris_Top_Right",
           "persistentUuid": "0e7666ee-2e8b-44d0-a46b-e4a01ea8bf14",
           "width": 0,
-          "x": 768,
+          "x": 1024,
           "y": -256,
           "zOrder": 147,
           "numberProperties": [],
@@ -109779,7 +110407,7 @@
           "name": "Shadow_Top_Right",
           "persistentUuid": "87e50f22-9869-4724-90d7-27b740490eb3",
           "width": 0,
-          "x": 768,
+          "x": 1024,
           "y": -272,
           "zOrder": 148,
           "numberProperties": [],
@@ -109795,7 +110423,7 @@
           "name": "Staris_Top_Right",
           "persistentUuid": "51d77a82-933d-4dfa-9ab7-27e5a4023c69",
           "width": 0,
-          "x": 784,
+          "x": 1040,
           "y": -272,
           "zOrder": 147,
           "numberProperties": [],
@@ -109811,7 +110439,7 @@
           "name": "Shadow_Top_Right",
           "persistentUuid": "d2290724-e87b-431b-8215-1cb7036c66f3",
           "width": 0,
-          "x": 784,
+          "x": 1040,
           "y": -288,
           "zOrder": 148,
           "numberProperties": [],
@@ -109827,7 +110455,7 @@
           "name": "Staris_Top_Right",
           "persistentUuid": "9ea01052-49d6-43e5-a3d0-31a5ddbc481f",
           "width": 0,
-          "x": 800,
+          "x": 1056,
           "y": -288,
           "zOrder": 147,
           "numberProperties": [],
@@ -109844,7 +110472,7 @@
           "name": "Roof",
           "persistentUuid": "5f38272b-e9c4-4795-8000-891a774ec502",
           "width": 176,
-          "x": 848,
+          "x": 1104,
           "y": -336,
           "zOrder": 151,
           "numberProperties": [],
@@ -109860,7 +110488,7 @@
           "name": "Shadow_Top_Right",
           "persistentUuid": "87edd76a-4c0c-4b74-9da1-efe8a0f3e1a7",
           "width": 0,
-          "x": 800,
+          "x": 1056,
           "y": -304,
           "zOrder": 148,
           "numberProperties": [],
@@ -109876,7 +110504,7 @@
           "name": "Staris_Top_Right",
           "persistentUuid": "44c18ed2-8df6-4f5f-bdb7-12b1e70fe06b",
           "width": 0,
-          "x": 816,
+          "x": 1072,
           "y": -304,
           "zOrder": 147,
           "numberProperties": [],
@@ -109892,7 +110520,7 @@
           "name": "Shadow_Top_Right",
           "persistentUuid": "15a6bbfa-b7e6-4a40-9c70-b813e9af602e",
           "width": 0,
-          "x": 816,
+          "x": 1072,
           "y": -320,
           "zOrder": 148,
           "numberProperties": [],
@@ -109908,7 +110536,7 @@
           "name": "Staris_Top_Right",
           "persistentUuid": "24225180-92b2-4fca-a45d-b416902294d1",
           "width": 0,
-          "x": 832,
+          "x": 1088,
           "y": -320,
           "zOrder": 147,
           "numberProperties": [],
@@ -109924,7 +110552,7 @@
           "name": "Shadow_Top_Right",
           "persistentUuid": "c8b45bc6-9ef1-4e6b-a3d0-16eaccb3289a",
           "width": 0,
-          "x": 832,
+          "x": 1088,
           "y": -336,
           "zOrder": 148,
           "numberProperties": [],
@@ -109940,23 +110568,7 @@
           "name": "Borg",
           "persistentUuid": "a2f3548e-eb7e-459b-92b1-dbc52e157ba2",
           "width": 0,
-          "x": 672,
-          "y": -240,
-          "zOrder": 152,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 180,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Borg",
-          "persistentUuid": "141cf815-1035-495b-bd62-82d3ec4e0042",
-          "width": 0,
-          "x": 720,
+          "x": 944,
           "y": -240,
           "zOrder": 152,
           "numberProperties": [],
@@ -109972,7 +110584,7 @@
           "name": "Lever_sign",
           "persistentUuid": "cad0ade4-293c-413d-a16d-0b79d6ff2a64",
           "width": 0,
-          "x": 112,
+          "x": 368,
           "y": 256,
           "zOrder": 161,
           "numberProperties": [],
@@ -109988,7 +110600,7 @@
           "name": "Lever_sign",
           "persistentUuid": "0cd59b59-3e10-42b3-8c34-0d5a8f78c9f5",
           "width": 0,
-          "x": 368,
+          "x": 624,
           "y": 512,
           "zOrder": 162,
           "numberProperties": [],
@@ -110002,9 +110614,10 @@
           "keepRatio": true,
           "layer": "",
           "name": "Trap_position",
+          "opacity": 0,
           "persistentUuid": "083b4653-4dd8-4965-aab0-b90ccff30b26",
           "width": 0,
-          "x": 512,
+          "x": 768,
           "y": 304,
           "zOrder": 132,
           "numberProperties": [],
@@ -110020,7 +110633,7 @@
           "name": "Shadow_Bottem_Right",
           "persistentUuid": "febf8c91-8555-4b1c-8db2-09884b98726f",
           "width": 0,
-          "x": 656,
+          "x": 912,
           "y": 304,
           "zOrder": 163,
           "numberProperties": [],
@@ -110036,25 +110649,9 @@
           "name": "Staris_Left",
           "persistentUuid": "21ae43e0-2955-4cc4-bbdf-bf8765043279",
           "width": 0,
-          "x": 656,
+          "x": 912,
           "y": 288,
           "zOrder": 164,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Saw",
-          "persistentUuid": "a868d122-e666-484f-a676-f9835e918b3e",
-          "width": 0,
-          "x": 48,
-          "y": 256,
-          "zOrder": 165,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -110067,9 +110664,10 @@
           "keepRatio": true,
           "layer": "",
           "name": "Saw_stop_right",
+          "opacity": 0,
           "persistentUuid": "ca42e86f-622b-4162-959c-aac0f3b70fbd",
           "width": 32,
-          "x": 96,
+          "x": 352,
           "y": 176,
           "zOrder": 166,
           "numberProperties": [],
@@ -110084,9 +110682,10 @@
           "keepRatio": true,
           "layer": "",
           "name": "Saw_stop_left",
+          "opacity": 0,
           "persistentUuid": "2c8ae642-f2ef-4d99-afad-6115a45d6cb4",
           "width": 32,
-          "x": -176,
+          "x": 80,
           "y": 176,
           "zOrder": 167,
           "numberProperties": [],
@@ -110102,7 +110701,7 @@
           "name": "Saw",
           "persistentUuid": "0b6d4702-7085-489e-bb42-3b4cd9b13d4a",
           "width": 0,
-          "x": -144,
+          "x": 112,
           "y": 192,
           "zOrder": 168,
           "numberProperties": [],
@@ -110118,7 +110717,7 @@
           "name": "Break_box",
           "persistentUuid": "5013faea-bf64-4c10-b702-c67c73930c53",
           "width": 0,
-          "x": 16,
+          "x": 272,
           "y": 256,
           "zOrder": 169,
           "numberProperties": [],
@@ -110134,7 +110733,7 @@
           "name": "Break_box",
           "persistentUuid": "93d555b7-4645-4581-8c79-103d22d51c1d",
           "width": 0,
-          "x": 0,
+          "x": 256,
           "y": 256,
           "zOrder": 169,
           "numberProperties": [],
@@ -110150,7 +110749,7 @@
           "name": "Break_box",
           "persistentUuid": "53051960-1ea7-4c27-9373-6c24bc54bec3",
           "width": 0,
-          "x": -32,
+          "x": 224,
           "y": 256,
           "zOrder": 169,
           "numberProperties": [],
@@ -110166,7 +110765,7 @@
           "name": "Break_box",
           "persistentUuid": "d88b77b8-cb20-42b7-9e72-d5c9b6d68a57",
           "width": 0,
-          "x": -16,
+          "x": 240,
           "y": 256,
           "zOrder": 169,
           "numberProperties": [],
@@ -110182,7 +110781,7 @@
           "name": "Break_box",
           "persistentUuid": "ae24eb2c-def6-42ac-8ade-ee1cdf390487",
           "width": 0,
-          "x": -96,
+          "x": 160,
           "y": 256,
           "zOrder": 169,
           "numberProperties": [],
@@ -110198,7 +110797,7 @@
           "name": "Break_box",
           "persistentUuid": "87048716-2a3d-44aa-af6c-afc7770e58df",
           "width": 0,
-          "x": -80,
+          "x": 176,
           "y": 256,
           "zOrder": 169,
           "numberProperties": [],
@@ -110214,7 +110813,7 @@
           "name": "Push_box",
           "persistentUuid": "e2ba740a-82dd-4634-8883-395c875d6c63",
           "width": 0,
-          "x": 0,
+          "x": 256,
           "y": 240,
           "zOrder": 170,
           "numberProperties": [],
@@ -110230,7 +110829,7 @@
           "name": "Push_box",
           "persistentUuid": "515aa9db-fc01-4272-bd62-9552588e7527",
           "width": 0,
-          "x": -112,
+          "x": 144,
           "y": 256,
           "zOrder": 171,
           "numberProperties": [],
@@ -110246,7 +110845,7 @@
           "name": "Push_box",
           "persistentUuid": "4af38db6-b0ee-4fb2-b6cb-eff03590f29b",
           "width": 0,
-          "x": -96,
+          "x": 160,
           "y": 240,
           "zOrder": 172,
           "numberProperties": [],
@@ -110262,7 +110861,7 @@
           "name": "Break_box",
           "persistentUuid": "4a8b5fbe-7549-42c2-a263-989330e74ee7",
           "width": 0,
-          "x": -80,
+          "x": 176,
           "y": 240,
           "zOrder": 173,
           "numberProperties": [],
@@ -110278,7 +110877,7 @@
           "name": "coin",
           "persistentUuid": "f853796b-78b0-43ee-9a9d-c2a86aa21115",
           "width": 0,
-          "x": 16,
+          "x": 272,
           "y": 229,
           "zOrder": 174,
           "numberProperties": [],
@@ -110294,7 +110893,7 @@
           "name": "coin",
           "persistentUuid": "5235a435-105e-4097-9766-5ddd11e75b80",
           "width": 0,
-          "x": -16,
+          "x": 240,
           "y": 229,
           "zOrder": 174,
           "numberProperties": [],
@@ -110310,7 +110909,7 @@
           "name": "coin",
           "persistentUuid": "52e100b5-669a-48e0-bb8a-992ec46d8f61",
           "width": 0,
-          "x": -48,
+          "x": 208,
           "y": 229,
           "zOrder": 174,
           "numberProperties": [],
@@ -110326,7 +110925,7 @@
           "name": "coin",
           "persistentUuid": "a799ef45-1cef-4dfa-a293-973434cb0396",
           "width": 0,
-          "x": -80,
+          "x": 176,
           "y": 229,
           "zOrder": 174,
           "numberProperties": [],
@@ -110342,7 +110941,7 @@
           "name": "coin",
           "persistentUuid": "fd462dad-e47f-4015-b554-6aac265ad163",
           "width": 0,
-          "x": -112,
+          "x": 144,
           "y": 229,
           "zOrder": 174,
           "numberProperties": [],
@@ -110358,7 +110957,7 @@
           "name": "PTP_left",
           "persistentUuid": "9d94eeef-c8f7-4c0c-891f-fa8d04d5e7a7",
           "width": 0,
-          "x": 144,
+          "x": 400,
           "y": 280,
           "zOrder": 84,
           "numberProperties": [],
@@ -110374,7 +110973,7 @@
           "name": "PTP_right",
           "persistentUuid": "0360e850-088d-4242-9ddc-48fabe7ea197",
           "width": 0,
-          "x": 208,
+          "x": 464,
           "y": 280,
           "zOrder": 85,
           "numberProperties": [],
@@ -110390,7 +110989,7 @@
           "name": "Pass_through_platform",
           "persistentUuid": "cbab6d07-1275-4733-8719-646ba160c7ee",
           "width": 0,
-          "x": 160,
+          "x": 416,
           "y": 280,
           "zOrder": 86,
           "numberProperties": [],
@@ -110408,7 +111007,7 @@
           "opacity": 0,
           "persistentUuid": "006002cb-3c1f-4dbf-a2e3-fcdd29ce67b7",
           "width": 80,
-          "x": 144,
+          "x": 400,
           "y": 282,
           "zOrder": 87,
           "numberProperties": [],
@@ -110424,7 +111023,7 @@
           "name": "coin",
           "persistentUuid": "c38085bb-f4b8-4de8-955b-bbc4c1ba6f8a",
           "width": 0,
-          "x": 496,
+          "x": 752,
           "y": 512,
           "zOrder": 175,
           "numberProperties": [],
@@ -110440,7 +111039,7 @@
           "name": "coin",
           "persistentUuid": "90a1186b-fa43-408e-812d-a46795311c7f",
           "width": 0,
-          "x": 512,
+          "x": 768,
           "y": 496,
           "zOrder": 175,
           "numberProperties": [],
@@ -110456,7 +111055,7 @@
           "name": "coin",
           "persistentUuid": "42850b0b-e36a-47e5-bb68-1236306b7501",
           "width": 0,
-          "x": 528,
+          "x": 784,
           "y": 480,
           "zOrder": 175,
           "numberProperties": [],
@@ -110472,7 +111071,7 @@
           "name": "coin",
           "persistentUuid": "9bc1d11c-5ac8-4d35-802c-a6b5f4912da2",
           "width": 0,
-          "x": 544,
+          "x": 800,
           "y": 464,
           "zOrder": 175,
           "numberProperties": [],
@@ -110488,7 +111087,7 @@
           "name": "coin",
           "persistentUuid": "aeab4589-d9d2-4967-95c7-70d57af0e9ac",
           "width": 0,
-          "x": 560,
+          "x": 816,
           "y": 448,
           "zOrder": 175,
           "numberProperties": [],
@@ -110504,7 +111103,7 @@
           "name": "coin",
           "persistentUuid": "b4a6c736-ea96-4b86-aa57-f5bd4cc94b9b",
           "width": 0,
-          "x": 644,
+          "x": 900,
           "y": 128,
           "zOrder": 175,
           "numberProperties": [],
@@ -110520,7 +111119,7 @@
           "name": "coin",
           "persistentUuid": "59b66819-ce8c-43b4-9c22-f09de9208232",
           "width": 0,
-          "x": 788,
+          "x": 1044,
           "y": 104,
           "zOrder": 175,
           "numberProperties": [],
@@ -110536,7 +111135,7 @@
           "name": "coin",
           "persistentUuid": "7f4c86fb-869d-49e0-aa5a-9c488ee9c24a",
           "width": 0,
-          "x": 340,
+          "x": 596,
           "y": -176,
           "zOrder": 175,
           "numberProperties": [],
@@ -110552,7 +111151,7 @@
           "name": "coin",
           "persistentUuid": "1f511e64-550d-4d37-80ae-eab64702b5a8",
           "width": 0,
-          "x": 640,
+          "x": 896,
           "y": -184,
           "zOrder": 175,
           "numberProperties": [],
@@ -110568,7 +111167,7 @@
           "name": "coin",
           "persistentUuid": "f34ce87d-a613-4e4f-ae95-41ad8bc6e5cd",
           "width": 0,
-          "x": 664,
+          "x": 920,
           "y": -184,
           "zOrder": 175,
           "numberProperties": [],
@@ -110584,7 +111183,7 @@
           "name": "coin",
           "persistentUuid": "a4e8a211-3a40-4b11-b9ca-0d7f02866db5",
           "width": 0,
-          "x": 688,
+          "x": 944,
           "y": -184,
           "zOrder": 175,
           "numberProperties": [],
@@ -110600,7 +111199,7 @@
           "name": "coin",
           "persistentUuid": "a5837b47-7e0e-434e-acc4-c786dbaca567",
           "width": 0,
-          "x": 712,
+          "x": 968,
           "y": -184,
           "zOrder": 175,
           "numberProperties": [],
@@ -110616,7 +111215,7 @@
           "name": "coin",
           "persistentUuid": "7450104c-1be0-4a6a-8c8c-b0723a8dc5fa",
           "width": 0,
-          "x": 736,
+          "x": 992,
           "y": -184,
           "zOrder": 175,
           "numberProperties": [],
@@ -110632,7 +111231,7 @@
           "name": "coin",
           "persistentUuid": "50fac976-452d-47fd-ba5c-7933f3d9d55d",
           "width": 0,
-          "x": 760,
+          "x": 1016,
           "y": -184,
           "zOrder": 175,
           "numberProperties": [],
@@ -110648,7 +111247,7 @@
           "name": "coin",
           "persistentUuid": "949381bb-7691-469c-8090-e72078888c80",
           "width": 0,
-          "x": 784,
+          "x": 1040,
           "y": -184,
           "zOrder": 175,
           "numberProperties": [],
@@ -110664,7 +111263,7 @@
           "name": "coin",
           "persistentUuid": "2f7f56a5-c784-4244-9133-9ed3229172c9",
           "width": 0,
-          "x": 272,
+          "x": 528,
           "y": 232,
           "zOrder": 175,
           "numberProperties": [],
@@ -110680,7 +111279,7 @@
           "name": "coin",
           "persistentUuid": "fce1fded-6a08-4906-95f0-19eb69ab4c78",
           "width": 0,
-          "x": 296,
+          "x": 552,
           "y": 232,
           "zOrder": 175,
           "numberProperties": [],
@@ -110696,7 +111295,7 @@
           "name": "coin",
           "persistentUuid": "e79c78e1-e81e-4ecb-b94a-596bffb4e167",
           "width": 0,
-          "x": 320,
+          "x": 576,
           "y": 232,
           "zOrder": 175,
           "numberProperties": [],
@@ -110712,7 +111311,7 @@
           "name": "Lever_sign",
           "persistentUuid": "3f71e91c-bfb2-46e8-b7c2-d30b5b32add3",
           "width": 0,
-          "x": 128,
+          "x": 384,
           "y": 32,
           "zOrder": 176,
           "numberProperties": [],
@@ -110728,7 +111327,7 @@
           "name": "Corner_top_right",
           "persistentUuid": "4aa9d943-66be-4e6b-9d0e-954e12d43b5d",
           "width": 0,
-          "x": 1088,
+          "x": 1344,
           "y": 240,
           "zOrder": 177,
           "numberProperties": [],
@@ -110744,7 +111343,7 @@
           "name": "Shadow_Bottem_Left",
           "persistentUuid": "3b9e4eb1-5c6a-4896-8c47-71c2ba790e21",
           "width": 0,
-          "x": 1088,
+          "x": 1344,
           "y": 288,
           "zOrder": 178,
           "numberProperties": [],
@@ -110761,7 +111360,7 @@
           "name": "Wall_left",
           "persistentUuid": "1efb11ca-8d29-4cd7-ac07-0b1dd7e91774",
           "width": 16,
-          "x": 1088,
+          "x": 1344,
           "y": 256,
           "zOrder": 179,
           "numberProperties": [],
@@ -110778,7 +111377,7 @@
           "name": "Floor",
           "persistentUuid": "029c89aa-5fd7-4942-b9db-489d075d79d8",
           "width": 80,
-          "x": 1104,
+          "x": 1360,
           "y": 288,
           "zOrder": 180,
           "numberProperties": [],
@@ -110792,9 +111391,10 @@
           "keepRatio": true,
           "layer": "",
           "name": "Trap_position",
+          "opacity": 0,
           "persistentUuid": "f2e58055-34d7-4bac-8ff2-cc1d5d1c70eb",
           "width": 0,
-          "x": 1184,
+          "x": 1440,
           "y": 288,
           "zOrder": 132,
           "numberProperties": [],
@@ -110811,7 +111411,7 @@
           "name": "Floor",
           "persistentUuid": "86238833-7c49-4fe7-be55-ad7626d25568",
           "width": 128,
-          "x": 1328,
+          "x": 1584,
           "y": 288,
           "zOrder": 133,
           "numberProperties": [],
@@ -110825,9 +111425,10 @@
           "keepRatio": true,
           "layer": "",
           "name": "Trap_position",
+          "opacity": 0,
           "persistentUuid": "41acdfea-c06c-43e2-b6de-9ab799ec39bf",
           "width": 0,
-          "x": 1232,
+          "x": 1488,
           "y": 128,
           "zOrder": 132,
           "numberProperties": [],
@@ -110844,7 +111445,7 @@
           "name": "Floor",
           "persistentUuid": "9ec3433b-598f-49e3-9446-852c52310a5c",
           "width": 16,
-          "x": 1376,
+          "x": 1632,
           "y": 128,
           "zOrder": 133,
           "numberProperties": [],
@@ -110860,7 +111461,7 @@
           "name": "Corner_bottem_right",
           "persistentUuid": "ff647e17-fb68-4b9e-813b-cf5d7d9839a3",
           "width": 0,
-          "x": 1392,
+          "x": 1648,
           "y": 208,
           "zOrder": 181,
           "numberProperties": [],
@@ -110876,7 +111477,7 @@
           "name": "Corner_top_right",
           "persistentUuid": "e97fb13d-3b1b-457d-bed1-14e526ad0761",
           "width": 0,
-          "x": 1392,
+          "x": 1648,
           "y": 128,
           "zOrder": 182,
           "numberProperties": [],
@@ -110893,7 +111494,7 @@
           "name": "Wall_left",
           "persistentUuid": "b909a195-1e16-4b79-b071-ba84e207e523",
           "width": 16,
-          "x": 1392,
+          "x": 1648,
           "y": 144,
           "zOrder": 183,
           "numberProperties": [],
@@ -110909,7 +111510,7 @@
           "name": "Corner_top_left",
           "persistentUuid": "07be488f-eaea-4b77-a74d-7a23bd5cab3f",
           "width": 0,
-          "x": 1184,
+          "x": 1440,
           "y": 128,
           "zOrder": 184,
           "numberProperties": [],
@@ -110926,7 +111527,7 @@
           "name": "Wall_right",
           "persistentUuid": "c818dd52-8112-40fd-aede-51597c891359",
           "width": 16,
-          "x": 1184,
+          "x": 1440,
           "y": 144,
           "zOrder": 185,
           "numberProperties": [],
@@ -110942,7 +111543,7 @@
           "name": "Corner_bottem_left",
           "persistentUuid": "2b431437-886b-491a-b2dc-b7804ee82a56",
           "width": 0,
-          "x": 1184,
+          "x": 1440,
           "y": 208,
           "zOrder": 186,
           "numberProperties": [],
@@ -110958,7 +111559,7 @@
           "name": "Roof",
           "persistentUuid": "67032b3f-bfab-4fd5-8444-ab990b2ab45c",
           "width": 0,
-          "x": 1376,
+          "x": 1632,
           "y": 208,
           "zOrder": 187,
           "numberProperties": [],
@@ -110975,7 +111576,7 @@
           "name": "Floor",
           "persistentUuid": "48c523ad-ebd2-4b03-b030-b4beab6e2a02",
           "width": 32,
-          "x": 1200,
+          "x": 1456,
           "y": 128,
           "zOrder": 133,
           "numberProperties": [],
@@ -110992,7 +111593,7 @@
           "name": "Roof",
           "persistentUuid": "ae5f6c0c-7b66-47b2-a299-8cf8c4fbdd09",
           "width": 176,
-          "x": 1200,
+          "x": 1456,
           "y": 208,
           "zOrder": 188,
           "numberProperties": [],
@@ -111008,7 +111609,7 @@
           "name": "Corner_bottem_right",
           "persistentUuid": "99c9ea06-d015-4c8a-b7a1-f5385e5137bf",
           "width": 0,
-          "x": 1056,
+          "x": 1312,
           "y": 128,
           "zOrder": 189,
           "numberProperties": [],
@@ -111025,7 +111626,7 @@
           "name": "Wall_left",
           "persistentUuid": "af1656a2-b982-4f25-8ec0-adecfeef0766",
           "width": 16,
-          "x": 1056,
+          "x": 1312,
           "y": 48,
           "zOrder": 190,
           "numberProperties": [],
@@ -111041,7 +111642,7 @@
           "name": "Shadow_Top_Right",
           "persistentUuid": "c03a863f-ce4d-4f3d-9a22-18bdf0df481d",
           "width": 0,
-          "x": 1056,
+          "x": 1312,
           "y": 32,
           "zOrder": 191,
           "numberProperties": [],
@@ -111058,7 +111659,7 @@
           "name": "Roof",
           "persistentUuid": "2b2f2d82-de3b-473f-b744-73aa7fe545a2",
           "width": 416,
-          "x": 1072,
+          "x": 1328,
           "y": 32,
           "zOrder": 192,
           "numberProperties": [],
@@ -111074,7 +111675,7 @@
           "name": "Shadow_Top_Left",
           "persistentUuid": "4f2e5f08-ae52-4767-96ea-d9973349e958",
           "width": 0,
-          "x": 1488,
+          "x": 1744,
           "y": 32,
           "zOrder": 193,
           "numberProperties": [],
@@ -111091,7 +111692,7 @@
           "name": "Wall_right",
           "persistentUuid": "38f3d1c5-88b8-4528-bdf6-1e6e3cbab7a5",
           "width": 16,
-          "x": 1488,
+          "x": 1744,
           "y": 48,
           "zOrder": 194,
           "numberProperties": [],
@@ -111107,7 +111708,7 @@
           "name": "Corner_bottem_left",
           "persistentUuid": "27987817-b196-4d9e-8b13-4f0d28a1e3b3",
           "width": 0,
-          "x": 1488,
+          "x": 1744,
           "y": 128,
           "zOrder": 195,
           "numberProperties": [],
@@ -111123,8 +111724,8 @@
           "layer": "",
           "name": "Roof",
           "persistentUuid": "9e1615f3-f587-4738-b79f-f7a1a1abab4a",
-          "width": 48,
-          "x": 1504,
+          "width": 80,
+          "x": 1760,
           "y": 128,
           "zOrder": 192,
           "numberProperties": [],
@@ -111140,7 +111741,7 @@
           "name": "Staris_Left",
           "persistentUuid": "fe6da918-7fb1-43ed-8281-abf7ad012ac4",
           "width": 0,
-          "x": 1488,
+          "x": 1744,
           "y": 240,
           "zOrder": 196,
           "numberProperties": [],
@@ -111156,8 +111757,8 @@
           "layer": "",
           "name": "Floor",
           "persistentUuid": "c522ada9-6b4f-4f10-a9b3-0ef84154ab17",
-          "width": 48,
-          "x": 1504,
+          "width": 80,
+          "x": 1760,
           "y": 240,
           "zOrder": 197,
           "numberProperties": [],
@@ -111173,7 +111774,7 @@
           "name": "Shadow_Bottem_Right",
           "persistentUuid": "2b7af3a1-a277-4119-a4db-559cb9a352c0",
           "width": 0,
-          "x": 1488,
+          "x": 1744,
           "y": 256,
           "zOrder": 198,
           "numberProperties": [],
@@ -111189,7 +111790,7 @@
           "name": "Staris_Left",
           "persistentUuid": "3d63d946-abe9-45cb-b177-c97226b3fdb6",
           "width": 0,
-          "x": 1472,
+          "x": 1728,
           "y": 256,
           "zOrder": 196,
           "numberProperties": [],
@@ -111205,7 +111806,7 @@
           "name": "Shadow_Bottem_Right",
           "persistentUuid": "eeb49d5f-50b4-457c-a214-bb0c90fc0664",
           "width": 0,
-          "x": 1472,
+          "x": 1728,
           "y": 272,
           "zOrder": 198,
           "numberProperties": [],
@@ -111221,7 +111822,7 @@
           "name": "Staris_Left",
           "persistentUuid": "077fb777-c36e-49d5-91ed-1eed0259ae03",
           "width": 0,
-          "x": 1456,
+          "x": 1712,
           "y": 272,
           "zOrder": 196,
           "numberProperties": [],
@@ -111237,7 +111838,7 @@
           "name": "Shadow_Bottem_Right",
           "persistentUuid": "947fa0e8-f336-4dff-8967-49cefeaacba9",
           "width": 0,
-          "x": 1456,
+          "x": 1712,
           "y": 288,
           "zOrder": 198,
           "numberProperties": [],
@@ -111253,7 +111854,7 @@
           "name": "PTP_left",
           "persistentUuid": "96d3d173-7ad0-4f05-83f8-6f743e18809a",
           "width": 0,
-          "x": 1088,
+          "x": 1344,
           "y": 208,
           "zOrder": 84,
           "numberProperties": [],
@@ -111269,7 +111870,7 @@
           "name": "PTP_right",
           "persistentUuid": "710d2e19-571d-4faa-bf88-3e21a96cf640",
           "width": 0,
-          "x": 1152,
+          "x": 1408,
           "y": 208,
           "zOrder": 85,
           "numberProperties": [],
@@ -111285,7 +111886,7 @@
           "name": "Pass_through_platform",
           "persistentUuid": "3cf3220a-255d-407e-9fce-22583b6eff66",
           "width": 0,
-          "x": 1104,
+          "x": 1360,
           "y": 208,
           "zOrder": 86,
           "numberProperties": [],
@@ -111303,7 +111904,7 @@
           "opacity": 0,
           "persistentUuid": "17994ed3-91e8-45e7-a905-88e81196ca4b",
           "width": 80,
-          "x": 1088,
+          "x": 1344,
           "y": 210,
           "zOrder": 87,
           "numberProperties": [],
@@ -111319,7 +111920,7 @@
           "name": "PTP_left",
           "persistentUuid": "0935caee-d20c-474f-b874-4ee728f4af0c",
           "width": 0,
-          "x": 1088,
+          "x": 1344,
           "y": 160,
           "zOrder": 84,
           "numberProperties": [],
@@ -111335,7 +111936,7 @@
           "name": "PTP_right",
           "persistentUuid": "d4b6861d-948e-414b-ac73-89ad144abc94",
           "width": 0,
-          "x": 1152,
+          "x": 1408,
           "y": 160,
           "zOrder": 85,
           "numberProperties": [],
@@ -111351,7 +111952,7 @@
           "name": "Pass_through_platform",
           "persistentUuid": "a76ab3e1-c6c2-41ce-bd14-383809907850",
           "width": 0,
-          "x": 1104,
+          "x": 1360,
           "y": 160,
           "zOrder": 86,
           "numberProperties": [],
@@ -111369,7 +111970,7 @@
           "opacity": 0,
           "persistentUuid": "f07d4a83-a05d-4375-8ee9-158d281d8144",
           "width": 80,
-          "x": 1088,
+          "x": 1344,
           "y": 162,
           "zOrder": 87,
           "numberProperties": [],
@@ -111385,7 +111986,7 @@
           "name": "Corner_top_right",
           "persistentUuid": "8d7714e4-3f6d-46a1-97fe-add8d009de27",
           "width": 0,
-          "x": 960,
+          "x": 1216,
           "y": -224,
           "zOrder": 199,
           "numberProperties": [],
@@ -111402,7 +112003,7 @@
           "name": "Wall_left",
           "persistentUuid": "84465f7e-c662-4c47-bfb3-55a8daeab215",
           "width": 16,
-          "x": 960,
+          "x": 1216,
           "y": -208,
           "zOrder": 200,
           "numberProperties": [],
@@ -111418,7 +112019,7 @@
           "name": "Corner_bottem_right",
           "persistentUuid": "aaa650e4-37e2-4a0a-bde0-863c9719de96",
           "width": 0,
-          "x": 960,
+          "x": 1216,
           "y": 32,
           "zOrder": 201,
           "numberProperties": [],
@@ -111434,7 +112035,7 @@
           "name": "Break_box",
           "persistentUuid": "9d8f0c43-7149-469f-b871-e4bba858b115",
           "width": 0,
-          "x": 976,
+          "x": 1232,
           "y": 80,
           "zOrder": 138,
           "numberProperties": [],
@@ -111450,7 +112051,7 @@
           "name": "Break_box",
           "persistentUuid": "925f3990-f1cf-4ba6-859a-8c42562220bc",
           "width": 0,
-          "x": 976,
+          "x": 1232,
           "y": 64,
           "zOrder": 138,
           "numberProperties": [],
@@ -111466,7 +112067,7 @@
           "name": "Break_box",
           "persistentUuid": "9a53ff70-7827-42d0-953b-e55ba65710fb",
           "width": 0,
-          "x": 992,
+          "x": 1248,
           "y": 80,
           "zOrder": 138,
           "numberProperties": [],
@@ -111482,7 +112083,7 @@
           "name": "Break_box",
           "persistentUuid": "38dd7eb9-0346-478e-a76d-c067d9c0e0d4",
           "width": 0,
-          "x": 1008,
+          "x": 1264,
           "y": 80,
           "zOrder": 138,
           "numberProperties": [],
@@ -111498,7 +112099,7 @@
           "name": "Break_box",
           "persistentUuid": "f6565374-225c-42b7-a702-04cd1e11f0f9",
           "width": 0,
-          "x": 992,
+          "x": 1248,
           "y": 64,
           "zOrder": 138,
           "numberProperties": [],
@@ -111514,7 +112115,7 @@
           "name": "Break_box",
           "persistentUuid": "cbab25a3-05a8-4ee5-9536-1ea1eb686733",
           "width": 0,
-          "x": 1008,
+          "x": 1264,
           "y": 64,
           "zOrder": 138,
           "numberProperties": [],
@@ -111530,7 +112131,7 @@
           "name": "Break_box",
           "persistentUuid": "7b6e3693-f14f-4098-82c8-854c37fb92d5",
           "width": 0,
-          "x": 1008,
+          "x": 1264,
           "y": 48,
           "zOrder": 138,
           "numberProperties": [],
@@ -111546,7 +112147,7 @@
           "name": "Break_box",
           "persistentUuid": "62951b0e-953c-4d17-8ede-f60af0d1b69f",
           "width": 0,
-          "x": 1008,
+          "x": 1264,
           "y": 32,
           "zOrder": 138,
           "numberProperties": [],
@@ -111562,7 +112163,7 @@
           "name": "Break_box",
           "persistentUuid": "9a96532a-bd89-4377-8cad-404b74a6c742",
           "width": 0,
-          "x": 992,
+          "x": 1248,
           "y": 48,
           "zOrder": 138,
           "numberProperties": [],
@@ -111578,7 +112179,7 @@
           "name": "coin",
           "persistentUuid": "2dcecf29-63d1-43eb-bc84-be959b604f2f",
           "width": 0,
-          "x": 996,
+          "x": 1252,
           "y": 0,
           "zOrder": 202,
           "numberProperties": [],
@@ -111594,7 +112195,7 @@
           "name": "coin",
           "persistentUuid": "b25b51ed-cf25-4f99-acef-be69317755ca",
           "width": 0,
-          "x": 996,
+          "x": 1252,
           "y": -32,
           "zOrder": 202,
           "numberProperties": [],
@@ -111610,7 +112211,7 @@
           "name": "coin",
           "persistentUuid": "1febe0ce-14e2-4a51-bd31-407c14408735",
           "width": 0,
-          "x": 996,
+          "x": 1252,
           "y": -64,
           "zOrder": 202,
           "numberProperties": [],
@@ -111626,7 +112227,7 @@
           "name": "coin",
           "persistentUuid": "ad4207d5-2ae6-4efc-a4d2-683e21133dba",
           "width": 0,
-          "x": 996,
+          "x": 1252,
           "y": -96,
           "zOrder": 202,
           "numberProperties": [],
@@ -111642,7 +112243,7 @@
           "name": "coin",
           "persistentUuid": "68ce69da-2bce-4f0b-870c-6f1876a7d04c",
           "width": 0,
-          "x": 996,
+          "x": 1252,
           "y": -128,
           "zOrder": 202,
           "numberProperties": [],
@@ -111658,7 +112259,7 @@
           "name": "coin",
           "persistentUuid": "57c16e14-84fb-4c3b-9886-8a57f6e180a5",
           "width": 0,
-          "x": 996,
+          "x": 1252,
           "y": -160,
           "zOrder": 202,
           "numberProperties": [],
@@ -111674,7 +112275,7 @@
           "name": "coin",
           "persistentUuid": "22ea770d-5a27-435a-be6d-5d8cbf960a56",
           "width": 0,
-          "x": 996,
+          "x": 1252,
           "y": -192,
           "zOrder": 202,
           "numberProperties": [],
@@ -111690,9 +112291,99 @@
           "name": "coin",
           "persistentUuid": "c5f405cf-0630-4409-b803-dc99b33775ea",
           "width": 0,
-          "x": 996,
+          "x": 1252,
           "y": -224,
           "zOrder": 202,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Trap_position",
+          "opacity": 0,
+          "persistentUuid": "7ba3576f-78b9-4390-95a4-5a9f5539294f",
+          "width": 0,
+          "x": 96,
+          "y": 48,
+          "zOrder": 132,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor",
+          "persistentUuid": "a82223d5-5e70-4fb8-995a-30222103a737",
+          "width": 96,
+          "x": 0,
+          "y": 48,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 912,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Backround",
+          "persistentUuid": "e5cc3efc-4045-4cee-b773-b29f189665e3",
+          "width": 1840,
+          "x": 0,
+          "y": -368,
+          "zOrder": -1000,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 912,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Void",
+          "persistentUuid": "f938ce7f-f850-46a2-b5e9-9cfb22ed6c6b",
+          "width": 1840,
+          "x": 0,
+          "y": -368,
+          "zOrder": 203,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":115,\"dimY\":57,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0],[0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0],[0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0],[0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0],[0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0],[0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floor",
+          "persistentUuid": "4ef4eaca-2dcf-4cdf-9bf9-f49edc29ac74",
+          "width": 16,
+          "x": 752,
+          "y": 304,
+          "zOrder": 57,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -111710,7 +112401,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.8700232859857402,
+        "zoomFactor": 1.8655255482570727,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
