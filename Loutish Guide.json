@@ -5620,6 +5620,217 @@
         "name": "assets/Brick_inside.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Brick_inside.png2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Brick_inside.png2.png\",\"extension\":\".png\"}",
+        "name": "assets/Brick_inside.png2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Falling.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Falling",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Falling2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Falling2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Falling3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Falling3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Falling4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Falling4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Falling5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Falling5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Falling6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Falling6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Falling7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Falling7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Falling8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Falling8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Falling9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Falling9.png\"}",
+        "name": "Falling9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Falling10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Falling10.png\"}",
+        "name": "Falling10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Falling11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Falling11.png\"}",
+        "name": "Falling11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Falling12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Falling12.png\"}",
+        "name": "Falling12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Floor4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Floor4.png\"}",
+        "name": "Floor4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Normal2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Normal2.png\"}",
+        "name": "Normal2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Normal3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Normal3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Blood.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Blood.png.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Blood.png.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets/Blood.png.png2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Falling13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Falling13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Falling14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Falling14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Falling15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Falling15",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Falling16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Falling16",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Normal4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Normal4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Objective board.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Objective board",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Objective board2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Objective board2.png\"}",
+        "name": "Objective board2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Kenney Pixel Square.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+          "name": "gdevelop-asset-store"
+        }
       }
     ]
   },
@@ -22051,7 +22262,21 @@
           "value": false
         }
       ],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "ColorMap",
+          "name": "Warning",
+          "doubleParameters": {
+            "mix": 0
+          },
+          "stringParameters": {
+            "colorMapTexture": "assets/Blood.png.png2"
+          },
+          "booleanParameters": {
+            "nearest": true
+          }
+        }
+      ],
       "behaviors": [
         {
           "isFolded": true,
@@ -22098,7 +22323,7 @@
       ],
       "animations": [
         {
-          "name": "Falling bricks",
+          "name": "Normal",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -22108,7 +22333,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/Brick_inside.png",
+                  "image": "Normal4",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -22133,11 +22358,217 @@
                       },
                       {
                         "x": 32,
-                        "y": 8
+                        "y": 7
                       },
                       {
                         "x": 0,
-                        "y": 8
+                        "y": 7
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Falling",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.16,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Falling13",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 7
+                      },
+                      {
+                        "x": 0,
+                        "y": 7
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Falling14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 7
+                      },
+                      {
+                        "x": 0,
+                        "y": 7
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Falling15",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 7
+                      },
+                      {
+                        "x": 0,
+                        "y": 7
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Falling16",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 7
+                      },
+                      {
+                        "x": 0,
+                        "y": 7
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Floor",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Floor4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 7
+                      },
+                      {
+                        "x": 0,
+                        "y": 7
                       }
                     ]
                   ]
@@ -22147,6 +22578,118 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Objective_board",
+      "persistentUuid": "bc94f765-e60a-4918-a667-a13e7ff2b44f",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Rased",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Objective board",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Objective board2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 88,
+                        "y": 0
+                      },
+                      {
+                        "x": 88,
+                        "y": 72
+                      },
+                      {
+                        "x": 0,
+                        "y": 72
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Objective_text",
+      "persistentUuid": "b2868359-0977-47a0-8e7e-c92906ffd683",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 33,
+        "g": 26,
+        "r": 26
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "lineHeight": 0,
+        "color": "26;26;33"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -22382,6 +22925,12 @@
       },
       {
         "objectName": "Falling_bricks"
+      },
+      {
+        "objectName": "Objective_board"
+      },
+      {
+        "objectName": "Objective_text"
       }
     ]
   },
@@ -23520,7 +24069,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.3,
         "snap": true,
-        "zoomFactor": 1.5804687500002117,
+        "zoomFactor": 2.2762478393840193,
         "windowMask": true,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -23529,7 +24078,7 @@
       "variables": [
         {
           "name": "Loot",
-          "persistentUuid": "9aef786b-3427-412a-9210-2a2641cd9649",
+          "persistentUuid": "586c73af-f70f-42de-a8c1-afaeb387bd8e",
           "type": "number",
           "value": 0
         }
@@ -27435,6 +27984,22 @@
           "width": 0,
           "x": 784,
           "y": 400,
+          "zOrder": 1041,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Falling_bricks",
+          "persistentUuid": "ca00c36b-21e8-4f46-b525-0ea9213246e0",
+          "width": 0,
+          "x": 256,
+          "y": 432,
           "zOrder": 1041,
           "numberProperties": [],
           "stringProperties": [],
@@ -31555,28 +32120,29 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Falling bricks",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
                   "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Comment",
-                      "color": {
-                        "b": 109,
-                        "g": 230,
-                        "r": 255,
-                        "textB": 0,
-                        "textG": 0,
-                        "textR": 0
-                      },
-                      "comment": "Casts a ray and if the player is hit by it it trigers the bricks"
-                    },
                     {
                       "type": "BuiltinCommonInstructions::ForEach",
                       "object": "Falling_bricks",
                       "conditions": [],
                       "actions": [],
                       "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "Casts a ray and if the player is hit by it it trigers the bricks"
+                        },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
@@ -31589,115 +32155,9 @@
                                 "Falling_bricks.X()",
                                 "Falling_bricks.Y()",
                                 "90",
-                                "80",
+                                "104",
                                 "none",
                                 "none",
-                                ""
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "SetBooleanObjectVariable"
-                              },
-                              "parameters": [
-                                "Falling_bricks",
-                                "Triggered",
-                                "True",
-                                ""
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Comment",
-                          "color": {
-                            "b": 109,
-                            "g": 230,
-                            "r": 255,
-                            "textB": 0,
-                            "textG": 0,
-                            "textR": 0
-                          },
-                          "comment": "If triggerd and not on the floor the move down"
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "BooleanObjectVariable"
-                              },
-                              "parameters": [
-                                "Falling_bricks",
-                                "Triggered",
-                                "True",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "inverted": true,
-                                "value": "CollisionNP"
-                              },
-                              "parameters": [
-                                "Falling_bricks",
-                                "Floor",
-                                "",
-                                "",
-                                "no"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "TopDownMovementBehavior::SimulateControl"
-                              },
-                              "parameters": [
-                                "Falling_bricks",
-                                "TopDownMovement",
-                                "\"Down\""
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Comment",
-                          "color": {
-                            "b": 109,
-                            "g": 230,
-                            "r": 255,
-                            "textB": 0,
-                            "textG": 0,
-                            "textR": 0
-                          },
-                          "comment": "If falling do damage                                                                                                                          RandomInRange(4, 10) * (Random(1) * 2 - 1)  <- will return between -10 and 10 but will not return -3 to 3"
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "TopDownMovementBehavior::Speed"
-                              },
-                              "parameters": [
-                                "Falling_bricks",
-                                "TopDownMovement",
-                                ">",
-                                "400"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "CollisionNP"
-                              },
-                              "parameters": [
-                                "Falling_bricks",
-                                "Player",
-                                "",
-                                "",
                                 ""
                               ]
                             },
@@ -31707,7 +32167,7 @@
                               },
                               "parameters": [
                                 "Falling_bricks",
-                                "Has_done_damage",
+                                "Triggered",
                                 "False",
                                 ""
                               ]
@@ -31716,39 +32176,22 @@
                           "actions": [
                             {
                               "type": {
-                                "value": "ClearForces"
+                                "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
                               },
                               "parameters": [
-                                "Player"
+                                "Falling_bricks",
+                                "Effect",
+                                "\"Warning\"",
+                                "\"mix\"",
+                                "75"
                               ]
                             },
                             {
                               "type": {
-                                "value": "Health::Health::Hit"
+                                "value": "Wait"
                               },
                               "parameters": [
-                                "Player",
-                                "Health",
-                                "20",
-                                "",
-                                "",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
-                              },
-                              "parameters": [
-                                "Player",
-                                "ShakeObject_PositionAngle",
-                                "0.5",
-                                "10",
-                                "RandomInRange(-8, 8)",
-                                "RandomInRange(-1, 1)",
-                                "0.08",
-                                "",
-                                ""
+                                "0.5"
                               ]
                             },
                             {
@@ -31757,11 +32200,283 @@
                               },
                               "parameters": [
                                 "Falling_bricks",
-                                "Has_done_damage",
+                                "Triggered",
                                 "True",
                                 ""
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+                              },
+                              "parameters": [
+                                "Falling_bricks",
+                                "Effect",
+                                "\"Warning\"",
+                                "\"mix\"",
+                                "50"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                "0.5"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+                              },
+                              "parameters": [
+                                "Falling_bricks",
+                                "Effect",
+                                "\"Warning\"",
+                                "\"mix\"",
+                                "0"
+                              ]
                             }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "If triggerd and not on the floor the move down"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Falling_bricks",
+                            "Triggered",
+                            "True",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Falling_bricks",
+                            "Floor",
+                            "",
+                            "",
+                            "no"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TopDownMovementBehavior::SimulateControl"
+                          },
+                          "parameters": [
+                            "Falling_bricks",
+                            "TopDownMovement",
+                            "\"Down\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "If has not done damage and is not in collision with floor but is in collision player do damage"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Falling_bricks",
+                            "Player",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Falling_bricks",
+                            "Floor",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Falling_bricks",
+                            "Has_done_damage",
+                            "False",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ClearForces"
+                          },
+                          "parameters": [
+                            "Player"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Health::Health::Hit"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Health",
+                            "10",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
+                          },
+                          "parameters": [
+                            "Player",
+                            "ShakeObject_PositionAngle",
+                            "0.5",
+                            "10",
+                            "RandomInRange(-8, 8)",
+                            "RandomInRange(-1, 1)",
+                            "0.08",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Falling_bricks",
+                            "Has_done_damage",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Visual"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Falling_bricks",
+                            "Triggered",
+                            "True",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Falling_bricks",
+                            "Floor",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Falling_bricks",
+                            "Animation",
+                            "=",
+                            "\"Falling\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Falling_bricks",
+                            "Floor",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Falling_bricks",
+                            "Animation",
+                            "=",
+                            "\"Floor\""
                           ]
                         }
                       ]
@@ -34682,6 +35397,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Loot",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -35189,7 +35905,7 @@
                               "parameters": [
                                 "Player",
                                 "Health",
-                                "0.2",
+                                "0.5",
                                 ""
                               ]
                             }
@@ -36080,7 +36796,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.4950840073748899,
+        "zoomFactor": 1.4790395861757422,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -36089,25 +36805,25 @@
       "variables": [
         {
           "name": "Next_room",
-          "persistentUuid": "28ee70dc-a517-475d-9208-0cb094882b50",
+          "persistentUuid": "df59ca99-e5e7-4898-a8ce-03df1efa9586",
           "type": "number",
           "value": 0
         },
         {
           "name": "Current_ID",
-          "persistentUuid": "07d9cb30-1c23-406f-85ba-fc12eae33077",
+          "persistentUuid": "186763fe-dcda-421a-bf38-bfc98215c5b0",
           "type": "number",
           "value": 1
         },
         {
           "name": "Next_trap",
-          "persistentUuid": "be75d4d6-7c3d-4cc8-ab82-e20300572cd3",
+          "persistentUuid": "166903a8-3877-449c-b8fa-4f3847ec8d26",
           "type": "number",
           "value": 0
         },
         {
           "name": "Room_num",
-          "persistentUuid": "10e43e49-0513-42bd-9175-207522e9fecc",
+          "persistentUuid": "75a7a60f-bc15-438f-9227-c8c443ceb76f",
           "type": "number",
           "value": 0
         }
@@ -36672,6 +37388,40 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 4,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "Objective board",
+          "name": "Objective_board",
+          "persistentUuid": "58184748-fc61-47c7-8c20-81df7674d93e",
+          "width": 387,
+          "x": 0,
+          "y": 400,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 276,
+          "keepRatio": true,
+          "layer": "Objective board",
+          "name": "Objective_text",
+          "persistentUuid": "7a302549-458f-4c86-a824-c3f9f04e2d51",
+          "width": 343,
+          "x": 22,
+          "y": 422,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -36749,7 +37499,13 @@
           "persistentUuid": "ae532f14-1f8b-4c86-8694-4081924025a1",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Objective",
+              "type": "string",
+              "value": "Find the tresure"
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -36940,6 +37696,29 @@
                 "Current_ID",
                 "+",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "0",
+                "\"Objective board\"",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Objective_text",
+                "Text",
+                "=",
+                "\"Enter Dungen\""
               ]
             }
           ]
@@ -37412,7 +38191,6 @@
                   ],
                   "events": [
                     {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::ForEach",
                       "object": "Trap_position",
                       "conditions": [],
@@ -37816,6 +38594,248 @@
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "folded": true,
+                  "name": "Ui",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Toggels objective board if shift is presed"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "KeyFromTextPressed"
+                              },
+                              "parameters": [
+                                "",
+                                "\"LShift\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "KeyFromTextPressed"
+                              },
+                              "parameters": [
+                                "",
+                                "\"RShift\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetBooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Objective_board",
+                            "Rased",
+                            "Toggle",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "If Rased is true set y of objective layer up ... pix"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Objective_board",
+                            "Rased",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": []
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "If Rased is false set y of objective layer down ... pix"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": []
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "folded": true,
+                  "name": "Ui",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Toggels objective board if shift is presed"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "KeyFromTextPressed"
+                              },
+                              "parameters": [
+                                "",
+                                "\"LShift\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "KeyFromTextPressed"
+                              },
+                              "parameters": [
+                                "",
+                                "\"RShift\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetBooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Objective_board",
+                            "Rased",
+                            "Toggle",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "If Rased is true set y of objective layer up ... pix"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Objective_board",
+                            "Rased",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": []
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "If Rased is false set y of objective layer down ... pix"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": []
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
                   "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
@@ -38123,12 +39143,17 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Pit - 7",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
+                },
+                {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -38518,15 +39543,6 @@
                 },
                 {
                   "type": {
-                    "value": "ChangeLayer"
-                  },
-                  "parameters": [
-                    "Golden_skull",
-                    "\"UI\""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "ActivateBehavior"
                   },
                   "parameters": [
@@ -38587,6 +39603,217 @@
                     "Target_item_colected",
                     "True",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayer"
+                  },
+                  "parameters": [
+                    "Golden_skull",
+                    "\"UI\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Objective_text",
+                    "Text",
+                    "=",
+                    "\"GET OUT\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Ui",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Toggels objective board if shift is presed"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"LShift\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"RShift\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Objective_board",
+                    "Rased",
+                    "Toggle",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "If Rased is true set y of objective layer up ... pix"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Objective_board",
+                    "Rased",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CameraCenterY"
+                  },
+                  "parameters": [
+                    "",
+                    "<",
+                    "360",
+                    "\"Objective board\"",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetCameraCenterY"
+                  },
+                  "parameters": [
+                    "",
+                    "+",
+                    "36",
+                    "\"Objective board\"",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "If Rased is false set y of objective layer down ... pix"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Objective_board",
+                    "Rased",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CameraCenterY"
+                  },
+                  "parameters": [
+                    "",
+                    ">",
+                    "0",
+                    "\"Objective board\"",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetCameraCenterY"
+                  },
+                  "parameters": [
+                    "",
+                    "-",
+                    "36",
+                    "\"Objective board\"",
+                    "0"
                   ]
                 }
               ]
@@ -38660,6 +39887,60 @@
               },
               "stringParameters": {},
               "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Objective board",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
             }
           ]
         }
@@ -107400,7 +108681,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.1726229638177876,
+        "zoomFactor": 1.097367969562973,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -107648,7 +108929,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.5289132892233261,
+        "zoomFactor": 1.633762677931503,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -108129,7 +109410,7 @@
           "layer": "",
           "name": "Roof",
           "persistentUuid": "2d1541f4-19cb-49bc-b1cb-8f0c1e4f18af",
-          "width": 16,
+          "width": 112,
           "x": 0,
           "y": -64,
           "zOrder": 2,
@@ -108146,7 +109427,7 @@
           "layer": "",
           "name": "Floor",
           "persistentUuid": "ca0e6b67-57a0-4458-85a7-fd33a9a53602",
-          "width": 96,
+          "width": 192,
           "x": 0,
           "y": 48,
           "zOrder": 3,
@@ -108164,7 +109445,7 @@
           "name": "Wall_left",
           "persistentUuid": "6c599871-5843-4e84-b382-602effb3cd58",
           "width": 16,
-          "x": 48,
+          "x": 144,
           "y": -112,
           "zOrder": 5,
           "numberProperties": [],
@@ -108180,7 +109461,7 @@
           "name": "Shadow_Top_Right",
           "persistentUuid": "e9831cfe-b074-49b4-b0aa-24a51cd6be98",
           "width": 0,
-          "x": 48,
+          "x": 144,
           "y": -128,
           "zOrder": 6,
           "numberProperties": [],
@@ -108197,7 +109478,7 @@
           "name": "Roof",
           "persistentUuid": "4555dd35-3308-454e-b068-dcc61bcd6393",
           "width": 240,
-          "x": 64,
+          "x": 160,
           "y": -128,
           "zOrder": 7,
           "numberProperties": [],
@@ -108213,7 +109494,7 @@
           "name": "Staris_Left",
           "persistentUuid": "2c81e455-f629-4f54-b4eb-cb4e6de18aa2",
           "width": 0,
-          "x": 96,
+          "x": 192,
           "y": 32,
           "zOrder": 8,
           "numberProperties": [],
@@ -108229,7 +109510,7 @@
           "name": "Shadow_Bottem_Right",
           "persistentUuid": "0c4ab433-262d-41d2-89fc-8f9e567ddaad",
           "width": 0,
-          "x": 96,
+          "x": 192,
           "y": 48,
           "zOrder": 9,
           "numberProperties": [],
@@ -108245,7 +109526,7 @@
           "name": "Staris_Left",
           "persistentUuid": "1032e566-04bd-4a52-8d00-acde0233771e",
           "width": 0,
-          "x": 112,
+          "x": 208,
           "y": 16,
           "zOrder": 8,
           "numberProperties": [],
@@ -108261,7 +109542,7 @@
           "name": "Shadow_Bottem_Right",
           "persistentUuid": "f4ef8b9e-a597-4563-a25c-9b158fd88ece",
           "width": 0,
-          "x": 112,
+          "x": 208,
           "y": 32,
           "zOrder": 9,
           "numberProperties": [],
@@ -108277,7 +109558,7 @@
           "name": "Staris_Left",
           "persistentUuid": "de0a0c21-14e1-4883-8b78-a735c5b964a7",
           "width": 0,
-          "x": 128,
+          "x": 224,
           "y": 0,
           "zOrder": 8,
           "numberProperties": [],
@@ -108293,7 +109574,7 @@
           "name": "Shadow_Bottem_Right",
           "persistentUuid": "f7e35917-a7c2-4759-91a7-6339d350a5db",
           "width": 0,
-          "x": 128,
+          "x": 224,
           "y": 16,
           "zOrder": 9,
           "numberProperties": [],
@@ -108310,7 +109591,7 @@
           "name": "Floor",
           "persistentUuid": "2c451026-8b62-48db-b7ce-140f3a20e923",
           "width": 96,
-          "x": 144,
+          "x": 240,
           "y": 0,
           "zOrder": 10,
           "numberProperties": [],
@@ -108326,7 +109607,7 @@
           "name": "Staris_Left",
           "persistentUuid": "a1c2cca2-5476-4273-b9fe-5a5d8e41f202",
           "width": 0,
-          "x": 240,
+          "x": 336,
           "y": -16,
           "zOrder": 11,
           "numberProperties": [],
@@ -108342,7 +109623,7 @@
           "name": "Shadow_Bottem_Right",
           "persistentUuid": "8f8c0c2b-4a84-4e95-b7bf-be388518c513",
           "width": 0,
-          "x": 240,
+          "x": 336,
           "y": 0,
           "zOrder": 12,
           "numberProperties": [],
@@ -108359,7 +109640,7 @@
           "name": "Floor",
           "persistentUuid": "a9ddfd71-eab8-4e67-814c-7ea0580fff1e",
           "width": 16,
-          "x": 256,
+          "x": 352,
           "y": -16,
           "zOrder": 13,
           "numberProperties": [],
@@ -108375,7 +109656,7 @@
           "name": "Shadow_Bottem_Right",
           "persistentUuid": "74d4083a-8db8-4afd-a43e-f776ee8aab95",
           "width": 0,
-          "x": 304,
+          "x": 400,
           "y": 0,
           "zOrder": 14,
           "numberProperties": [],
@@ -108392,7 +109673,7 @@
           "name": "Wall_right",
           "persistentUuid": "fee6b298-caa7-4098-a53b-e90494618114",
           "width": 16,
-          "x": 304,
+          "x": 400,
           "y": -112,
           "zOrder": 15,
           "numberProperties": [],
@@ -108408,7 +109689,7 @@
           "name": "Staris_Right",
           "persistentUuid": "1d7cf3bc-bd7a-489f-9458-6f8d3a07affd",
           "width": 0,
-          "x": 272,
+          "x": 368,
           "y": -16,
           "zOrder": 16,
           "numberProperties": [],
@@ -108424,7 +109705,7 @@
           "name": "Shadow_Bottem_Left",
           "persistentUuid": "1ac8c281-a4dd-410e-bae0-971e32dab612",
           "width": 0,
-          "x": 272,
+          "x": 368,
           "y": 0,
           "zOrder": 17,
           "numberProperties": [],
@@ -108440,7 +109721,7 @@
           "name": "Floor",
           "persistentUuid": "3d1ec1ea-0af4-4fba-be9c-c3577593867c",
           "width": 0,
-          "x": 288,
+          "x": 384,
           "y": 0,
           "zOrder": 18,
           "numberProperties": [],
@@ -108456,7 +109737,7 @@
           "name": "Shadow_Top_Left",
           "persistentUuid": "3066cc30-be93-4404-a4d7-ce8872353852",
           "width": 0,
-          "x": 304,
+          "x": 400,
           "y": -128,
           "zOrder": 19,
           "numberProperties": [],
@@ -108472,7 +109753,7 @@
           "name": "Chest",
           "persistentUuid": "dd79a50a-2bdb-455e-8de3-384b14c5995d",
           "width": 0,
-          "x": 256,
+          "x": 352,
           "y": -32,
           "zOrder": 33,
           "numberProperties": [],
@@ -108494,7 +109775,7 @@
           "name": "Chest",
           "persistentUuid": "07608cca-f97a-44a8-95ec-12f88f990aa5",
           "width": 0,
-          "x": 192,
+          "x": 288,
           "y": -16,
           "zOrder": 33,
           "numberProperties": [],
@@ -108516,7 +109797,7 @@
           "name": "coin",
           "persistentUuid": "e66e2e6a-4cde-48c9-acee-980190372a46",
           "width": 0,
-          "x": 208,
+          "x": 304,
           "y": -8,
           "zOrder": 33,
           "numberProperties": [],
@@ -108532,7 +109813,7 @@
           "name": "coin",
           "persistentUuid": "c2ffc64a-6850-4c36-ab1b-0bcef8c6ee97",
           "width": 0,
-          "x": 212,
+          "x": 308,
           "y": -14,
           "zOrder": 33,
           "numberProperties": [],
@@ -108548,7 +109829,7 @@
           "name": "coin",
           "persistentUuid": "5b0caf2d-7709-46ae-9812-e2b9f41ba9c4",
           "width": 0,
-          "x": 216,
+          "x": 312,
           "y": -8,
           "zOrder": 33,
           "numberProperties": [],
@@ -108564,7 +109845,7 @@
           "name": "coin",
           "persistentUuid": "1fbe2d9b-74ea-4c09-8870-57968fe3264a",
           "width": 0,
-          "x": 224,
+          "x": 320,
           "y": -8,
           "zOrder": 33,
           "numberProperties": [],
@@ -108580,7 +109861,7 @@
           "name": "coin",
           "persistentUuid": "248fec00-9889-4e1b-81f0-b2997ed89aab",
           "width": 0,
-          "x": 220,
+          "x": 316,
           "y": -13,
           "zOrder": 33,
           "numberProperties": [],
@@ -108596,7 +109877,7 @@
           "name": "coin",
           "persistentUuid": "737c2ab8-f1ce-4159-a8bb-0d848be81292",
           "width": 0,
-          "x": 184,
+          "x": 280,
           "y": -8,
           "zOrder": 33,
           "numberProperties": [],
@@ -108612,7 +109893,7 @@
           "name": "coin",
           "persistentUuid": "eee65713-407c-46d2-9a43-cb44e2c43e47",
           "width": 0,
-          "x": 168,
+          "x": 264,
           "y": -8,
           "zOrder": 33,
           "numberProperties": [],
@@ -108628,7 +109909,7 @@
           "name": "coin",
           "persistentUuid": "e5bda662-8042-488c-b9fd-d9b216c5eadf",
           "width": 0,
-          "x": 160,
+          "x": 256,
           "y": -8,
           "zOrder": 33,
           "numberProperties": [],
@@ -108644,7 +109925,7 @@
           "name": "coin",
           "persistentUuid": "19869a7a-78db-44ae-a0de-d540b511653b",
           "width": 0,
-          "x": 152,
+          "x": 248,
           "y": -8,
           "zOrder": 33,
           "numberProperties": [],
@@ -108660,7 +109941,7 @@
           "name": "coin",
           "persistentUuid": "569515d8-dc9a-4ee8-a9fb-8b6af0b77270",
           "width": 0,
-          "x": 164,
+          "x": 260,
           "y": -15,
           "zOrder": 33,
           "numberProperties": [],
@@ -108676,7 +109957,7 @@
           "name": "coin",
           "persistentUuid": "cdad3725-156b-4fde-aaef-5947b60d1bbb",
           "width": 0,
-          "x": 156,
+          "x": 252,
           "y": -14,
           "zOrder": 33,
           "numberProperties": [],
@@ -108692,7 +109973,7 @@
           "name": "coin",
           "persistentUuid": "b9244fc6-e080-4ff7-b5e2-100e1d19d1c4",
           "width": 0,
-          "x": 177,
+          "x": 273,
           "y": -8,
           "zOrder": 33,
           "numberProperties": [],
@@ -108708,7 +109989,7 @@
           "name": "coin",
           "persistentUuid": "a9d79d49-a016-4180-bbdc-49fe2cc19692",
           "width": 0,
-          "x": 182,
+          "x": 278,
           "y": -14,
           "zOrder": 33,
           "numberProperties": [],
@@ -108724,7 +110005,7 @@
           "name": "coin",
           "persistentUuid": "5b477b7a-9c6d-46c8-912e-51046fe35b8f",
           "width": 0,
-          "x": 288,
+          "x": 384,
           "y": -8,
           "zOrder": 33,
           "numberProperties": [],
@@ -108740,7 +110021,7 @@
           "name": "coin",
           "persistentUuid": "5a9bf0a5-772c-44be-8df1-44aecf2fa6cd",
           "width": 0,
-          "x": 296,
+          "x": 392,
           "y": -8,
           "zOrder": 33,
           "numberProperties": [],
@@ -108756,7 +110037,7 @@
           "name": "coin",
           "persistentUuid": "06786dbc-22bd-4d65-b6d8-7a04aeacd565",
           "width": 0,
-          "x": 291,
+          "x": 387,
           "y": -14,
           "zOrder": 33,
           "numberProperties": [],
@@ -108772,7 +110053,7 @@
           "name": "coin",
           "persistentUuid": "58d463f6-60d5-4787-8052-08e9865a9f30",
           "width": 0,
-          "x": 64,
+          "x": 160,
           "y": 40,
           "zOrder": 33,
           "numberProperties": [],
@@ -108788,7 +110069,7 @@
           "name": "coin",
           "persistentUuid": "c95d5abb-e15e-44d3-bd41-cf5d3eb6e240",
           "width": 0,
-          "x": 48,
+          "x": 144,
           "y": 40,
           "zOrder": 33,
           "numberProperties": [],
@@ -108804,7 +110085,7 @@
           "name": "coin",
           "persistentUuid": "65a6be47-feb1-490a-94b2-4ff5687d160d",
           "width": 0,
-          "x": 72,
+          "x": 168,
           "y": 40,
           "zOrder": 33,
           "numberProperties": [],
@@ -108820,7 +110101,7 @@
           "name": "coin",
           "persistentUuid": "bbc5a598-480d-4fab-894f-14d98f35b647",
           "width": 0,
-          "x": 88,
+          "x": 184,
           "y": 40,
           "zOrder": 33,
           "numberProperties": [],
@@ -108836,7 +110117,7 @@
           "name": "coin",
           "persistentUuid": "872ad8c9-792a-4c1c-a6d3-13cca7c69991",
           "width": 0,
-          "x": 95,
+          "x": 191,
           "y": 33,
           "zOrder": 33,
           "numberProperties": [],
@@ -108852,7 +110133,7 @@
           "name": "coin",
           "persistentUuid": "8fd66a5b-fb3d-4521-9379-870041f0f5d4",
           "width": 0,
-          "x": 70,
+          "x": 166,
           "y": 34,
           "zOrder": 33,
           "numberProperties": [],
@@ -108868,7 +110149,7 @@
           "name": "SideGate",
           "persistentUuid": "1f85c54e-f487-4ab4-98e9-83e94b96a9ef",
           "width": 0,
-          "x": 40,
+          "x": 136,
           "y": 0,
           "zOrder": 23,
           "numberProperties": [],
@@ -108884,7 +110165,7 @@
           "name": "Corner_bottem_right",
           "persistentUuid": "f8b95b15-1b85-45ad-bae9-e6a9434b506c",
           "width": 0,
-          "x": 48,
+          "x": 144,
           "y": -16,
           "zOrder": 24,
           "numberProperties": [],
@@ -108900,7 +110181,7 @@
           "name": "Corner_bottem_left",
           "persistentUuid": "8a6261b5-086c-44cb-b07d-2f138e3b2fce",
           "width": 0,
-          "x": 16,
+          "x": 112,
           "y": -16,
           "zOrder": 25,
           "numberProperties": [],
@@ -108916,7 +110197,7 @@
           "name": "Roof",
           "persistentUuid": "62d0c5e1-e981-4af5-a431-74c8799e5190",
           "width": 0,
-          "x": 32,
+          "x": 128,
           "y": -16,
           "zOrder": 26,
           "numberProperties": [],
@@ -108933,7 +110214,7 @@
           "name": "Wall_right",
           "persistentUuid": "84112e8c-0f71-46b2-b8bc-8a967ced71b8",
           "width": 16,
-          "x": 16,
+          "x": 112,
           "y": -48,
           "zOrder": 27,
           "numberProperties": [],
@@ -108949,7 +110230,7 @@
           "name": "Shadow_Top_Left",
           "persistentUuid": "8bf09d8b-8c31-4956-8101-9d7a731f3e90",
           "width": 0,
-          "x": 16,
+          "x": 112,
           "y": -64,
           "zOrder": 28,
           "numberProperties": [],
@@ -108965,7 +110246,7 @@
           "name": "MP_stop_lower",
           "persistentUuid": "4cda5764-7a9e-4340-ade6-10d4904ac93a",
           "width": 0,
-          "x": 32,
+          "x": 128,
           "y": 48,
           "zOrder": 29,
           "numberProperties": [],
@@ -108981,7 +110262,7 @@
           "name": "MP_stop_upper",
           "persistentUuid": "f595a7c9-596c-4fc7-9d63-2bea68af10ad",
           "width": 0,
-          "x": 32,
+          "x": 128,
           "y": -48,
           "zOrder": 30,
           "numberProperties": [],
@@ -108997,7 +110278,7 @@
           "name": "Lever",
           "persistentUuid": "85c2ab43-e935-4720-8e0a-23089714ff17",
           "width": 0,
-          "x": 0,
+          "x": 96,
           "y": 32,
           "zOrder": 31,
           "numberProperties": [],
@@ -109013,7 +110294,7 @@
           "layer": "",
           "name": "Backround",
           "persistentUuid": "3c329d7d-20da-40b7-9802-8c0848cf26d1",
-          "width": 304,
+          "width": 400,
           "x": 0,
           "y": -128,
           "zOrder": -1000,
@@ -109023,13 +110304,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 192,
           "keepRatio": true,
           "layer": "",
           "name": "Void",
           "persistentUuid": "781bae2a-e754-4765-9614-30030771d2b6",
-          "width": 0,
+          "width": 400,
           "x": 0,
           "y": -128,
           "zOrder": 32,
@@ -109037,7 +110319,7 @@
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":19,\"dimY\":12,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0],[-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0],[-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0]]}]}"
+              "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":25,\"dimY\":12,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0]]}]}"
             }
           ],
           "initialVariables": []
@@ -109052,7 +110334,7 @@
           "name": "Light",
           "persistentUuid": "447515e4-eda0-47cf-a08a-334fe68efda6",
           "width": 36,
-          "x": 128,
+          "x": 224,
           "y": -80,
           "zOrder": 34,
           "numberProperties": [],
@@ -109069,7 +110351,7 @@
           "name": "Light",
           "persistentUuid": "aec382c5-ab18-4398-b950-19acb57b6583",
           "width": 36,
-          "x": 64,
+          "x": 160,
           "y": -16,
           "zOrder": 34,
           "numberProperties": [],
@@ -109086,9 +110368,41 @@
           "name": "Light",
           "persistentUuid": "56ef95b2-2521-4470-84b6-3ae7698a0bd5",
           "width": 36,
-          "x": 224,
+          "x": 320,
           "y": -80,
           "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Falling_bricks",
+          "persistentUuid": "706ae77e-596e-4c4b-a974-54470c8511e3",
+          "width": 0,
+          "x": 0,
+          "y": -48,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Falling_bricks",
+          "persistentUuid": "c90d18f1-1098-482b-a2b3-04cd6375628e",
+          "width": 0,
+          "x": 80,
+          "y": -48,
+          "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -109106,7 +110420,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.4790395861757406,
+        "zoomFactor": 1.9934590384902005,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
